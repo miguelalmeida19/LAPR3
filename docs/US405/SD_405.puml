@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Fleet Manager" as FM
+
+participant ":AverageOccuppancyRateUI" as UI
+participant ":ImportFromDatabase" as Import
+
+activate FM
+activate UI
+
+FM -> UI : starts getting occupancy rate of a ship
+UI --> FM : asks for what is the shipIMO
+deactivate UI
+FM -> UI : types the shipIMO
+activate UI
+UI --> FM : asks what is the start date
+deactivate UI
+FM -> UI : types the start date
+activate UI
+UI --> FM : asks what is the end date
+deactivate UI
+FM -> UI : types the end date
+activate UI
+UI --> Import : getAverageOccupancyRate(String shipImo, String date1, String date2)
+activate Import
+deactivate UI
+
+
+@enduml

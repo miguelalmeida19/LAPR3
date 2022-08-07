@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Fleet Manager" as FM
+
+participant ":System" as System
+
+activate FM
+activate System
+
+FM -> System : starts getting occupancy rate of a ship
+System --> FM : asks for what is the shipIMO
+deactivate System
+FM -> System : types the number of ports
+activate System
+System --> FM : asks what is the start date
+deactivate System
+FM -> System : types the start date
+activate System
+System --> FM : asks what is the final date
+deactivate System
+FM -> System : types the final date
+activate System
+System --> FM : Gives the occupancy rate
+deactivate System
+
+
+@enduml

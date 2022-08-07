@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Ship Captain" as Cap
+
+participant ":System" as System
+
+activate Cap
+activate System
+
+Cap -> System : starts obtaining containers
+System --> Cap : asks for what is the captain's ship
+deactivate System
+Cap -> System : types a code of the ship
+activate System
+System --> Cap : asks what is the next port
+deactivate System
+Cap -> System : types the port
+activate System
+System --> Cap : asks the state of the container
+deactivate System
+Cap -> System : selects to be offloaded
+activate System
+System --> Cap : shows the containers
+deactivate System
+
+@enduml

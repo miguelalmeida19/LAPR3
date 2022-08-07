@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ClosestPlacesUI{
+}
+
+class ClosestPlacesController{
++  build()
++  getPlaces(String continent)
+}
+
+class ClosestPlaces{
++ build (int n)
++ getMatrix()
++ getVertices()
++ getEdges()
++ getPlaces(String continent)
++ capitalize (String data)
+}
+
+
+class FreightNetworkController{
+-matrix
+-vertices
++getCountries()
+ + getDistanceBetweenPortCapital(Port port, Country country)
+ +  getDistanceBetweenCapitals(Country c1, Country c2)
+ +  indexOfObject(List<Object> vertices, Object o)
++ getVertices()
++  insertInMatrix( vertices,  matrix,  n)
++  build(int n)
+ +  shortestPathBetweenVertices( l,  place1,  place2) {
+ +   print( puzzle,  vertices)
+  +  getVertByName( name)
+  +  connectPortToCountryPorts( port,  matrix,  vertices){
+ +  connectPortToNClosestPorts( port,  matrix, vertices,  n){
+   + getMatrix()
+}
+
+ClosestPlacesUI ..> ClosestPlacesController
+ClosestPlacesController ..> ClosestPlaces
+ClosestPlaces ..> FreightNetworkController
+@enduml

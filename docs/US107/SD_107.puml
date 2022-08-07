@@ -1,0 +1,57 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":PairOfShipsUI" as UI
+participant ":ShipController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+participant ":HashMap<ShipSummary, Object>" as map
+participant ":DistanceBetweenCoordinates" as Distance
+participant ":ShipHashMap<Double, Ship>" as map
+participant ":map<Ship, HashMap<Double, Ship>> " as mapHash
+
+participant ":MMSI Sorter" as MMSI
+
+
+
+activate MAN
+activate UI
+MAN -> UI : starts looking for pairs of ships
+UI -> Controller :getPairsOfShips()
+activate Controller
+Controller -> Company : store= getStore()
+activate Company
+deactivate Company
+Controller -> Store :getPairsOfShips()
+activate Store
+loop all ships
+alt travelled distance>10
+Store -> Distance :  DistanceDeparture= DistanceBetweenCoordinates(Latitude, Longitude)
+activate Distance
+deactivate Distance
+Store -> Distance :  DistanceArrival= DistanceBetweenCoordinates(Latitude, Longitude)
+activate Distance
+deactivate Distance
+Store -> Store : distance= DistanceDeparture-DistanceArrival
+Store -> map : put(distance,Ship)
+activate map
+deactivate map
+end
+end
+Store -> Store : HashMap= TravelDistOrder(HashMap)
+Store -> mapHash : put(Ship,HashMap)
+activate mapHash
+deactivate mapHash
+Store -> MMSI : MMSIOrder(map)
+activate MMSI
+deactivate MMSI
+
+UI --> MAN : shows the pairs of ships wanted
+
+
+@enduml

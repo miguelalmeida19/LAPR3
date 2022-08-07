@@ -1,0 +1,118 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant ":ShipSummaryController" as controller
+participant ":ShipStore" as store
+participant ":Company" as company
+participant ":Ship" as ship
+participant ":Treeset<Message>" as messagesset
+participant ":Message" as messages
+participant "DistanceBetweenCoodinates" as dbc
+participant ":Map<ShipSummary, Object>" as map
+participant "ShipSummary" as enumss
+
+--> controller:shipSummary(code)
+activate controller
+controller -> company: store = getShipStore()
+activate company
+deactivate company
+controller -> store: result = shipSummary(code)
+
+activate store
+deactivate controller
+
+store -> store:ship =getShip(code)
+activate store
+deactivate store
+
+store -> ship: messages = getAllMessages()
+note right: all messages are already in ascending order
+activate ship
+ship -> messagesset: create()
+activate messagesset
+deactivate messagesset
+deactivate ship
+store -> messagesset: firstMessage = first()
+activate messagesset
+deactivate messagesset
+store -> messages: startBaseDateTime = getLocalDateTime()
+activate messages
+deactivate messages
+store -> messagesset: lastMessage = last()
+activate messagesset
+deactivate messagesset
+store -> messages: endBaseDateTime = getLocalDateTime()
+activate messages
+deactivate messages
+
+store -> messages: departureLatidude = getLatitude()
+activate messages
+deactivate messages
+note right: to get more direct values from the first and last message is the same process of message 8,9,10
+store -> store:sumSOG = 0.0;
+activate store
+deactivate store
+store -> store:maxCOG = 0.0;
+activate store
+deactivate store
+store -> store:sumCOG = 0.0;
+activate store
+deactivate store
+store -> store:maxSOG = 0.0;
+activate store
+deactivate store
+store -> messagesset: lastLatitude = first().getLatitude()
+activate messagesset
+deactivate messagesset
+store -> messagesset: lastLongitude = first().getLongitude()
+activate messagesset
+deactivate messagesset
+loop#Gold for message in messages:
+store -> messages: cog = getCog()
+activate messages
+deactivate messages
+store -> messages: sog = getSog()
+activate messages
+deactivate messages
+store -> store: sumCOG = sumCOG + cog
+activate store
+deactivate store
+store -> store: sumSOG = sumSOG + sog
+activate store
+deactivate store
+alt#Gold #LightGreen sog > maxSOG
+store -> store: maxSOG = sog
+activate store
+deactivate store
+end
+alt#Gold #LightGreen cog > maxCOG
+store -> store: maxCOG = cog
+activate store
+deactivate store
+end
+store -> dbc: distance = distanceBetweenCoordinates(lastLatitude, lastLongitude, messageLatitude, messageLongitude)
+activate dbc
+deactivate dbc
+store -> messages: lastLatitude = getLatitude()
+activate messages
+deactivate messages
+store -> messages: lastLongitude = getLongitude()
+activate messages
+deactivate messages
+
+end
+store -> map: create()
+activate map
+deactivate map
+store -> map:put(ShipSummary.START_BASE_DATE_TIME, startBaseDateTime)
+note right: The ShipSummary is a enum with all possible key values for this map
+
+activate map
+deactivate map
+store -> map:put(ShipSummary.DEPARTURE_LATITUDE, departureLatidude)
+
+activate map
+deactivate map
+note right: the process to fill the map is ommited because is the same of message 27 and 28
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Fleet Manager" as FM
+
+participant ":AverageOccuppancyRateVoyageUI" as UI
+participant ":ImportFromDatabase" as Import
+
+activate FM
+
+FM -> UI : starts getting average occupancy rate per voyage
+activate UI
+UI ->Import : getAverageOccupancyRateOfVoyage()
+activate Import
+deactivate Import
+UI --> FM : Gives the average occupancy rate
+deactivate UI
+
+
+
+@enduml

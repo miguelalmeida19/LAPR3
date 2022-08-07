@@ -1,0 +1,79 @@
+continent,country,code,port,lat,lon
+Europe,Cyprus,10136,Larnaca,34.91666667,33.65
+Europe,Malta,10138,Marsaxlokk,35.84194,14.54306
+Europe,Denmark,10358,Aarhus,56.15,10.21666667
+Europe,Denmark,10563,Copenhagen,55.7,12.61666667
+America,Peru,10860,Matarani,-17,-72.1
+Europe,Italy,11174,Genoa,44.4,8.933333333
+Europe,Iceland,11180,Grundartangi,64.3572,-21.7781
+Europe,Russia,11771,Kaliningrad,54.7,20.48333333
+Europe,Poland,12543,Gdansk,54.35,18.68333333
+Europe,Portugal,13012,Leixoes,41.18333333,-8.7
+Europe,Italy,13176,Venice,45.43333333,12.33333333
+Europe,Portugal,13390,Setubal,38.5,-8.916666667
+America,Argentina,14113,Bahia Blanca,-38.78333333,-62.26666667
+America,Ecuador,14226,Esmeraldas,1,-79.63333333
+America,Mexico,14277,Manzanillo,19.05,-104.3333333
+Europe,Romania,14459,Constantza,44.16666667,28.65
+Europe,Romania,14470,Galatz,45.41666667,28.08333333
+America,United States,14635,Los Angeles,33.71666667,-118.2666667
+America,El Salvador,15107,Cutuco,13.33333333,-87.81666667
+Europe,Finland,16485,Helsinki,60.16666667,24.95
+Europe,Finland,16737,Kotka,60.46666667,26.95
+Europe,Spain,17386,Barcelona,41.33333333,2.166666667
+America,Uruguay,17941,Montevideo,-34.9,-56.21666667
+Europe,France,18012,Brest,48.4,-4.5
+Europe,Georgia,18137,Batumi,41.65,41.63333333
+Europe,Albania,18200,Vlore,40.48333333,19.48333333
+Europe,France,18326,Dunkirk,51.05,2.366666667
+Europe,Portugal,18433,Horta,38.53333333,-28.61666667
+Europe,Russia,18454,St Petersburg,59.88333333,30.21666667
+Europe,Portugal,18476,Ponta Delgada,37.73333333,-25.66666667
+Europe,Georgia,18682,Poti,42.13333333,41.65
+Europe,Estonia,18867,Tallinn,59.45,24.76666667
+Europe,Spain,18937,Valencia,39.45,-0.3
+Europe,Belgium,19057,Antwerp,51.23333333,4.466666667
+Europe,Belgium,19473,Zeebrugge,51.33333333,3.2
+Europe,Germany,20072,Rostock,54.15,12.1
+America,Brazil,20301,Rio Grande,-32.06666667,-52.06666667
+America,Brazil,20351,Salvador,-12.96666667,-38.51666667
+Europe,Sweden,20512,Lysekil,58.26666667,11.41666667
+Europe,Bulgaria,20826,Bourgas,42.5,27.48333333
+Europe,Bulgaria,20847,Varna,43.2,27.95
+Europe,Sweden,21206,Stockholm,59.33333333,18.05
+Europe,Slovenia,21381,Koper,45.55,13.73333333
+America,Mexico,21451,Veracruz,19.2,-96.13333333
+Europe,Monaco,21457,Monaco,43.73333333,7.45
+Europe,Croatia,21556,Split,43.5,16.43333333
+Europe,Greece,21852,Piraeus,37.95,23.63333333
+Europe,Greece,21863,Aspropyrgos,38.03333333,23.58333333
+America,Canada,22226,Halifax,44.65,-63.56666667
+Europe,Turkey,22522,Mersin,36.76666667,34.65
+Europe,Slovenia,22770,Piran,45.51666667,13.6
+Europe,Netherlands,23247,Vlissingen,51.45,3.6
+Europe,Portugal,23428,Funchal,32.65,-16.91666667
+Europe,Slovenia,24795,Izola,45.51666667,13.68333333
+Europe,Croatia,24951,Rijeka,45.31666667,14.43333333
+America,United States,25007,New Jersey,40.66666667,-74.16666667
+America,Canada,25350,Vancouver,49.28333333,-123.1166667
+Europe,Norway,26147,Bergen,60.38333333,5.3
+America,Argentina,26670,Buenos Aires,-34.56666667,-58.38333333
+America,Brazil,27248,Santos,-23.93333333,-46.31666667
+Europe,Norway,27728,Narvik,68.41666667,17.41666667
+America,Chile,27792,San Vicente,-36.73333333,-73.15
+America,Chile,28082,Valparaiso,-33.01666667,-71.63333333
+America,Colombia,28261,Buenaventura,3.916666667,-77.05
+America,Colombia,28313,Cartagena,10.41666667,-75.53333333
+America,Costa Rica,28781,Puerto Limon,10,-83.01666667
+Europe,United Kingdom,29002,Liverpool,53.46666667,-3.033333333
+Europe,United Kingdom,29239,London,51.5,-0.066666667
+Europe,Ireland,29749,Dublin,53.35,-6.266666667
+America,Ecuador,29876,Guayaquil,-2.266666667,-79.9
+America,Guatemala,29973,Puerto Quetzal,13.91666667,-90.78333333
+America,Peru,30045,Callao,-12.05,-77.16666667
+Europe,Ukraine,213737,Feodosia,45.01666667,35.38333333
+America,Panama,216592,Cristobal,9.35,-79.91666667
+America,Panama,216593,Balboa,8.966666667,-79.56666667
+Europe,Germany,224858,Hamburg,53.55,9.983333333
+Europe,Albania,228264,Vlone,40.48333333,19.48333333
+Europe,Turkey,246265,Ambarli,40.98333333,28.53333333

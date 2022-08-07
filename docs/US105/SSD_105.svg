@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="364px" preserveAspectRatio="none" style="width:463px;height:364px;background:#FFFFFF;" version="1.1" viewBox="0 0 463 364" width="463px" zoomAndPan="magnify"><defs><filter height="300%" id="f1dzzutpuvcv8k" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="192" x="133" y="30.6855">SEQUENCE DIAGRAM</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="0" x="231.5" y="53.3262"/><rect fill="#FFFFFF" filter="url(#f1dzzutpuvcv8k)" height="101.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f1dzzutpuvcv8k)" height="63.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="414" y="197.5938"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="148.8906" y2="278.6484"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="419" x2="419" y1="148.8906" y2="278.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="145.8145">Traffic Manager</text><ellipse cx="58" cy="74.2813" fill="#FEFECE" filter="url(#f1dzzutpuvcv8k)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,82.2813 L58,109.2813 M45,90.2813 L71,90.2813 M58,109.2813 L45,124.2813 M58,109.2813 L71,124.2813 " fill="none" filter="url(#f1dzzutpuvcv8k)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="292.1816">Traffic Manager</text><ellipse cx="58" cy="305.2578" fill="#FEFECE" filter="url(#f1dzzutpuvcv8k)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,313.2578 L58,340.2578 M45,321.2578 L71,321.2578 M58,340.2578 L45,355.2578 M58,340.2578 L71,355.2578 " fill="none" filter="url(#f1dzzutpuvcv8k)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1dzzutpuvcv8k)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="385" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="392" y="133.8145">:System</text><rect fill="#FEFECE" filter="url(#f1dzzutpuvcv8k)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="385" y="277.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="392" y="299.1816">:System</text><rect fill="#FFFFFF" filter="url(#f1dzzutpuvcv8k)" height="101.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f1dzzutpuvcv8k)" height="63.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="414" y="197.5938"/><polygon fill="#A80036" points="402,193.5938,412,197.5938,402,201.5938,406,197.5938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="408" y1="197.5938" y2="197.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="184.5615">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="317" x="81" y="176.3857">start looking for all ships the MMSI, the total number of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="293" x="81" y="192.7373">movements, Travelled Distance and Delta Distance</text><polygon fill="#A80036" points="69,256.6484,59,260.6484,69,264.6484,65,260.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="418" y1="260.6484" y2="260.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="75" y="239.4404">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="281" x="86" y="223.0889">shows all the data about the ships in the system</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="90" y="239.4404">sorted by TraveledDistance (descending order)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="256" x="90" y="255.792">and total number of moves (ascending order)</text><!--MD5=[8bf0e1a692e1270e9fe8f588cdd6a09d]
+@startuml
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":System" as UI
+
+activate MAN
+
+
+MAN -> UI: start looking for all ships the MMSI, the total number of \nmovements, Travelled Distance and Delta Distance
+activate UI
+UI - -> MAN: shows all the data about the ships in the system \n sorted by TraveledDistance (descending order) \n and total number of moves (ascending order)
+deactivate UI
+deactivate MAN
+@enduml
+
+@startuml
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Traffic Manager" as MAN
+
+participant ":System" as UI
+
+activate MAN
+
+
+MAN -> UI: start looking for all ships the MMSI, the total number of \nmovements, Travelled Distance and Delta Distance
+activate UI
+UI - -> MAN: shows all the data about the ships in the system \n sorted by TraveledDistance (descending order) \n and total number of moves (ascending order)
+deactivate UI
+deactivate MAN
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

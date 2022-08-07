@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+    participant ":ColorGraphUI" as ui
+participant ":ColorMapController" as controller
+participant ":MatrixGraph" as matrixgraph
+participant ":MapGraph" as mapgraph
+participant ":FreightNetworkController" as fcontroller
+participant ":ColoredGraph" as cg
+activate ui
+ui -> controller: colorMap(n, false)
+activate controller
+controller -> fcontroller: create()
+activate fcontroller
+deactivate fcontroller
+controller -> fcontroller: build()
+activate fcontroller
+deactivate fcontroller
+controller -> matrixgraph: create(false, vertices, matrix)
+activate matrixgraph
+deactivate matrixgraph
+controller -> mapgraph: create(matrixgraph)
+activate mapgraph
+deactivate mapgraph
+controller -> cg: create(mapgraph)
+activate cg
+deactivate cg
+controller -> cg: colorGraph()
+activate cg
+deactivate cg
+
+
+@enduml

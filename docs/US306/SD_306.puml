@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Port Manager" as PM
+
+participant ":ContainersLeavingWarehouseUI" as UI
+participant ":ImportFromDatabase" as Import
+
+activate PM
+activate UI
+
+PM -> UI : Starts Getting occupancy rate and estimate of containers leaving
+
+UI --> Import : getEstimateOfContainersLeaving()
+activate Import
+UI --> PM : Gives occupancy rate and estimate of containers leaving
+deactivate UI
+
+
+@enduml

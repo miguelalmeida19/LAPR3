@@ -1,0 +1,18 @@
+@startuml
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":System" as UI
+
+activate MAN
+
+
+MAN -> UI: start looking for all ships the MMSI, the total number of \nmovements, Travelled Distance and Delta Distance
+activate UI
+UI --> MAN: shows all the data about the ships in the system \n sorted by TraveledDistance (descending order) \n and total number of moves (ascending order)
+deactivate UI
+deactivate MAN
+@enduml

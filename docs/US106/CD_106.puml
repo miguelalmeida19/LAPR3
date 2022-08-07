@@ -1,0 +1,81 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TopNShipsUI {
+
+
+}
+class ShipController{
+    +importShips(file)
+    +getDetails(code)
+    +getFiles()
+    +getShips()
+    +getTopNShips(n, start, end)
+}
+class Company{
++getShipStore()
+}
+class ShipStore{
++ShipStore()
++getBst()
++getShipList()
++addShip(ship)
++containsMMSI(MMSI)
++containsIMO(IMO)
++containsCallSign(callSign)
++getShip(code)
++shipSummary(code)
++getTopNShips(n,start,end)
++getPairsOfShips()
++MMSIOrder(map)
++TravelDistOrder(map)
+}
+class Ship{
+-MMSI;
+-name;
+-IMO;
+-energyGenerators;
+-powerOutput;
+-callsign;
+-vesselType;
+-length;
+-width;
+-capacity;
+-draft;
+ +Ship(MMSI,name,IMO,callsign,vesselType,length,width,draft,capacity)
+  +AddMensage(mensage)
+    +getMMSI()
+    +getIMO()
+    +getName()
+    +getWidth()
+    +getDetails()
+    +getDraft()
+    +getLength()
+    +getVesselType()
+    +getAllMessages()
+    +getCapacity()
+    +checkMMSI(MMSI);
+    +checkName(name);
+    +checkIMO(IMO);
+    +checkCallSign(callsign);
+    +checkVesselType(vesselType);
+    +checkLength(length);
+    +checkWidth(width);
+    +checkDraft(draft);
+    +checkCapacity(capacity);
+}
+class MovementSortingTravelDistance{
++compare(Ship1, Ship2)
+
+}
+
+
+
+TopNShipsUI ..> ShipController
+ShipController ..> ShipStore
+ShipController ..> Company
+Company "1" --> "1" ShipStore : uses
+ShipStore "1" --> "*" Ship  : knows >
+ShipStore "1" --> "1" MovementSortingTravelDistance  : Sorted by >
+Ship ..> MovementSortingTravelDistance
+@enduml

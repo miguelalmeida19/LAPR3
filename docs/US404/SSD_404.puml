@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Traffic manager" as tm
+
+autonumber
+activate tm
+tm -> ":System": asks to color insert the vehicle id
+activate ":System"
+":System" --> tm: gives the number of idle days.
+deactivate ":System"
+
+@enduml

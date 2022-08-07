@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Client" as tm
+
+autonumber
+activate tm
+tm -> ":System": asks to get the current situation of a container.
+activate ":System"
+":System" --> tm: asks for the container's ID.
+deactivate ":System"
+tm -> ":System": types the asked data
+activate ":System"
+
+":System" --> tm: shows the situation of the container.
+deactivate ":System"
+
+@enduml

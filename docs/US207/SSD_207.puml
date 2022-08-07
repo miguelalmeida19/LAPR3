@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Ship Captain" as Cap
+
+participant ":System" as System
+
+activate Cap
+activate System
+
+Cap -> System : starts obtaining cargo manifests transported
+System --> Cap : asks for a specific year
+deactivate System
+Cap -> System : types a year to search
+activate System
+System --> Cap : shows how many cargo manifests \n and the average containers
+deactivate System
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Client" as tm
+
+autonumber
+activate tm
+tm -> ":System": asks to color the graph.
+activate ":System"
+":System" --> tm: asks for the n to create the graph.
+deactivate ":System"
+tm -> ":System": types the asked data
+activate ":System"
+
+":System" --> tm: shows the colors of vertex.
+deactivate ":System"
+
+@enduml

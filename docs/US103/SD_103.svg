@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1458px" preserveAspectRatio="none" style="width:1432px;height:1458px;background:#FFFFFF;" version="1.1" viewBox="0 0 1432 1458" width="1432px" zoomAndPan="magnify"><defs><filter height="300%" id="f7b3jhn1qpkyj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="272" x="577.5" y="30.6855">SYSTEM SEQUENCE DIAGRAM</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="0" x="716" y="53.3262"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="1195.7891" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="85.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="380" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="1080.0313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="380" y="274.6484"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="368.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="661" y="321.3516"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="420.0547"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="493.4063"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="588.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="661" y="736.1641"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="834.8672"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="908.2188"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="981.5703"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="1054.9219"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="1128.2734"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="962" y="351.7031"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="962" y="766.5156"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1055" y="558.7578"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1055" y="1193.625"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="65.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1132" y="624.1094"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="65.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1132" y="1258.9766"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="659.4609"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="1294.3281"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="148.8906" y2="1372.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="385" x2="385" y1="148.8906" y2="1372.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="666" x2="666" y1="148.8906" y2="1372.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="967" x2="967" y1="148.8906" y2="1372.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1060" x2="1060" y1="148.8906" y2="1372.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1137" x2="1137" y1="148.8906" y2="1372.6797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1244" x2="1244" y1="148.8906" y2="1372.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="145.8145">Traffic Manager</text><ellipse cx="58" cy="74.2813" fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,82.2813 L58,109.2813 M45,90.2813 L71,90.2813 M58,109.2813 L45,124.2813 M58,109.2813 L71,124.2813 " fill="none" filter="url(#f7b3jhn1qpkyj)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="1386.2129">Traffic Manager</text><ellipse cx="58" cy="1399.2891" fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,1407.2891 L58,1434.2891 M45,1415.2891 L71,1415.2891 M58,1434.2891 L45,1449.2891 M58,1434.2891 L71,1449.2891 " fill="none" filter="url(#f7b3jhn1qpkyj)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="122" x="322" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="329" y="133.8145">:ShipMessagesUI</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="122" x="322" y="1371.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="329" y="1393.2129">:ShipMessagesUI</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="599" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="606" y="133.8145">:PositionController</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="599" y="1371.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="606" y="1393.2129">:PositionController</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="926" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="933" y="133.8145">:Company</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="926" y="1371.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="933" y="1393.2129">:Company</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="80" x="1018" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1025" y="133.8145">:ShipStore</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="80" x="1018" y="1371.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1025" y="1393.2129">:ShipStore</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="46" x="1112" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="1119" y="133.8145">:Ship</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="46" x="1112" y="1371.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="1119" y="1393.2129">:Ship</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="140" x="1172" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1179" y="133.8145">:Treeset&lt;Message&gt;</text><rect fill="#FEFECE" filter="url(#f7b3jhn1qpkyj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="140" x="1172" y="1371.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="1179" y="1393.2129">:Treeset&lt;Message&gt;</text><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="1195.7891" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="85.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="380" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="1080.0313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="380" y="274.6484"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="368.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="661" y="321.3516"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="420.0547"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="493.4063"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="588.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="661" y="736.1641"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="834.8672"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="908.2188"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="981.5703"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="1054.9219"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="666" y="1128.2734"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="962" y="351.7031"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="962" y="766.5156"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1055" y="558.7578"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1055" y="1193.625"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="65.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1132" y="624.1094"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="65.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1132" y="1258.9766"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="659.4609"/><rect fill="#FFFFFF" filter="url(#f7b3jhn1qpkyj)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="1294.3281"/><polygon fill="#A80036" points="368,193.5938,378,197.5938,368,201.5938,372,197.5938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="374" y1="197.5938" y2="197.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="184.5615">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="81" y="176.3857">start looking for messages</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="85" y="192.7373">from a specific ship</text><polygon fill="#A80036" points="74,240.2969,64,244.2969,74,248.2969,70,244.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="384" y1="244.2969" y2="244.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="231.2646">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="91" y="223.0889">asks for the dates, hours and</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="95" y="239.4404">code relating to the ship</text><polygon fill="#A80036" points="368,270.6484,378,274.6484,368,278.6484,372,274.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="374" y1="274.6484" y2="274.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="269.792">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="81" y="269.792">types the data to show details</text><polygon fill="#A80036" points="649,317.3516,659,321.3516,649,325.3516,653,321.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="390" x2="655" y1="321.3516" y2="321.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="397" y="308.3193">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="408" y="300.1436">DatePosition(String Date,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="412" y="316.4951">String Hour, String s)</text><polygon fill="#A80036" points="950,347.7031,960,351.7031,950,355.7031,954,351.7031" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="671" x2="956" y1="351.7031" y2="351.7031"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="678" y="346.8467">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="689" y="346.8467">store = getShipStore()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="676" x2="718" y1="412.0547" y2="412.0547"/><line style="stroke:#A80036;stroke-width:1.0;" x1="718" x2="718" y1="412.0547" y2="425.0547"/><line style="stroke:#A80036;stroke-width:1.0;" x1="677" x2="718" y1="425.0547" y2="425.0547"/><polygon fill="#A80036" points="687,421.0547,677,425.0547,687,429.0547,683,425.0547" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="683" y="407.1982">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="694" y="407.1982">checkDate(Date)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="676" x2="718" y1="485.4063" y2="485.4063"/><line style="stroke:#A80036;stroke-width:1.0;" x1="718" x2="718" y1="485.4063" y2="498.4063"/><line style="stroke:#A80036;stroke-width:1.0;" x1="677" x2="718" y1="498.4063" y2="498.4063"/><polygon fill="#A80036" points="687,494.4063,677,498.4063,687,502.4063,683,498.4063" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="683" y="480.5498">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="694" y="480.5498">checkHour(Hour)</text><polygon fill="#A80036" points="1043,554.7578,1053,558.7578,1043,562.7578,1047,558.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="671" x2="1049" y1="558.7578" y2="558.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="678" y="553.9014">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="689" y="553.9014">ship = getShip(s)</text><polygon fill="#A80036" points="1120,620.1094,1130,624.1094,1120,628.1094,1124,624.1094" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="671" x2="1126" y1="624.1094" y2="624.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="678" y="619.2529">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="689" y="619.2529">messages = getAllMessages()</text><path d="M1147,601.7578 L1147,627.7578 L1423,627.7578 L1423,611.7578 L1413,601.7578 L1147,601.7578 " fill="#FBFB77" filter="url(#f7b3jhn1qpkyj)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1413,601.7578 L1413,611.7578 L1423,611.7578 L1413,601.7578 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="1153" y="620.2529">all messages are already in ascending order</text><polygon fill="#A80036" points="1227,655.4609,1237,659.4609,1227,663.4609,1231,659.4609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1142" x2="1233" y1="659.4609" y2="659.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1149" y="654.6045">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1167" y="654.6045">create()</text><polygon fill="#A80036" points="649,732.1641,659,736.1641,649,740.1641,653,736.1641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="390" x2="655" y1="736.1641" y2="736.1641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="397" y="723.1318">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="230" x="415" y="714.9561">PeriodPosition(String Date, String Hour,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="419" y="731.3076">String Date1, String Hour1, String s)</text><polygon fill="#A80036" points="950,762.5156,960,766.5156,950,770.5156,954,766.5156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="671" x2="956" y1="766.5156" y2="766.5156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="678" y="761.6592">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="696" y="761.6592">store = getShipStore()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="676" x2="718" y1="826.8672" y2="826.8672"/><line style="stroke:#A80036;stroke-width:1.0;" x1="718" x2="718" y1="826.8672" y2="839.8672"/><line style="stroke:#A80036;stroke-width:1.0;" x1="677" x2="718" y1="839.8672" y2="839.8672"/><polygon fill="#A80036" points="687,835.8672,677,839.8672,687,843.8672,683,839.8672" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="683" y="822.0107">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="701" y="822.0107">checkDate(Date)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="676" x2="718" y1="900.2188" y2="900.2188"/><line style="stroke:#A80036;stroke-width:1.0;" x1="718" x2="718" y1="900.2188" y2="913.2188"/><line style="stroke:#A80036;stroke-width:1.0;" x1="677" x2="718" y1="913.2188" y2="913.2188"/><polygon fill="#A80036" points="687,909.2188,677,913.2188,687,917.2188,683,913.2188" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="683" y="895.3623">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="701" y="895.3623">checkHour(Hour)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="676" x2="718" y1="973.5703" y2="973.5703"/><line style="stroke:#A80036;stroke-width:1.0;" x1="718" x2="718" y1="973.5703" y2="986.5703"/><line style="stroke:#A80036;stroke-width:1.0;" x1="677" x2="718" y1="986.5703" y2="986.5703"/><polygon fill="#A80036" points="687,982.5703,677,986.5703,687,990.5703,683,986.5703" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="683" y="968.7139">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="701" y="968.7139">checkDate(Date1)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="676" x2="718" y1="1046.9219" y2="1046.9219"/><line style="stroke:#A80036;stroke-width:1.0;" x1="718" x2="718" y1="1046.9219" y2="1059.9219"/><line style="stroke:#A80036;stroke-width:1.0;" x1="677" x2="718" y1="1059.9219" y2="1059.9219"/><polygon fill="#A80036" points="687,1055.9219,677,1059.9219,687,1063.9219,683,1059.9219" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="683" y="1042.0654">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="701" y="1042.0654">checkHour(Hour1)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="676" x2="718" y1="1120.2734" y2="1120.2734"/><line style="stroke:#A80036;stroke-width:1.0;" x1="718" x2="718" y1="1120.2734" y2="1133.2734"/><line style="stroke:#A80036;stroke-width:1.0;" x1="677" x2="718" y1="1133.2734" y2="1133.2734"/><polygon fill="#A80036" points="687,1129.2734,677,1133.2734,687,1137.2734,683,1133.2734" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="683" y="1115.417">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="259" x="701" y="1115.417">checkPeriod(localDateTime, localDateTime1)</text><polygon fill="#A80036" points="1043,1189.625,1053,1193.625,1043,1197.625,1047,1193.625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="671" x2="1049" y1="1193.625" y2="1193.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="678" y="1188.7686">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="696" y="1188.7686">ship = getShip(s)</text><polygon fill="#A80036" points="1120,1254.9766,1130,1258.9766,1120,1262.9766,1124,1258.9766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="671" x2="1126" y1="1258.9766" y2="1258.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="678" y="1254.1201">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="696" y="1254.1201">messages = getAllMessages()</text><path d="M1147,1236.625 L1147,1262.625 L1423,1262.625 L1423,1246.625 L1413,1236.625 L1147,1236.625 " fill="#FBFB77" filter="url(#f7b3jhn1qpkyj)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1413,1236.625 L1413,1246.625 L1423,1246.625 L1413,1236.625 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="1153" y="1255.1201">all messages are already in ascending order</text><polygon fill="#A80036" points="1227,1290.3281,1237,1294.3281,1227,1298.3281,1231,1294.3281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1142" x2="1233" y1="1294.3281" y2="1294.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1149" y="1289.4717">20</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1167" y="1289.4717">create()</text><polygon fill="#A80036" points="69,1350.6797,59,1354.6797,69,1358.6797,65,1354.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="384" y1="1354.6797" y2="1354.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="75" y="1349.8232">21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="275" x="93" y="1349.8232">shows all the data relative with the ship position</text><!--MD5=[d693bcc9bdcafebd97448dda0eabe5f3]
+@startuml
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":ShipMessagesUI" as UI
+participant ":PositionController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+
+participant ":Ship" as ship
+participant ":Treeset<Message>" as messagesset
+
+activate MAN
+activate UI
+
+MAN -> UI: start looking for messages \n from a specific ship
+UI - -> MAN : asks for the dates, hours and \n code relating to the ship
+
+deactivate UI
+
+MAN -> UI : types the data to show details
+activate UI
+
+UI -> Controller : DatePosition(String Date, \n String Hour, String s)
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Controller: checkDate(Date)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour)
+activate Controller
+deactivate Controller
+
+Controller -> Store: ship = getShip(s)
+activate Store
+deactivate Store
+
+Controller -> ship: messages = getAllMessages()
+
+note right: all messages are already in ascending order
+activate ship
+ship -> messagesset: create()
+activate messagesset
+deactivate messagesset
+deactivate ship
+
+deactivate Controller
+
+UI -> Controller : PeriodPosition(String Date, String Hour, \n String Date1, String Hour1, String s)
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Controller: checkDate(Date)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkDate(Date1)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour1)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkPeriod(localDateTime, localDateTime1)
+activate Controller
+deactivate Controller
+
+Controller -> Store: ship = getShip(s)
+activate Store
+deactivate Store
+
+Controller -> ship: messages = getAllMessages()
+
+note right: all messages are already in ascending order
+activate ship
+ship -> messagesset: create()
+activate messagesset
+
+deactivate messagesset
+deactivate ship
+deactivate Store
+deactivate Controller
+UI - -> MAN: shows all the data relative with the ship position
+deactivate UI
+deactivate MAN
+@enduml
+
+@startuml
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Traffic Manager" as MAN
+
+participant ":ShipMessagesUI" as UI
+participant ":PositionController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+
+participant ":Ship" as ship
+participant ":Treeset<Message>" as messagesset
+
+activate MAN
+activate UI
+
+MAN -> UI: start looking for messages \n from a specific ship
+UI - -> MAN : asks for the dates, hours and \n code relating to the ship
+
+deactivate UI
+
+MAN -> UI : types the data to show details
+activate UI
+
+UI -> Controller : DatePosition(String Date, \n String Hour, String s)
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Controller: checkDate(Date)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour)
+activate Controller
+deactivate Controller
+
+Controller -> Store: ship = getShip(s)
+activate Store
+deactivate Store
+
+Controller -> ship: messages = getAllMessages()
+
+note right: all messages are already in ascending order
+activate ship
+ship -> messagesset: create()
+activate messagesset
+deactivate messagesset
+deactivate ship
+
+deactivate Controller
+
+UI -> Controller : PeriodPosition(String Date, String Hour, \n String Date1, String Hour1, String s)
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Controller: checkDate(Date)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkDate(Date1)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour1)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkPeriod(localDateTime, localDateTime1)
+activate Controller
+deactivate Controller
+
+Controller -> Store: ship = getShip(s)
+activate Store
+deactivate Store
+
+Controller -> ship: messages = getAllMessages()
+
+note right: all messages are already in ascending order
+activate ship
+ship -> messagesset: create()
+activate messagesset
+
+deactivate messagesset
+deactivate ship
+deactivate Store
+deactivate Controller
+UI - -> MAN: shows all the data relative with the ship position
+deactivate UI
+deactivate MAN
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

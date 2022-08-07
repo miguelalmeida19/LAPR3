@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as PM
+
+participant ":System" as System
+
+activate PM
+activate System
+
+PM -> System : Starts to issue a cargo manifest
+System --> PM : Asks for the data
+deactivate System
+PM -> System : types the data
+activate System
+System --> PM : Success or failure of the operation
+deactivate System
+
+
+
+@enduml

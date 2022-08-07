@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+participant ":ImportTestsUI" as UI
+participant ":ShipController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+participant ":BST" as BST
+
+
+activate MAN
+activate UI
+
+MAN -> UI : starts importing ships
+UI --> MAN : asks for the file to import
+deactivate UI
+MAN -> UI : types the name of the file
+activate UI
+UI --> Controller : ImportShips(string file)
+activate Controller
+Controller -> Company : store = getShipStore()
+activate Company
+Company -> Store : bst = getBST()
+activate Store
+deactivate Store
+deactivate Company
+Controller -> Store : addShip(Ship ship)
+activate Store
+deactivate Store
+Controller -> BST : put(Comparable key, Object value)
+activate BST
+
+
+
+
+UI --> MAN : imports the ships
+deactivate UI
+
+@enduml

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="246px" preserveAspectRatio="none" style="width:320px;height:246px;background:#FFFFFF;" version="1.1" viewBox="0 0 320 246" width="320px" zoomAndPan="magnify"><defs><filter height="300%" id="f13r4p8xps65oo" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fa873a824319d667b4fdc5c0f842938d]
+class ShipsOnMondayUI--><rect codeLine="3" fill="#FEFECE" filter="url(#f13r4p8xps65oo)" height="48" id="ShipsOnMondayUI" style="stroke:#A80036;stroke-width:1.5;" width="134" x="89.5" y="7"/><ellipse cx="104.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M106.5,19.5 Q106.7031,19 106.9375,18.75 Q107.1719,18.5 107.4375,18.5 Q107.9063,18.5 108.2031,18.7813 Q108.5,19.0625 108.5,19.7188 L108.5,21.2813 Q108.5,21.9375 108.2188,22.2188 Q107.9375,22.5 107.5,22.5 Q107.1094,22.5 106.8594,22.3281 Q106.6094,22.1563 106.5,21.7031 Q106.4531,21.3906 106.2813,21.2188 Q105.9688,20.8906 105.4063,20.7031 Q104.8438,20.5 104.2813,20.5 Q103.5781,20.5 102.9844,20.7813 Q102.4063,21.0625 101.9531,21.6875 Q101.5,22.3125 101.5,23.1719 L101.5,24.0938 Q101.5,25.125 102.3438,25.8125 Q103.1875,26.5 104.6875,26.5 Q105.5781,26.5 106.2031,26.2969 Q106.5625,26.1875 106.9688,25.8281 Q107.2344,25.625 107.375,25.5625 Q107.5156,25.5 107.6875,25.5 Q108.0156,25.5 108.25,25.7656 Q108.5,26.0156 108.5,26.375 Q108.5,26.7188 108.1563,27.125 Q107.6563,27.7188 106.8594,28.0469 Q105.8125,28.5 104.5313,28.5 Q103.0313,28.5 101.8281,27.9063 Q100.8594,27.4375 100.1719,26.4219 Q99.5,25.4063 99.5,24.2031 L99.5,23.1094 Q99.5,21.8594 100.0938,20.7656 Q100.7031,19.6719 101.75,19.0938 Q102.8125,18.5 104,18.5 Q104.7188,18.5 105.3438,18.75 Q105.9688,19 106.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="118.5" y="27.9102">ShipsOnMondayUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="90.5" x2="222.5" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="90.5" x2="222.5" y1="47" y2="47"/><!--MD5=[66055c69fa7dbd852c4672414460ddf9]
+class ShipsOnMondayController--><rect codeLine="6" fill="#FEFECE" filter="url(#f13r4p8xps65oo)" height="117.1797" id="ShipsOnMondayController" style="stroke:#A80036;stroke-width:1.5;" width="299" x="7" y="115"/><ellipse cx="80.25" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M82.25,127.5 Q82.4531,127 82.6875,126.75 Q82.9219,126.5 83.1875,126.5 Q83.6563,126.5 83.9531,126.7813 Q84.25,127.0625 84.25,127.7188 L84.25,129.2813 Q84.25,129.9375 83.9688,130.2188 Q83.6875,130.5 83.25,130.5 Q82.8594,130.5 82.6094,130.3281 Q82.3594,130.1563 82.25,129.7031 Q82.2031,129.3906 82.0313,129.2188 Q81.7188,128.8906 81.1563,128.7031 Q80.5938,128.5 80.0313,128.5 Q79.3281,128.5 78.7344,128.7813 Q78.1563,129.0625 77.7031,129.6875 Q77.25,130.3125 77.25,131.1719 L77.25,132.0938 Q77.25,133.125 78.0938,133.8125 Q78.9375,134.5 80.4375,134.5 Q81.3281,134.5 81.9531,134.2969 Q82.3125,134.1875 82.7188,133.8281 Q82.9844,133.625 83.125,133.5625 Q83.2656,133.5 83.4375,133.5 Q83.7656,133.5 84,133.7656 Q84.25,134.0156 84.25,134.375 Q84.25,134.7188 83.9063,135.125 Q83.4063,135.7188 82.6094,136.0469 Q81.5625,136.5 80.2813,136.5 Q78.7813,136.5 77.5781,135.9063 Q76.6094,135.4375 75.9219,134.4219 Q75.25,133.4063 75.25,132.2031 L75.25,131.1094 Q75.25,129.8594 75.8438,128.7656 Q76.4531,127.6719 77.5,127.0938 Q78.5625,126.5 79.75,126.5 Q80.4688,126.5 81.0938,126.75 Q81.7188,127 82.25,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="100.75" y="135.9102">ShipsOnMondayController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="305" y1="147" y2="147"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="305" y1="155" y2="155"/><ellipse cx="18" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="27" y="170.4189">getIMO()</text><ellipse cx="18" cy="179.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="27" y="184.2549">getBoats()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="190.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="27" y="198.0908">getDate()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="204.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="27" y="211.9268">nextMondayDate()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="218.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="273" x="27" y="225.7627">executeSQLQuery(String sql, DatabaseConnection data)</text><!--MD5=[66542186a31748543fa6f4a3b3edce28]
+link ShipsOnMondayUI to ShipsOnMondayController--><path codeLine="14" d="M156.5,55.2 C156.5,70.09 156.5,90.2 156.5,109.56 " fill="none" id="ShipsOnMondayUI-to-ShipsOnMondayController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="156.5,115,160.5,106,156.5,110,152.5,106,156.5,115" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[186da3359171c0bfc32eb035e7cc49ae]
+@startuml
+'https://plantuml.com/class-diagram
+
+class ShipsOnMondayUI {
+}
+
+class ShipsOnMondayController{
+    +getIMO()
+    +getBoats()
+    -getDate()
+    -nextMondayDate()
+    -executeSQLQuery(String sql, DatabaseConnection data)
+}
+
+ShipsOnMondayUI ..> ShipsOnMondayController
+
+@enduml
+
+@startuml
+
+class ShipsOnMondayUI {
+}
+
+class ShipsOnMondayController{
+    +getIMO()
+    +getBoats()
+    -getDate()
+    -nextMondayDate()
+    -executeSQLQuery(String sql, DatabaseConnection data)
+}
+
+ShipsOnMondayUI ..> ShipsOnMondayController
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

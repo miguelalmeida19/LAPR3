@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Fleet Manager" as FM
+
+participant ":System" as System
+
+activate FM
+activate System
+
+FM -> System : starts getting average occupancy rate per voyage
+System --> FM : Gives the average occupancy rate
+deactivate System
+
+
+
+@enduml

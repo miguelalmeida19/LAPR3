@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as Cap
+participant ":ShipsOnMondayUI" as UI
+participant ":ShipsOnMondayController" as Controller
+
+activate Cap
+activate UI
+Cap -> UI : starts looking for ships \n available in the next monday
+
+activate Controller
+UI --> Controller : getBoats()
+
+activate Controller
+Controller --> Controller : getIMO()
+deactivate Controller
+
+
+
+UI --> Cap : shows which ones are available \nand which ports they are in
+deactivate Controller
+deactivate UI
+
+@enduml

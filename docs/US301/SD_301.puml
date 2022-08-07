@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":FreightNetworkUI" as UI
+participant ":FreightNetworkController" as Controller
+participant ":ImportFromDatabase" as Import
+
+
+
+activate MAN
+activate UI
+
+MAN -> UI : starts obtaining data
+UI --> MAN : asks for how many closest ports to be connected
+deactivate UI
+MAN -> UI : types the number
+activate Controller
+activate UI
+UI --> Controller : build(n)
+Controller --> Controller :getCountries()
+activate Import
+Controller -->Import : getAllCountries()
+deactivate Import
+Controller --> Controller : getDistanceBetweenPortCapital(Port port, Country country)
+
+Controller --> Controller : getDistanceBetweenCapitals(Country c1, Country c2)
+Controller --> Controller : indexOfObject(List<Object> vertices, Object o)
+Controller --> Controller : getVertices()
+Controller --> Controller : insertInMatrix(List<Object> vertices, Double[][] matrix, int n)
+activate Import
+Controller --> Import :  getCountryBorders(Country country, List<Country> countries)
+Controller --> Import :  getPortFromCountry(String country)
+Controller --> Import :  getDistanceBetweenPorts(Port port1, Port port2)
+Controller --> Import :  getPossibleConnections(Port port)
+deactivate Import
+Controller --> Controller :connectPortToCountryPorts(Port port, Double[][] matrix, List<Object> vertices)
+Controller --> Controller :connectPortToNClosestPorts(Port port, Double[][] matrix, List<Object> vertices, int n)
+
+UI --> MAN : Success of operation
+deactivate UI
+@enduml

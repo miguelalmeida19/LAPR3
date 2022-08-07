@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ColorMapController{
+    +colorMap(n,timeDebugVerbose)
+    - printDebuginfo(isdebuging, text)
+}
+
+class App{
+-bootstrap()
+- singleton
+- company;
+- authFacade;
+-App()
++  getCompany()
++  getCurrentUserSession()
+ + doLogin(email, pwd)
+ + doLogout()
+}
+class ColoredGraph{
+-vertexColors
+-colors
+-graph
+-setup()
++colorGraph()
+-colorVertex( vertexToColor,colorsToUse)
+}
+
+
+
+ColorMapController --> ColoredGraph : '"creates"
+App  ..>ColorMapController
+@enduml

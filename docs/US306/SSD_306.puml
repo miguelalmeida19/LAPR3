@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Port Manager" as PM
+
+participant ":System" as System
+
+activate PM
+activate System
+
+PM -> System : Starts Getting occupancy rate and estimate of containers leaving
+System --> PM : Gives occupancy rate and estimate of containers leaving
+deactivate System
+
+
+@enduml

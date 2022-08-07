@@ -1,0 +1,22 @@
+continent,country,code,port,lat,lon
+Europe,United Kingdom,29002,Liverpool,53.46666667,-3.033333333
+America,United States,14635,Los Angeles,33.71666667,-118.2666667
+America,United States,25007,New Jersey,40.66666667,-74.16666667
+America,Brazil,20301,Rio Grande,-32.06666667,-52.06666667
+America,Brazil,20351,Salvador,-12.96666667,-38.51666667
+America,Brazil,27248,Santos,-23.93333333,-46.31666667
+America,Canada,22226,Halifax,44.65,-63.56666667
+America,Canada,25350,Vancouver,49.28333333,-123.1166667
+America,Chile,27792,San Vicente,-36.73333333,-73.15
+America,Chile,28082,Valparaiso,-33.01666667,-71.63333333
+America,Colombia,28261,Buenaventura,3.916666667,-77.05
+America,Colombia,28313,Cartagena,10.41666667,-75.53333333
+Europe,France,18012,Brest,48.4,-4.5
+Europe,France,18326,Dunkirk,51.05,2.366666667
+Europe,Portugal,18476,Ponta Delgada,37.73333333,-25.66666667
+Europe,Portugal,23428,Funchal,32.65,-16.91666667
+Europe,Portugal,13012,Leixoes,41.18333333,-8.7
+Europe,Portugal,13390,Setubal,38.5,-8.916666667
+Europe,Spain,17386,Barcelona,41.33333333,2.166666667
+Europe,Spain,18937,Valencia,39.45,-0.3
+America,Peru,30045,Callao,-12.05,-77.16666667

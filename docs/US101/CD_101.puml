@@ -1,0 +1,81 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ImportShipsUI {
+
+
+}
+class ShipController{
+    +importShips(file)
+    +getDetails(code)
+    +getFiles()
+    +getShips()
+    +getTopNShips(n, start, end)
+}
+class ShipStore{
++ShipStore()
++getBst()
++getShipList()
++addShip(ship)
++containsMMSI(MMSI)
++containsIMO(IMO)
++containsCallSign(callSign)
++getShip(code)
++shipSummary(code)
++getTopNShips(n,start,end)
++getPairsOfShips()
++MMSIOrder(map)
++TravelDistOrder(map)
+}
+class Ship{
+-MMSI;
+-name;
+-IMO;
+-energyGenerators;
+-powerOutput;
+-callsign;
+-vesselType;
+-length;
+-width;
+-capacity;
+-draft;
+ +Ship(MMSI,name,IMO,callsign,vesselType,length,width,draft,capacity)
+  +AddMensage(mensage)
+    +getMMSI()
+    +getIMO()
+    +getName()
+    +getWidth()
+    +getDetails()
+    +getDraft()
+    +getLength()
+    +getVesselType()
+    +getAllMessages()
+    +getCapacity()
+    +checkMMSI(MMSI);
+    +checkName(name);
+    +checkIMO(IMO);
+    +checkCallSign(callsign);
+    +checkVesselType(vesselType);
+    +checkLength(length);
+    +checkWidth(width);
+    +checkDraft(draft);
+    +checkCapacity(capacity);
+
+}
+class BST{
+Node
++getByCallSign(key)
++getByMMSI(key)
++getByIMO(key)
++search(h,key)
++put(key, value)
++insert(h,key,value)
+}
+
+
+ImportShipsUI ..> ShipController
+ShipController ..> ShipStore
+ShipStore "1" --> "*" Ship  : knows >
+Ship "1" --> "1" BST : stored in >
+
+@enduml

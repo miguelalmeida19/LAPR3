@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Ship Captain" as Cap
+participant ":CargoManifestsTransportedUI" as UI
+participant ":CargoManifestsTransportedController" as Controller
+
+activate Cap
+activate UI
+
+Cap -> UI : starts obtaining cargo manifests transported
+UI -> Controller: getID()
+
+activate Controller
+
+deactivate Controller
+UI --> Cap : asks for a specific year
+deactivate UI
+Cap -> UI : types a year to search
+activate UI
+
+UI -> Controller: getCargoManifestTransported(String year)
+activate Controller
+
+Controller -> Controller: getAmount()
+activate Controller
+
+deactivate Controller
+deactivate Controller
+
+UI -> Controller: getContManifests()
+activate Controller
+deactivate Controller
+
+UI -> Controller: getAverage()
+activate Controller
+deactivate Controller
+
+UI --> Cap : shows how many cargo manifests \n and the average containers
+deactivate Controller
+deactivate UI
+
+@enduml

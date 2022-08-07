@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="345px" preserveAspectRatio="none" style="width:793px;height:345px;background:#FFFFFF;" version="1.1" viewBox="0 0 793 345" width="793px" zoomAndPan="magnify"><defs><filter height="300%" id="f1q9xkxfl6966b" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="192" x="300.75" y="30.6855">SEQUENCE DIAGRAM</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="0" x="396.75" y="53.3262"/><rect fill="#FFFFFF" filter="url(#f1q9xkxfl6966b)" height="92.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="46" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f1q9xkxfl6966b)" height="83.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="465" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f1q9xkxfl6966b)" height="39.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="701" y="211.5938"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="51" x2="51" y1="148.8906" y2="259.9453"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="470" x2="470" y1="148.8906" y2="259.9453"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="705.5" x2="705.5" y1="148.8906" y2="259.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="5" y="145.8145">Port Manager</text><ellipse cx="51" cy="74.2813" fill="#FEFECE" filter="url(#f1q9xkxfl6966b)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M51,82.2813 L51,109.2813 M38,90.2813 L64,90.2813 M51,109.2813 L38,124.2813 M51,109.2813 L64,124.2813 " fill="none" filter="url(#f1q9xkxfl6966b)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="5" y="273.4785">Port Manager</text><ellipse cx="51" cy="286.5547" fill="#FEFECE" filter="url(#f1q9xkxfl6966b)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M51,294.5547 L51,321.5547 M38,302.5547 L64,302.5547 M51,321.5547 L38,336.5547 M51,321.5547 L64,336.5547 " fill="none" filter="url(#f1q9xkxfl6966b)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1q9xkxfl6966b)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="222" x="357" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="364" y="133.8145">:ContainersLeavingWarehouseUI</text><rect fill="#FEFECE" filter="url(#f1q9xkxfl6966b)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="222" x="357" y="258.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="364" y="280.4785">:ContainersLeavingWarehouseUI</text><rect fill="#FEFECE" filter="url(#f1q9xkxfl6966b)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="151" x="628.5" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="635.5" y="133.8145">:ImportFromDatabase</text><rect fill="#FEFECE" filter="url(#f1q9xkxfl6966b)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="151" x="628.5" y="258.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="635.5" y="280.4785">:ImportFromDatabase</text><rect fill="#FFFFFF" filter="url(#f1q9xkxfl6966b)" height="92.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="46" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f1q9xkxfl6966b)" height="83.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="465" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f1q9xkxfl6966b)" height="39.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="701" y="211.5938"/><polygon fill="#A80036" points="453,177.2422,463,181.2422,453,185.2422,457,181.2422" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="56" x2="459" y1="181.2422" y2="181.2422"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="63" y="176.3857">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="374" x="74" y="176.3857">Starts Getting occupancy rate and estimate of containers leaving</text><polygon fill="#A80036" points="689,207.5938,699,211.5938,689,215.5938,693,211.5938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="475" x2="695" y1="211.5938" y2="211.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="482" y="206.7373">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="196" x="493" y="206.7373">getEstimateOfContainersLeaving()</text><polygon fill="#A80036" points="67,237.9453,57,241.9453,67,245.9453,63,241.9453" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="61" x2="469" y1="241.9453" y2="241.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="73" y="237.0889">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="325" x="84" y="237.0889">Gives occupancy rate and estimate of containers leaving</text><!--MD5=[ced15a340f46a7a1c10554615fa4b9ff]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Port Manager" as PM
+
+participant ":ContainersLeavingWarehouseUI" as UI
+participant ":ImportFromDatabase" as Import
+
+activate PM
+activate UI
+
+PM -> UI : Starts Getting occupancy rate and estimate of containers leaving
+
+UI - -> Import : getEstimateOfContainersLeaving()
+activate Import
+UI - -> PM : Gives occupancy rate and estimate of containers leaving
+deactivate UI
+
+
+@enduml
+
+@startuml
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+actor "Port Manager" as PM
+
+participant ":ContainersLeavingWarehouseUI" as UI
+participant ":ImportFromDatabase" as Import
+
+activate PM
+activate UI
+
+PM -> UI : Starts Getting occupancy rate and estimate of containers leaving
+
+UI - -> Import : getEstimateOfContainersLeaving()
+activate Import
+UI - -> PM : Gives occupancy rate and estimate of containers leaving
+deactivate UI
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

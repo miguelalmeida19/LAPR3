@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class AverageOccuppancyRateVoyageUI{
+
+
+}
+class ImportFromDataBase{
+
++getContainersByShipPortType(String shipIMO, String portID, String type)
++getPositionOfContainer(String containerID)
++getOccupancyRateByCargoManifest(String code, String cargo_manifest)
++getOccupancyRateByDate(String code, String date)
++getAllCountries()
++getCountryBorders(Country country, List<Country> countries)
++getCountryByName(String name, List<Country> countries)
++getPortByID(String id)
++getPortFromCountry(String country)
++wrapLinkedHashMap(LinkedHashMap<Port, Double> linkedHashMap, Port port)
++getDistanceBetweenPorts(Port port1, Port port2)
++ getPossibleConnections(Port port)
++getRouteOfContainer(String containerID, String clientReg)
++getEstimateOfContainersLeaving()
++getOccupancyRateOfEachWarehouse()
++getOccupancyRateOfEachWarehouse(int month)
++addCargoManifestContainer(int cargoManifestID, int containerID, int posx, int posy, int posz)
++addCargoManifest(int vehicleId, String warehouseId, String base_date_time, String type)
++getAverageOccupancyRate(String shipImo, String date1, String date2)
++getAverageOccupancyRateOfVoyage()
+
+}
+AverageOccuppancyRateVoyageUI  ..>  ImportFromDataBase
+@enduml

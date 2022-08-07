@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="711px" preserveAspectRatio="none" style="width:332px;height:711px;background:#FFFFFF;" version="1.1" viewBox="0 0 332 711" width="332px" zoomAndPan="magnify"><defs><filter height="300%" id="fqazp0s7uagf6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[1966c30663cc8907e0902792ea6801a8]
+class ClosestPlacesUI--><rect codeLine="3" fill="#FEFECE" filter="url(#fqazp0s7uagf6)" height="48" id="ClosestPlacesUI" style="stroke:#A80036;stroke-width:1.5;" width="125" x="100" y="7"/><ellipse cx="115" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M117,19.5 Q117.2031,19 117.4375,18.75 Q117.6719,18.5 117.9375,18.5 Q118.4063,18.5 118.7031,18.7813 Q119,19.0625 119,19.7188 L119,21.2813 Q119,21.9375 118.7188,22.2188 Q118.4375,22.5 118,22.5 Q117.6094,22.5 117.3594,22.3281 Q117.1094,22.1563 117,21.7031 Q116.9531,21.3906 116.7813,21.2188 Q116.4688,20.8906 115.9063,20.7031 Q115.3438,20.5 114.7813,20.5 Q114.0781,20.5 113.4844,20.7813 Q112.9063,21.0625 112.4531,21.6875 Q112,22.3125 112,23.1719 L112,24.0938 Q112,25.125 112.8438,25.8125 Q113.6875,26.5 115.1875,26.5 Q116.0781,26.5 116.7031,26.2969 Q117.0625,26.1875 117.4688,25.8281 Q117.7344,25.625 117.875,25.5625 Q118.0156,25.5 118.1875,25.5 Q118.5156,25.5 118.75,25.7656 Q119,26.0156 119,26.375 Q119,26.7188 118.6563,27.125 Q118.1563,27.7188 117.3594,28.0469 Q116.3125,28.5 115.0313,28.5 Q113.5313,28.5 112.3281,27.9063 Q111.3594,27.4375 110.6719,26.4219 Q110,25.4063 110,24.2031 L110,23.1094 Q110,21.8594 110.5938,20.7656 Q111.2031,19.6719 112.25,19.0938 Q113.3125,18.5 114.5,18.5 Q115.2188,18.5 115.8438,18.75 Q116.4688,19 117,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="93" x="129" y="27.9102">ClosestPlacesUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="101" x2="224" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="101" x2="224" y1="47" y2="47"/><!--MD5=[5105ba69c1090b697fe225b48d568eda]
+class ClosestPlacesController--><rect codeLine="6" fill="#FEFECE" filter="url(#fqazp0s7uagf6)" height="75.6719" id="ClosestPlacesController" style="stroke:#A80036;stroke-width:1.5;" width="167" x="79" y="115"/><ellipse cx="94" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M96,127.5 Q96.2031,127 96.4375,126.75 Q96.6719,126.5 96.9375,126.5 Q97.4063,126.5 97.7031,126.7813 Q98,127.0625 98,127.7188 L98,129.2813 Q98,129.9375 97.7188,130.2188 Q97.4375,130.5 97,130.5 Q96.6094,130.5 96.3594,130.3281 Q96.1094,130.1563 96,129.7031 Q95.9531,129.3906 95.7813,129.2188 Q95.4688,128.8906 94.9063,128.7031 Q94.3438,128.5 93.7813,128.5 Q93.0781,128.5 92.4844,128.7813 Q91.9063,129.0625 91.4531,129.6875 Q91,130.3125 91,131.1719 L91,132.0938 Q91,133.125 91.8438,133.8125 Q92.6875,134.5 94.1875,134.5 Q95.0781,134.5 95.7031,134.2969 Q96.0625,134.1875 96.4688,133.8281 Q96.7344,133.625 96.875,133.5625 Q97.0156,133.5 97.1875,133.5 Q97.5156,133.5 97.75,133.7656 Q98,134.0156 98,134.375 Q98,134.7188 97.6563,135.125 Q97.1563,135.7188 96.3594,136.0469 Q95.3125,136.5 94.0313,136.5 Q92.5313,136.5 91.3281,135.9063 Q90.3594,135.4375 89.6719,134.4219 Q89,133.4063 89,132.2031 L89,131.1094 Q89,129.8594 89.5938,128.7656 Q90.2031,127.6719 91.25,127.0938 Q92.3125,126.5 93.5,126.5 Q94.2188,126.5 94.8438,126.75 Q95.4688,127 96,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="108" y="135.9102">ClosestPlacesController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="80" x2="245" y1="147" y2="147"/><line style="stroke:#A80036;stroke-width:1.5;" x1="80" x2="245" y1="155" y2="155"/><ellipse cx="90" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="99" y="170.4189">build()</text><ellipse cx="90" cy="179.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="99" y="184.2549">getPlaces(String continent)</text><!--MD5=[6eff77cfe0b5f799bab831953af67022]
+class ClosestPlaces--><rect codeLine="11" fill="#FEFECE" filter="url(#fqazp0s7uagf6)" height="131.0156" id="ClosestPlaces" style="stroke:#A80036;stroke-width:1.5;" width="156" x="84.5" y="251"/><ellipse cx="118.85" cy="267" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M120.85,263.5 Q121.0531,263 121.2875,262.75 Q121.5219,262.5 121.7875,262.5 Q122.2563,262.5 122.5531,262.7813 Q122.85,263.0625 122.85,263.7188 L122.85,265.2813 Q122.85,265.9375 122.5688,266.2188 Q122.2875,266.5 121.85,266.5 Q121.4594,266.5 121.2094,266.3281 Q120.9594,266.1563 120.85,265.7031 Q120.8031,265.3906 120.6313,265.2188 Q120.3188,264.8906 119.7563,264.7031 Q119.1938,264.5 118.6313,264.5 Q117.9281,264.5 117.3344,264.7813 Q116.7563,265.0625 116.3031,265.6875 Q115.85,266.3125 115.85,267.1719 L115.85,268.0938 Q115.85,269.125 116.6938,269.8125 Q117.5375,270.5 119.0375,270.5 Q119.9281,270.5 120.5531,270.2969 Q120.9125,270.1875 121.3188,269.8281 Q121.5844,269.625 121.725,269.5625 Q121.8656,269.5 122.0375,269.5 Q122.3656,269.5 122.6,269.7656 Q122.85,270.0156 122.85,270.375 Q122.85,270.7188 122.5063,271.125 Q122.0063,271.7188 121.2094,272.0469 Q120.1625,272.5 118.8813,272.5 Q117.3813,272.5 116.1781,271.9063 Q115.2094,271.4375 114.5219,270.4219 Q113.85,269.4063 113.85,268.2031 L113.85,267.1094 Q113.85,265.8594 114.4438,264.7656 Q115.0531,263.6719 116.1,263.0938 Q117.1625,262.5 118.35,262.5 Q119.0688,262.5 119.6938,262.75 Q120.3188,263 120.85,263.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="137.15" y="271.9102">ClosestPlaces</text><line style="stroke:#A80036;stroke-width:1.5;" x1="85.5" x2="239.5" y1="283" y2="283"/><line style="stroke:#A80036;stroke-width:1.5;" x1="85.5" x2="239.5" y1="291" y2="291"/><ellipse cx="95.5" cy="302" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="104.5" y="306.4189">build (int n)</text><ellipse cx="95.5" cy="315.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="104.5" y="320.2549">getMatrix()</text><ellipse cx="95.5" cy="329.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="104.5" y="334.0908">getVertices()</text><ellipse cx="95.5" cy="343.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="104.5" y="347.9268">getEdges()</text><ellipse cx="95.5" cy="357.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="104.5" y="361.7627">getPlaces(String continent)</text><ellipse cx="95.5" cy="371.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="104.5" y="375.5986">capitalize (String data)</text><!--MD5=[6d09b58ea1a4677a8cce6f6dd4a6f212]
+class FreightNetworkController--><rect codeLine="21" fill="#FEFECE" filter="url(#fqazp0s7uagf6)" height="255.5391" id="FreightNetworkController" style="stroke:#A80036;stroke-width:1.5;" width="311" x="7" y="442"/><ellipse cx="89.75" cy="458" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M91.75,454.5 Q91.9531,454 92.1875,453.75 Q92.4219,453.5 92.6875,453.5 Q93.1563,453.5 93.4531,453.7813 Q93.75,454.0625 93.75,454.7188 L93.75,456.2813 Q93.75,456.9375 93.4688,457.2188 Q93.1875,457.5 92.75,457.5 Q92.3594,457.5 92.1094,457.3281 Q91.8594,457.1563 91.75,456.7031 Q91.7031,456.3906 91.5313,456.2188 Q91.2188,455.8906 90.6563,455.7031 Q90.0938,455.5 89.5313,455.5 Q88.8281,455.5 88.2344,455.7813 Q87.6563,456.0625 87.2031,456.6875 Q86.75,457.3125 86.75,458.1719 L86.75,459.0938 Q86.75,460.125 87.5938,460.8125 Q88.4375,461.5 89.9375,461.5 Q90.8281,461.5 91.4531,461.2969 Q91.8125,461.1875 92.2188,460.8281 Q92.4844,460.625 92.625,460.5625 Q92.7656,460.5 92.9375,460.5 Q93.2656,460.5 93.5,460.7656 Q93.75,461.0156 93.75,461.375 Q93.75,461.7188 93.4063,462.125 Q92.9063,462.7188 92.1094,463.0469 Q91.0625,463.5 89.7813,463.5 Q88.2813,463.5 87.0781,462.9063 Q86.1094,462.4375 85.4219,461.4219 Q84.75,460.4063 84.75,459.2031 L84.75,458.1094 Q84.75,456.8594 85.3438,455.7656 Q85.9531,454.6719 87,454.0938 Q88.0625,453.5 89.25,453.5 Q89.9688,453.5 90.5938,453.75 Q91.2188,454 91.75,454.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="137" x="110.25" y="462.9102">FreightNetworkController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="317" y1="474" y2="474"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="482"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="29" x="27" y="489.4189">matrix</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="495.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="27" y="503.2549">vertices</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="317" y1="509.6719" y2="509.6719"/><ellipse cx="18" cy="520.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="27" y="525.0908">getCountries()</text><ellipse cx="18" cy="534.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="285" x="27" y="538.9268">getDistanceBetweenPortCapital(Port port, Country country)</text><ellipse cx="18" cy="548.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="259" x="27" y="552.7627">getDistanceBetweenCapitals(Country c1, Country c2)</text><ellipse cx="18" cy="562.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="225" x="27" y="566.5986">indexOfObject(List&lt;Object&gt; vertices, Object o)</text><ellipse cx="18" cy="576.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="27" y="580.4346">getVertices()</text><ellipse cx="18" cy="589.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="27" y="594.2705">insertInMatrix( vertices,  matrix,  n)</text><ellipse cx="18" cy="603.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="27" y="608.1064">build(int n)</text><ellipse cx="18" cy="617.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="248" x="27" y="621.9424">shortestPathBetweenVertices( l,  place1,  place2) {</text><ellipse cx="18" cy="631.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="27" y="635.7783">print( puzzle,  vertices)</text><ellipse cx="18" cy="645.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="27" y="649.6143">getVertByName( name)</text><ellipse cx="18" cy="659.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="253" x="27" y="663.4502">connectPortToCountryPorts( port,  matrix,  vertices){</text><ellipse cx="18" cy="672.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="270" x="27" y="677.2861">connectPortToNClosestPorts( port,  matrix, vertices,  n){</text><ellipse cx="18" cy="686.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="27" y="691.1221">getMatrix()</text><!--MD5=[c47dcebd1a592f0517a94e0eb0b73a06]
+link ClosestPlacesUI to ClosestPlacesController--><path codeLine="39" d="M162.5,55.14 C162.5,70.58 162.5,91.33 162.5,109.67 " fill="none" id="ClosestPlacesUI-to-ClosestPlacesController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="162.5,114.77,166.5,105.77,162.5,109.77,158.5,105.77,162.5,114.77" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e9c5814d8b1fc2784dad28a9de437816]
+link ClosestPlacesController to ClosestPlaces--><path codeLine="40" d="M162.5,191.05 C162.5,207.22 162.5,226.74 162.5,245.48 " fill="none" id="ClosestPlacesController-to-ClosestPlaces" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="162.5,250.74,166.5,241.74,162.5,245.74,158.5,241.74,162.5,250.74" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[25f0a3327cc086f503b0a8cfdab0232a]
+link ClosestPlaces to FreightNetworkController--><path codeLine="41" d="M162.5,382.27 C162.5,399.03 162.5,417.7 162.5,436.57 " fill="none" id="ClosestPlaces-to-FreightNetworkController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="162.5,441.9,166.5,432.9,162.5,436.9,158.5,432.9,162.5,441.9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[692de76a54ea7f748538635114d5ec36]
+@startuml
+'https://plantuml.com/class-diagram
+
+class ClosestPlacesUI{
+}
+
+class ClosestPlacesController{
++  build()
++  getPlaces(String continent)
+}
+
+class ClosestPlaces{
++ build (int n)
++ getMatrix()
++ getVertices()
++ getEdges()
++ getPlaces(String continent)
++ capitalize (String data)
+}
+
+
+class FreightNetworkController{
+-matrix
+-vertices
++getCountries()
+ + getDistanceBetweenPortCapital(Port port, Country country)
+ +  getDistanceBetweenCapitals(Country c1, Country c2)
+ +  indexOfObject(List<Object> vertices, Object o)
++ getVertices()
++  insertInMatrix( vertices,  matrix,  n)
++  build(int n)
+ +  shortestPathBetweenVertices( l,  place1,  place2) {
+ +   print( puzzle,  vertices)
+  +  getVertByName( name)
+  +  connectPortToCountryPorts( port,  matrix,  vertices){
+ +  connectPortToNClosestPorts( port,  matrix, vertices,  n){
+   + getMatrix()
+}
+
+ClosestPlacesUI ..> ClosestPlacesController
+ClosestPlacesController ..> ClosestPlaces
+ClosestPlaces ..> FreightNetworkController
+@enduml
+
+@startuml
+
+class ClosestPlacesUI{
+}
+
+class ClosestPlacesController{
++  build()
++  getPlaces(String continent)
+}
+
+class ClosestPlaces{
++ build (int n)
++ getMatrix()
++ getVertices()
++ getEdges()
++ getPlaces(String continent)
++ capitalize (String data)
+}
+
+
+class FreightNetworkController{
+-matrix
+-vertices
++getCountries()
+ + getDistanceBetweenPortCapital(Port port, Country country)
+ +  getDistanceBetweenCapitals(Country c1, Country c2)
+ +  indexOfObject(List<Object> vertices, Object o)
++ getVertices()
++  insertInMatrix( vertices,  matrix,  n)
++  build(int n)
+ +  shortestPathBetweenVertices( l,  place1,  place2) {
+ +   print( puzzle,  vertices)
+  +  getVertByName( name)
+  +  connectPortToCountryPorts( port,  matrix,  vertices){
+ +  connectPortToNClosestPorts( port,  matrix, vertices,  n){
+   + getMatrix()
+}
+
+ClosestPlacesUI ..> ClosestPlacesController
+ClosestPlacesController ..> ClosestPlaces
+ClosestPlaces ..> FreightNetworkController
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

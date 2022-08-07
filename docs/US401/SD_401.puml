@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Fleet Manager" as FM
+
+participant ":PortsCentrality" as UI
+participant ":BetweennessCentrality" as Centrality
+participant ":FreightNetworkStore" as Store
+participant ":MatrixGraph" as Matrix
+participant ":MapGraph" as Map
+
+activate UI
+
+
+FM -> UI : starts getting centrality of the ports
+UI --> FM : asks for how many ports is the centrality wanted
+deactivate UI
+FM -> UI : types the number of ports
+activate UI
+UI->Centrality: computeBetweennessCentrality(int n)
+activate Centrality
+Centrality->Store: getMg()
+activate Store
+Centrality->Store: getAb()
+Store-> Matrix: MatrixGraph(boolean directed, int initialCapacity)
+activate Matrix
+deactivate Matrix
+Store->Map:  MapGraph(boolean directed)
+activate Map
+deactivate Map
+deactivate Store
+UI->Centrality: getAllPathsBetweenness(Object vert)
+UI->Centrality: checkListsEquals(LinkedList<Object> l1, List<LinkedList<Object>> l2)
+deactivate Centrality
+UI --> FM : Gives the centrality
+deactivate UI
+
+
+@enduml

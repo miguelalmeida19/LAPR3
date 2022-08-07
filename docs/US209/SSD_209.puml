@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Ship Captain" as Cap
+
+participant ":System" as System
+
+activate Cap
+activate System
+
+Cap -> System : starts obtaining occupancy rate
+System --> Cap : asks for what is the captain's ship
+deactivate System
+Cap -> System : types a code of the ship
+activate System
+System --> Cap : asks how it is wished to have the occupancy rate
+deactivate System
+Cap -> System : selects give a specific moment
+activate System
+System --> Cap : asks for date and hour
+deactivate System
+Cap -> System : types the date and hour
+activate System
+System --> Cap : shows the occupancy rate
+deactivate System
+
+@enduml

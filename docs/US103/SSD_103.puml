@@ -1,0 +1,25 @@
+@startuml
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":System" as UI
+
+activate MAN
+
+
+MAN -> UI: start looking for messages \n from a specific ship
+activate UI
+UI --> MAN : asks for the dates, hours and \n code relating to the ship
+
+deactivate UI
+
+MAN -> UI : types the data to show details
+activate UI
+UI --> MAN: shows all the data relative with the ship position
+
+deactivate UI
+deactivate MAN
+@enduml

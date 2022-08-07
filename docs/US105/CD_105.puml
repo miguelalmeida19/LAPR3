@@ -1,0 +1,43 @@
+@startuml
+
+title <b>CLASS DIAGRAM\n
+
+class MovementController{
++ getData()
+}
+
+class MovementSortingTotalMovements{
++ compare(Ship o1, Ship o2)
+}
+
+class Company{
++ getShipStore()
+}
+
+class MovementSortingTravelDistance{
++ compare(Ship o1, Ship o2)
+}
+
+class ShipStore{
++ShipStore()
++getBst()
++getShipList()
++addShip(ship)
++containsMMSI(MMSI)
++containsIMO(IMO)
++containsCallSign(callSign)
++getShip(code)
++shipSummary(code)
+}
+
+MovementController ..> Company
+Company ..> ShipStore
+MovementController ..> ShipStore
+MovementController ..> MovementSortingTotalMovements
+MovementSortingTotalMovements ..> Company
+MovementSortingTotalMovements ..> ShipStore
+MovementController ..> MovementSortingTravelDistance
+MovementSortingTravelDistance ..> Company
+MovementSortingTravelDistance ..> ShipStore
+
+@enduml

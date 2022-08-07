@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Client" as Client
+
+participant ":System" as System
+
+activate Client
+activate System
+
+Client -> System : starts leasing a container
+System --> Client : asks for what is the registration code
+deactivate System
+Client -> System : types the registration code
+activate System
+System --> Client : asks what is the container id
+deactivate System
+Client -> System : types the container id
+activate System
+System --> Client : Gives the path
+deactivate System
+
+
+@enduml

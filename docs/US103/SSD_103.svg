@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="408px" preserveAspectRatio="none" style="width:422px;height:408px;background:#FFFFFF;" version="1.1" viewBox="0 0 422 408" width="422px" zoomAndPan="magnify"><defs><filter height="300%" id="fr7ufbz804kgv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="192" x="112.5" y="30.6855">SEQUENCE DIAGRAM</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="0" x="211" y="53.3262"/><rect fill="#FFFFFF" filter="url(#fr7ufbz804kgv)" height="146.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="158.8906"/><rect fill="#FFFFFF" filter="url(#fr7ufbz804kgv)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="373" y="197.5938"/><rect fill="#FFFFFF" filter="url(#fr7ufbz804kgv)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="373" y="274.6484"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="148.8906" y2="323"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="378" x2="378" y1="148.8906" y2="323"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="145.8145">Traffic Manager</text><ellipse cx="58" cy="74.2813" fill="#FEFECE" filter="url(#fr7ufbz804kgv)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,82.2813 L58,109.2813 M45,90.2813 L71,90.2813 M58,109.2813 L45,124.2813 M58,109.2813 L71,124.2813 " fill="none" filter="url(#fr7ufbz804kgv)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="336.5332">Traffic Manager</text><ellipse cx="58" cy="349.6094" fill="#FEFECE" filter="url(#fr7ufbz804kgv)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,357.6094 L58,384.6094 M45,365.6094 L71,365.6094 M58,384.6094 L45,399.6094 M58,384.6094 L71,399.6094 " fill="none" filter="url(#fr7ufbz804kgv)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fr7ufbz804kgv)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="344" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="351" y="133.8145">:System</text><rect fill="#FEFECE" filter="url(#fr7ufbz804kgv)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="344" y="322"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="351" y="343.5332">:System</text><rect fill="#FFFFFF" filter="url(#fr7ufbz804kgv)" height="146.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="158.8906"/><rect fill="#FFFFFF" filter="url(#fr7ufbz804kgv)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="373" y="197.5938"/><rect fill="#FFFFFF" filter="url(#fr7ufbz804kgv)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="373" y="274.6484"/><polygon fill="#A80036" points="361,193.5938,371,197.5938,361,201.5938,365,197.5938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="367" y1="197.5938" y2="197.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="184.5615">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="81" y="176.3857">start looking for messages</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="85" y="192.7373">from a specific ship</text><polygon fill="#A80036" points="74,240.2969,64,244.2969,74,248.2969,70,244.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="377" y1="244.2969" y2="244.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="231.2646">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="91" y="223.0889">asks for the dates, hours and</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="95" y="239.4404">code relating to the ship</text><polygon fill="#A80036" points="361,270.6484,371,274.6484,361,278.6484,365,274.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="367" y1="274.6484" y2="274.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="269.792">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="81" y="269.792">types the data to show details</text><polygon fill="#A80036" points="69,301,59,305,69,309,65,305" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="377" y1="305" y2="305"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="75" y="300.1436">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="275" x="86" y="300.1436">shows all the data relative with the ship position</text><!--MD5=[282601862246ac6b4e376212d9c03d58]
+@startuml
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":System" as UI
+
+activate MAN
+
+
+MAN -> UI: start looking for messages \n from a specific ship
+activate UI
+UI - -> MAN : asks for the dates, hours and \n code relating to the ship
+
+deactivate UI
+
+MAN -> UI : types the data to show details
+activate UI
+UI - -> MAN: shows all the data relative with the ship position
+
+deactivate UI
+deactivate MAN
+@enduml
+
+@startuml
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Traffic Manager" as MAN
+
+participant ":System" as UI
+
+activate MAN
+
+
+MAN -> UI: start looking for messages \n from a specific ship
+activate UI
+UI - -> MAN : asks for the dates, hours and \n code relating to the ship
+
+deactivate UI
+
+MAN -> UI : types the data to show details
+activate UI
+UI - -> MAN: shows all the data relative with the ship position
+
+deactivate UI
+deactivate MAN
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

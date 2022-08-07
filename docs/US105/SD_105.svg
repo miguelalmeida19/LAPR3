@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="636px" preserveAspectRatio="none" style="width:1361px;height:636px;background:#FFFFFF;" version="1.1" viewBox="0 0 1361 636" width="1361px" zoomAndPan="magnify"><defs><filter height="300%" id="f100up8ia2lzt6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="272" x="542" y="30.6855">SYSTEM SEQUENCE DIAGRAM</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="0" x="680.5" y="53.3262"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="373.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="373.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="419" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="241.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="560" y="227.9453"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="728" y="258.2969"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="821" y="318.6484"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="986.5" y="379"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1228" y="439.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="148.8906" y2="550.4063"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="424" x2="424" y1="148.8906" y2="550.4063"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="565" x2="565" y1="148.8906" y2="550.4063"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="733" x2="733" y1="148.8906" y2="550.4063"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="826" x2="826" y1="148.8906" y2="550.4063"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="991" x2="991" y1="148.8906" y2="550.4063"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1233" x2="1233" y1="148.8906" y2="550.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="145.8145">Traffic Manager</text><ellipse cx="58" cy="74.2813" fill="#FEFECE" filter="url(#f100up8ia2lzt6)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,82.2813 L58,109.2813 M45,90.2813 L71,90.2813 M58,109.2813 L45,124.2813 M58,109.2813 L71,124.2813 " fill="none" filter="url(#f100up8ia2lzt6)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="563.9395">Traffic Manager</text><ellipse cx="58" cy="577.0156" fill="#FEFECE" filter="url(#f100up8ia2lzt6)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,585.0156 L58,612.0156 M45,593.0156 L71,593.0156 M58,612.0156 L45,627.0156 M58,612.0156 L71,627.0156 " fill="none" filter="url(#f100up8ia2lzt6)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="102" x="371" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="378" y="133.8145">:MovementsUI</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="102" x="371" y="549.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="378" y="570.9395">:MovementsUI</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="152" x="487" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="494" y="133.8145">:MovementsController</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="152" x="487" y="549.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="494" y="570.9395">:MovementsController</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="692" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="699" y="133.8145">:Company</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="692" y="549.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="699" y="570.9395">:Company</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="80" x="784" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="791" y="133.8145">:ShipStore</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="80" x="784" y="549.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="791" y="570.9395">:ShipStore</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="223" x="878" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="885" y="133.8145">:MovementSortingTravelDistance</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="223" x="878" y="549.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="885" y="570.9395">:MovementSortingTravelDistance</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="232" x="1115" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="1122" y="133.8145">:MovementSortingTotalMovements</text><rect fill="#FEFECE" filter="url(#f100up8ia2lzt6)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="232" x="1115" y="549.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="1122" y="570.9395">:MovementSortingTotalMovements</text><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="373.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="373.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="419" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="241.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="560" y="227.9453"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="728" y="258.2969"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="821" y="318.6484"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="986.5" y="379"/><rect fill="#FFFFFF" filter="url(#f100up8ia2lzt6)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1228" y="439.3516"/><polygon fill="#A80036" points="407,193.5938,417,197.5938,407,201.5938,411,197.5938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="413" y1="197.5938" y2="197.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="184.5615">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="317" x="81" y="176.3857">start looking for all ships the MMSI, the total number of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="293" x="81" y="192.7373">movements, Travelled Distance and Delta Distance</text><polygon fill="#A80036" points="548,223.9453,558,227.9453,548,231.9453,552,227.9453" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="429" x2="554" y1="227.9453" y2="227.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="436" y="223.0889">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="447" y="223.0889">getData()</text><polygon fill="#A80036" points="716,254.2969,726,258.2969,716,262.2969,720,258.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="570" x2="722" y1="258.2969" y2="258.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="577" y="253.4404">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="588" y="253.4404">store = getShipStore()</text><polygon fill="#A80036" points="809,314.6484,819,318.6484,809,322.6484,813,318.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="570" x2="815" y1="318.6484" y2="318.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="577" y="313.792">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="588" y="313.792">movements = getShipList()</text><polygon fill="#A80036" points="974.5,375,984.5,379,974.5,383,978.5,379" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="570" x2="980.5" y1="379" y2="379"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="577" y="374.1436">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="588" y="374.1436">movements.sort()</text><polygon fill="#A80036" points="1216,435.3516,1226,439.3516,1216,443.3516,1220,439.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="570" x2="1222" y1="439.3516" y2="439.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="577" y="434.4951">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="588" y="434.4951">movements.sort()</text><polygon fill="#A80036" points="69,528.4063,59,532.4063,69,536.4063,65,532.4063" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="423" y1="532.4063" y2="532.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="75" y="511.1982">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="281" x="86" y="494.8467">shows all the data about the ships in the system</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="90" y="511.1982">sorted by TraveledDistance (descending order)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="256" x="90" y="527.5498">and total number of moves (ascending order)</text><!--MD5=[1a180c4581e815d2c6a51735ab3d2dad]
+@startuml
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":MovementsUI" as UI
+participant ":MovementsController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+participant ":MovementSortingTravelDistance" as MovementSortingTravelDistance
+participant ":MovementSortingTotalMovements" as MovementSortingTotalMovements
+
+activate MAN
+activate UI
+
+MAN -> UI: start looking for all ships the MMSI, the total number of \nmovements, Travelled Distance and Delta Distance
+
+UI -> Controller : getData()
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Store: movements = getShipList()
+activate Store
+deactivate Store
+
+Controller -> MovementSortingTravelDistance: movements.sort()
+activate MovementSortingTravelDistance
+deactivate MovementSortingTravelDistance
+
+Controller -> MovementSortingTotalMovements: movements.sort()
+activate MovementSortingTotalMovements
+deactivate MovementSortingTotalMovements
+
+deactivate Controller
+UI - -> MAN: shows all the data about the ships in the system \n sorted by TraveledDistance (descending order) \n and total number of moves (ascending order)
+deactivate UI
+deactivate MAN
+@enduml
+
+@startuml
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Traffic Manager" as MAN
+
+participant ":MovementsUI" as UI
+participant ":MovementsController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+participant ":MovementSortingTravelDistance" as MovementSortingTravelDistance
+participant ":MovementSortingTotalMovements" as MovementSortingTotalMovements
+
+activate MAN
+activate UI
+
+MAN -> UI: start looking for all ships the MMSI, the total number of \nmovements, Travelled Distance and Delta Distance
+
+UI -> Controller : getData()
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Store: movements = getShipList()
+activate Store
+deactivate Store
+
+Controller -> MovementSortingTravelDistance: movements.sort()
+activate MovementSortingTravelDistance
+deactivate MovementSortingTravelDistance
+
+Controller -> MovementSortingTotalMovements: movements.sort()
+activate MovementSortingTotalMovements
+deactivate MovementSortingTotalMovements
+
+deactivate Controller
+UI - -> MAN: shows all the data about the ships in the system \n sorted by TraveledDistance (descending order) \n and total number of moves (ascending order)
+deactivate UI
+deactivate MAN
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

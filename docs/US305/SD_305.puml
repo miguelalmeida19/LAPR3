@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Client" as Client
+
+participant ":RouteOfContainerUI" as UI
+participant ":ImportFromDatabase" as Import
+
+activate Client
+activate UI
+
+Client -> UI : starts leasing a container
+UI --> Client : asks for what is the registration code
+deactivate UI
+Client -> UI : types the registration code
+activate UI
+UI --> Client : asks what is the container id
+deactivate UI
+Client -> UI : types the container id
+activate UI
+UI --> Import : getRouteOfContainer(String containerID, String clientReg)
+activate Import
+UI --> Client : Gives the path
+deactivate UI
+
+
+@enduml

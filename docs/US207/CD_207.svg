@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="260px" preserveAspectRatio="none" style="width:320px;height:260px;background:#FFFFFF;" version="1.1" viewBox="0 0 320 260" width="320px" zoomAndPan="magnify"><defs><filter height="300%" id="fwtbrg5f5svpj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[09c0388f2aaad72f93a535cbb8f01c8a]
+class CargoManifestsTransportedUI--><rect codeLine="3" fill="#FEFECE" filter="url(#fwtbrg5f5svpj)" height="48" id="CargoManifestsTransportedUI" style="stroke:#A80036;stroke-width:1.5;" width="198" x="57.5" y="7"/><ellipse cx="72.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M74.5,19.5 Q74.7031,19 74.9375,18.75 Q75.1719,18.5 75.4375,18.5 Q75.9063,18.5 76.2031,18.7813 Q76.5,19.0625 76.5,19.7188 L76.5,21.2813 Q76.5,21.9375 76.2188,22.2188 Q75.9375,22.5 75.5,22.5 Q75.1094,22.5 74.8594,22.3281 Q74.6094,22.1563 74.5,21.7031 Q74.4531,21.3906 74.2813,21.2188 Q73.9688,20.8906 73.4063,20.7031 Q72.8438,20.5 72.2813,20.5 Q71.5781,20.5 70.9844,20.7813 Q70.4063,21.0625 69.9531,21.6875 Q69.5,22.3125 69.5,23.1719 L69.5,24.0938 Q69.5,25.125 70.3438,25.8125 Q71.1875,26.5 72.6875,26.5 Q73.5781,26.5 74.2031,26.2969 Q74.5625,26.1875 74.9688,25.8281 Q75.2344,25.625 75.375,25.5625 Q75.5156,25.5 75.6875,25.5 Q76.0156,25.5 76.25,25.7656 Q76.5,26.0156 76.5,26.375 Q76.5,26.7188 76.1563,27.125 Q75.6563,27.7188 74.8594,28.0469 Q73.8125,28.5 72.5313,28.5 Q71.0313,28.5 69.8281,27.9063 Q68.8594,27.4375 68.1719,26.4219 Q67.5,25.4063 67.5,24.2031 L67.5,23.1094 Q67.5,21.8594 68.0938,20.7656 Q68.7031,19.6719 69.75,19.0938 Q70.8125,18.5 72,18.5 Q72.7188,18.5 73.3438,18.75 Q73.9688,19 74.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="166" x="86.5" y="27.9102">CargoManifestsTransportedUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="58.5" x2="254.5" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="58.5" x2="254.5" y1="47" y2="47"/><!--MD5=[5821da43893a1cad9b7df8fbf6a816cc]
+class CargoManifestsTransportedController--><rect codeLine="6" fill="#FEFECE" filter="url(#fwtbrg5f5svpj)" height="131.0156" id="CargoManifestsTransportedController" style="stroke:#A80036;stroke-width:1.5;" width="299" x="7" y="115"/><ellipse cx="48.55" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M50.55,127.5 Q50.7531,127 50.9875,126.75 Q51.2219,126.5 51.4875,126.5 Q51.9563,126.5 52.2531,126.7813 Q52.55,127.0625 52.55,127.7188 L52.55,129.2813 Q52.55,129.9375 52.2688,130.2188 Q51.9875,130.5 51.55,130.5 Q51.1594,130.5 50.9094,130.3281 Q50.6594,130.1563 50.55,129.7031 Q50.5031,129.3906 50.3313,129.2188 Q50.0188,128.8906 49.4563,128.7031 Q48.8938,128.5 48.3313,128.5 Q47.6281,128.5 47.0344,128.7813 Q46.4563,129.0625 46.0031,129.6875 Q45.55,130.3125 45.55,131.1719 L45.55,132.0938 Q45.55,133.125 46.3938,133.8125 Q47.2375,134.5 48.7375,134.5 Q49.6281,134.5 50.2531,134.2969 Q50.6125,134.1875 51.0188,133.8281 Q51.2844,133.625 51.425,133.5625 Q51.5656,133.5 51.7375,133.5 Q52.0656,133.5 52.3,133.7656 Q52.55,134.0156 52.55,134.375 Q52.55,134.7188 52.2063,135.125 Q51.7063,135.7188 50.9094,136.0469 Q49.8625,136.5 48.5813,136.5 Q47.0813,136.5 45.8781,135.9063 Q44.9094,135.4375 44.2219,134.4219 Q43.55,133.4063 43.55,132.2031 L43.55,131.1094 Q43.55,129.8594 44.1438,128.7656 Q44.7531,127.6719 45.8,127.0938 Q46.8625,126.5 48.05,126.5 Q48.7688,126.5 49.3938,126.75 Q50.0188,127 50.55,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="208" x="68.45" y="135.9102">CargoManifestsTransportedController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="305" y1="147" y2="147"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="305" y1="155" y2="155"/><ellipse cx="18" cy="166" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="32" x="27" y="170.4189">getID()</text><ellipse cx="18" cy="179.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="205" x="27" y="184.2549">getCargoManifestTransported(String year)</text><ellipse cx="18" cy="193.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="27" y="198.0908">getContManifests()</text><ellipse cx="18" cy="207.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="27" y="211.9268">getAverage()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="218.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="27" y="225.7627">getAmount()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="232.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="273" x="27" y="239.5986">executeSQLQuery(String sql, DatabaseConnection data)</text><!--MD5=[7118ae82f0c75e4f41a604f086d0df73]
+link CargoManifestsTransportedUI to CargoManifestsTransportedController--><path codeLine="15" d="M156.5,55.05 C156.5,69.91 156.5,90.1 156.5,109.89 " fill="none" id="CargoManifestsTransportedUI-to-CargoManifestsTransportedController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="156.5,114.91,160.5,105.91,156.5,109.91,152.5,105.91,156.5,114.91" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[deee01c7e149aaf2efab3ffcddc08f4d]
+@startuml
+'https://plantuml.com/class-diagram
+
+class CargoManifestsTransportedUI {
+}
+
+class CargoManifestsTransportedController{
+    +getID()
+    +getCargoManifestTransported(String year)
+    +getContManifests()
+    +getAverage()
+    -getAmount()
+    -executeSQLQuery(String sql, DatabaseConnection data)
+}
+
+CargoManifestsTransportedUI ..> CargoManifestsTransportedController
+
+@enduml
+
+@startuml
+
+class CargoManifestsTransportedUI {
+}
+
+class CargoManifestsTransportedController{
+    +getID()
+    +getCargoManifestTransported(String year)
+    +getContManifests()
+    +getAverage()
+    -getAmount()
+    -executeSQLQuery(String sql, DatabaseConnection data)
+}
+
+CargoManifestsTransportedUI ..> CargoManifestsTransportedController
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

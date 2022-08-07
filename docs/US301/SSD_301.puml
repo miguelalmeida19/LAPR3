@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":System" as System
+
+activate MAN
+activate System
+
+MAN -> System : starts obtaining data
+System --> MAN : asks for how many closest ports to be connected
+deactivate System
+MAN -> System : types the number
+activate System
+System --> MAN : Success of operation
+deactivate System
+@enduml

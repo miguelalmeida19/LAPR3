@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Traffic manager" as tm
+
+autonumber
+activate tm
+tm -> ":System": asks to color insert the start vertex
+activate ":System"
+":System" --> tm: gives the circuit.
+deactivate ":System"
+
+@enduml

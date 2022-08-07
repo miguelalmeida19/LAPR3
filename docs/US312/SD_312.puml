@@ -1,0 +1,64 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant ":ContainerStatusUI" as ui
+participant ":ContainerStatusController" as controller
+
+participant ":Company" as company
+participant ":ContainerStore" as store
+participant ":DataBaseConnection" as dbConn
+participant ":PreparedStatement" as prepStat
+activate ui
+ui --> controller:containerStatus(containerID)
+activate controller
+controller -> company: getContainerStore()
+activate company
+deactivate company
+controller -> store: getContainerStatus()
+activate store
+store -> store: controll = clientContainerVerification(containerid, email, databaseconection)
+activate store
+deactivate store
+
+alt controll = 10 or controll = 11
+store -> store: throwexception(controll)
+activate store
+deactivate store
+end
+store -> store: cargos_manifestidList = getCargoManifestIDs(containerID)
+activate store
+
+store --> store: result = executeSQLQuery(query)
+activate store
+store --> dbConn: pStatement = getConnection().prepareStatement(query)
+activate dbConn
+deactivate dbConn
+store --> prepStat: executeQuery(query)
+activate prepStat
+deactivate prepStat
+
+deactivate store
+deactivate store
+store --> store: id = getTheMostRecentCargoManifest( cargos_manifestidList)
+activate store
+store --> store: resultWithDateOfCargoManifest = executeSQLQuery(query)
+note right: the executeSQLQuery method is described above.
+loop for id in cargos_manifestidList:
+store --> store: dateOfCargoManifest = executeSQLQuery(query)
+activate store
+deactivate store
+alt biggestDateFoundSoFar < dateOfCargoManifest
+store --> store: biggestDateFoundSoFar = dateOfCargoManifest
+activate store
+store --> store: id = cargos_manifestidList.get(n)
+end
+activate store
+deactivate store
+end
+store --> store: getTypeOfManifest(id)
+activate store
+deactivate store
+deactivate store
+deactivate controller
+@enduml

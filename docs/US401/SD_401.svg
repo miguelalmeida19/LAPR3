@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="648px" preserveAspectRatio="none" style="width:1484px;height:648px;background:#FFFFFF;" version="1.1" viewBox="0 0 1484 648" width="1484px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ku0dwzevzukr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="272" x="603.5" y="30.6855">SYSTEM SEQUENCE DIAGRAM</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="0" x="742" y="53.3262"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="52.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="369" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="302.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="369" y="241.9453"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="242.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="831" y="272.2969"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="151.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="999.5" y="302.6484"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1320.5" y="363.3516"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1424.5" y="423.7031"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="54" x2="54" y1="148.8906" y2="562.7578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="373.5" x2="373.5" y1="148.8906" y2="562.7578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="836" x2="836" y1="148.8906" y2="562.7578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1004" x2="1004" y1="148.8906" y2="562.7578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1325" x2="1325" y1="148.8906" y2="562.7578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1429" x2="1429" y1="148.8906" y2="562.7578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="5" y="145.8145">Fleet Manager</text><ellipse cx="54" cy="74.2813" fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M54,82.2813 L54,109.2813 M41,90.2813 L67,90.2813 M54,109.2813 L41,124.2813 M54,109.2813 L67,124.2813 " fill="none" filter="url(#f1ku0dwzevzukr)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="5" y="576.291">Fleet Manager</text><ellipse cx="54" cy="589.3672" fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M54,597.3672 L54,624.3672 M41,605.3672 L67,605.3672 M54,624.3672 L41,639.3672 M54,624.3672 L67,639.3672 " fill="none" filter="url(#f1ku0dwzevzukr)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="111" x="316.5" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="323.5" y="133.8145">:PortsCentrality</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="111" x="316.5" y="561.7578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="323.5" y="583.291">:PortsCentrality</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="162" x="753" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="760" y="133.8145">:BetweennessCentrality</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="162" x="753" y="561.7578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="760" y="583.291">:BetweennessCentrality</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="147" x="929" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="936" y="133.8145">:FreightNetworkStore</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="147" x="929" y="561.7578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="936" y="583.291">:FreightNetworkStore</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="95" x="1276" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="1283" y="133.8145">:MatrixGraph</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="95" x="1276" y="561.7578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="1283" y="583.291">:MatrixGraph</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="85" x="1385" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1392" y="133.8145">:MapGraph</text><rect fill="#FEFECE" filter="url(#f1ku0dwzevzukr)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="85" x="1385" y="561.7578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1392" y="583.291">:MapGraph</text><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="52.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="369" y="158.8906"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="302.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="369" y="241.9453"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="242.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="831" y="272.2969"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="151.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="999.5" y="302.6484"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1320.5" y="363.3516"/><rect fill="#FFFFFF" filter="url(#f1ku0dwzevzukr)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1424.5" y="423.7031"/><polygon fill="#A80036" points="357,177.2422,367,181.2422,357,185.2422,361,181.2422" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54" x2="363" y1="181.2422" y2="181.2422"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61" y="176.3857">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="202" x="72" y="176.3857">starts getting centrality of the ports</text><polygon fill="#A80036" points="65,207.5938,55,211.5938,65,215.5938,61,211.5938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59" x2="373" y1="211.5938" y2="211.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="71" y="206.7373">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="280" x="82" y="206.7373">asks for how many ports is the centrality wanted</text><polygon fill="#A80036" points="357,237.9453,367,241.9453,357,245.9453,361,241.9453" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54" x2="363" y1="241.9453" y2="241.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61" y="237.0889">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="148" x="72" y="237.0889">types the number of ports</text><polygon fill="#A80036" points="819,268.2969,829,272.2969,819,276.2969,823,272.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="379" x2="825" y1="272.2969" y2="272.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="386" y="267.4404">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="397" y="267.4404">computeBetweennessCentrality(int n)</text><polygon fill="#A80036" points="987.5,298.6484,997.5,302.6484,987.5,306.6484,991.5,302.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="841" x2="993.5" y1="302.6484" y2="302.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="848" y="297.792">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="859" y="297.792">getMg()</text><polygon fill="#A80036" points="987.5,329,997.5,333,987.5,337,991.5,333" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="841" x2="993.5" y1="333" y2="333"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="848" y="328.1436">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="859" y="328.1436">getAb()</text><polygon fill="#A80036" points="1308.5,359.3516,1318.5,363.3516,1308.5,367.3516,1312.5,363.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1009.5" x2="1314.5" y1="363.3516" y2="363.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1016.5" y="358.4951">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="281" x="1027.5" y="358.4951">MatrixGraph(boolean directed, int initialCapacity)</text><polygon fill="#A80036" points="1412.5,419.7031,1422.5,423.7031,1412.5,427.7031,1416.5,423.7031" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1009.5" x2="1418.5" y1="423.7031" y2="423.7031"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1016.5" y="418.8467">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="1027.5" y="418.8467">MapGraph(boolean directed)</text><polygon fill="#A80036" points="819,480.0547,829,484.0547,819,488.0547,823,484.0547" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="379" x2="825" y1="484.0547" y2="484.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="386" y="479.1982">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="215" x="397" y="479.1982">getAllPathsBetweenness(Object vert)</text><polygon fill="#A80036" points="824,510.4063,834,514.4063,824,518.4063,828,514.4063" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="379" x2="830" y1="514.4063" y2="514.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="386" y="509.5498">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="410" x="404" y="509.5498">checkListsEquals(LinkedList&lt;Object&gt; l1, List&lt;LinkedList&lt;Object&gt;&gt; l2)</text><polygon fill="#A80036" points="65,540.7578,55,544.7578,65,548.7578,61,544.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59" x2="373" y1="544.7578" y2="544.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="71" y="539.9014">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="89" y="539.9014">Gives the centrality</text><!--MD5=[128abb27b06cffe68fc5b5124f2d825f]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Fleet Manager" as FM
+
+participant ":PortsCentrality" as UI
+participant ":BetweennessCentrality" as Centrality
+participant ":FreightNetworkStore" as Store
+participant ":MatrixGraph" as Matrix
+participant ":MapGraph" as Map
+
+activate UI
+
+
+FM -> UI : starts getting centrality of the ports
+UI - -> FM : asks for how many ports is the centrality wanted
+deactivate UI
+FM -> UI : types the number of ports
+activate UI
+UI->Centrality: computeBetweennessCentrality(int n)
+activate Centrality
+Centrality->Store: getMg()
+activate Store
+Centrality->Store: getAb()
+Store-> Matrix: MatrixGraph(boolean directed, int initialCapacity)
+activate Matrix
+deactivate Matrix
+Store->Map:  MapGraph(boolean directed)
+activate Map
+deactivate Map
+deactivate Store
+UI->Centrality: getAllPathsBetweenness(Object vert)
+UI->Centrality: checkListsEquals(LinkedList<Object> l1, List<LinkedList<Object>> l2)
+deactivate Centrality
+UI - -> FM : Gives the centrality
+deactivate UI
+
+
+@enduml
+
+@startuml
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Fleet Manager" as FM
+
+participant ":PortsCentrality" as UI
+participant ":BetweennessCentrality" as Centrality
+participant ":FreightNetworkStore" as Store
+participant ":MatrixGraph" as Matrix
+participant ":MapGraph" as Map
+
+activate UI
+
+
+FM -> UI : starts getting centrality of the ports
+UI - -> FM : asks for how many ports is the centrality wanted
+deactivate UI
+FM -> UI : types the number of ports
+activate UI
+UI->Centrality: computeBetweennessCentrality(int n)
+activate Centrality
+Centrality->Store: getMg()
+activate Store
+Centrality->Store: getAb()
+Store-> Matrix: MatrixGraph(boolean directed, int initialCapacity)
+activate Matrix
+deactivate Matrix
+Store->Map:  MapGraph(boolean directed)
+activate Map
+deactivate Map
+deactivate Store
+UI->Centrality: getAllPathsBetweenness(Object vert)
+UI->Centrality: checkListsEquals(LinkedList<Object> l1, List<LinkedList<Object>> l2)
+deactivate Centrality
+UI - -> FM : Gives the centrality
+deactivate UI
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

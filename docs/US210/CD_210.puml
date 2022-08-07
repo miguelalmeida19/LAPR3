@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ShipsOnMondayUI {
+}
+
+class ShipsOnMondayController{
+    +getIMO()
+    +getBoats()
+    -getDate()
+    -nextMondayDate()
+    -executeSQLQuery(String sql, DatabaseConnection data)
+}
+
+ShipsOnMondayUI ..> ShipsOnMondayController
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Traffic manager" as tm
+
+autonumber
+activate tm
+tm -> ":System": asks to get the closest port of a ship.
+activate ":System"
+":System" --> tm: asks for the ship's CallSign
+deactivate ":System"
+tm -> ":System": types the asked data
+activate ":System"
+
+":System" --> tm: shows the closest port.
+deactivate ":System"
+
+@enduml

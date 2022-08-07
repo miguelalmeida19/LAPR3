@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ImportPortsUI {
+
+
+}
+class PortController{
+    +PortController()
+    +ImportPorts(String file)
+}
+class Company{
+    +getPortStore()
+}
+class PortStore{
++PortStore()
++getRootNode()
++getKdt()
++addPort(port)
++getPort(String port)
++ getPortList()
+}
+class Port{
+-continent;
+-country;
+-code;
+-name;
+-latitude;
+-longitude;
+
+ +Port(continent,country,code,name,latitude,longitude)
+    +getContinent()
+    +getCountry()
+    +getCode()
+    +getPort()
+    +getLatitude()
+    +getLongitude()
+
+}
+class KDTree{
+Node
++getByCallSign(key)
++getByMMSI(key)
++getByIMO(key)
++search(h,key)
++put(key, value)
++insert(h,key,value)
+}
+
+
+ImportPortsUI ..> PortController
+PortController ..> Company
+Company "1" --> "1" PortStore  : knows >
+PortController ..> PortStore
+PortStore "1" --> "*" Port  : knows >
+Port "*" --> "1" KDTree : stored in >
+
+@enduml

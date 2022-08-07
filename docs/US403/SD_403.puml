@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant ":MostEfficientCircuitUI" as ui
+participant ":MostEfficientCircuitController" as controller
+participant "Algorithms" as al
+activate ui
+ui --> controller: calculatetCircuit(startingVertex, graph)
+activate controller
+controller --> al: pathfinder(startingVertex, graph);
+activate al
+al --> al : dfsVisit(g, current, color, path,temppath, orig)
+activate al
+deactivate al
+
+deactivate al
+deactivate controller
+
+deactivate ui
+
+@enduml

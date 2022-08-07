@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Traffic manager" as tm
+
+autonumber
+activate tm
+tm -> ":System": asks to get a summary of a ship's movement.
+activate ":System"
+":System" --> tm: asks for the ship's identification attribute (MMSI, Call Sign, IMO Code)
+deactivate ":System"
+tm -> ":System": types the asked data
+activate ":System"
+
+":System" --> tm: shows the summary of the ship's movement.
+deactivate ":System"
+
+@enduml

@@ -1,0 +1,146 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class PortsCentralityUI{
+
+
+}
+class FreightNetworkStore{
++ab
++mg
++setAb(MatrixGraph<Object, Double> ab)
++setMg(MapGraph<Object, Double> mg)
++getMg()
++getAb()
+
+}
+
+class BetweennessCentrality{
+
++BetweennessCentrality()
++computeBetweennessCentrality(int n)
++getAllPathsBetweenness(Object vert)
++checkListsEquals(LinkedList<Object> l1, List<LinkedList<Object>> l2)
+
+}
+
+Interface Graph{
+    isDirected()
+    numVertices()
+    vertices()
+    validVertex(vert)
+    key(vert)
+    vertex(key)
+    vertex(p)
+    adjVertices(vert)
+    numEdges()
+    edges()
+    edge(vOrig, vDest)
+    edge(vOrigKey, vDestKey)
+    outDegree(vert)
+    inDegree(vert)
+    outgoingEdges(vert)
+    incomingEdges(vert)
+    boolean addVertex(vert)
+    addEdge(vOrig, vDest, weight)
+    removeVertex(vert)
+    removeEdge(vOrig, vDest)
+    clone()
+ }
+
+ class MapVertex{
+    -element;
+    -outVerts;
+
+   +MapVertex(vert)
+
+    +getElement()
+    +addAdjVert(vAdj,  edge)
+
+    +remAdjVert(vAdj)
+    +getEdge(vAdj)
+    +numAdjVerts()
+
+    +getAllAdjVerts()
+
+    +getAllOutEdges()
+    +toString()
+
+    }
+
+   class MapGraph{
+   -error
+   -mapVertices
+   +MapGraph(boolean directed)
+   +MapGraph(Graph<V,E> g)
+   +validVertex(V vert)
+   +adjVertices(V vert)
+   +edges()
+   +edge(V vOrig, V vDest)
+   +edge(int vOrigKey, int vDestKey)
+   +outDegree(V vert)
+   +inDegree(V vert)
+   +outgoingEdges(V vert)
+   +incomingEdges(V vert)
+   +addVertex(V vert)
+   + addEdge(V vOrig, V vDest, E weight)
+   + removeVertex(V vert)
+   + removeEdge(V vOrig, V vDest)
+   + clone()
+   + toString()
+
+   }
+class MatrixGraph{
++INITIAL_CAPACITY
++RESIZE_FACTOR
++MatrixGraph(boolean directed, int initialCapacity)
++MatrixGraph(boolean directed)
++MatrixGraph(Graph<V,E> g)
++MatrixGraph(boolean directed, List <V> vs, E [][] m)
++adjVertices(V vert)
++edges()
++edge(V vOrig, V vDest)
++edge(int vOrigKey, int vDestKey)
++outDegree(V vert)
++inDegree(V vert)
++outgoingEdges(V vert)
++incomingEdges(V vert)
++addVertex(V vert)
++resizeMatrix()
++addEdge(V vOrig, V vDest, E weight)
++removeVertex(V vert)
++removeEdge(int vOrigKey, int vDestKey)
++removeEdge(V vOrig, V vDest)
++clone()
++toString()
+
+}
+class Algorithms{
++BreadthFirstSearch(Graph<V, E> g, V vert)
++DepthFirstSearch(Graph<V, E> g, V vOrig, boolean[] visited, LinkedList<V> qdfs)
++DepthFirstSearch(Graph<V, E> g, V vert)
++allPaths(Graph<V, E> g, V vOrig, V vDest, boolean[] visited,LinkedList<V> path, ArrayList<LinkedList<V>> paths)
++allPaths(Graph<V, E> g, V vOrig, V vDest)
++shortestPathLength(Graph<V, E> g, V vOrig,boolean[] visited, int[] pathKeys, double[] dist)
++getPath(Graph<V, E> g, V vOrig, V vDest, V[] verts, int[] pathKeys, LinkedList<V> path)
++shortestPath(Graph<V, E> g, V vOrig, V vDest, LinkedList<V> shortPath)
++shortestPaths(Graph<V, E> g, V vOrig, ArrayList<LinkedList<V>> paths, ArrayList<Double> dists)
++revPath(List<V> path)
++shortestPathUsingNplaces(Graph<V, E> g,  V vOrig, V vDest, LinkedList<V> Places, boolean sea, boolean land)
++function(Graph<V, E> g,  V current, V vDest, LinkedList<V> Places, LinkedList<V> Path, String [] color,  boolean sea, boolean land)
++checkPlaces(Graph<V, E> g, LinkedList<V> Places, LinkedList<V> Path)
++validateRestrictions(V dest, V current, V vDest, boolean sea, boolean land)
++pathfinder(Graph<V, E> g, V current)
++dfsVisit(Graph<V, E> g, V current, String[] color, LinkedList<V> path,LinkedList<V> temppath, V orig)
+}
+
+RouteOfContainerUI  ..>  BetweennessCentrality
+BetweennessCentrality --> FreightNetworkStore: "Uses"
+Graph <|-- MapGraph
+Graph <|-- MatrixGraph
+BetweennessCentrality .> Algorithms
+
+Algorithms --> Graph: "Uses" >
+MapGraph --> MapVertex: "Uses" >
+
+@enduml

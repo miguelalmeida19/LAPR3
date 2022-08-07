@@ -1,0 +1,45 @@
+@startuml
+
+title <b>CLASS DIAGRAM\n
+
+class PositionController{
++ DatePosition(Date, Hour, Ship)
++ PeriodPosition(Date, Hour, Date1, Hour1, Ship)
++ dateTime(Date)
++ checkDate(Date)
++ checkHour(Hour)
++ checkPeriod(Date, Date1)
+}
+
+class Company{
++ getShipStore()
+}
+
+class ShipStore{
++ShipStore()
++getBst()
++getShipList()
++addShip(ship)
++containsMMSI(MMSI)
++containsIMO(IMO)
++containsCallSign(callSign)
++getShip(code)
++shipSummary(code)
+}
+
+class Message {
++ getLocalDateTime()
++ getCog()
++ getHeading()
++ getLatitude()
++ getLongitude()
++ getSog()
++ getTransceiver()
+}
+
+PositionController ..> Company
+Company ..> ShipStore
+PositionController ..> ShipStore
+PositionController ..> Message
+
+@enduml

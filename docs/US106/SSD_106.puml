@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":System" as System
+
+activate MAN
+activate System
+
+MAN -> System : starts looking for the top ships with most kilometers
+System --> MAN : asks for the amount of ships to be shown
+deactivate System
+MAN -> System : types the number of ships
+activate System
+System --> MAN : shows the data
+deactivate System
+
+@enduml

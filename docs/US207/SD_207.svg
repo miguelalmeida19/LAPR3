@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="677px" preserveAspectRatio="none" style="width:768px;height:677px;background:#FFFFFF;" version="1.1" viewBox="0 0 768 677" width="768px" zoomAndPan="magnify"><defs><filter height="300%" id="fpie0mkqrcexx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="192" x="288" y="30.6855">SEQUENCE DIAGRAM</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="0" x="384" y="53.3262"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="423.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="43.5" y="158.8906"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="113.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="342.5" y="158.8906"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="271.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="342.5" y="302.2969"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="622.5" y="211.5938"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="66.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="622.5" y="332.6484"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="627.5" y="371"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="622.5" y="436.3516"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="622.5" y="496.7031"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="48" x2="48" y1="148.8906" y2="591.4063"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="347" x2="347" y1="148.8906" y2="591.4063"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="627" x2="627" y1="148.8906" y2="591.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="5" y="145.8145">Ship Captain</text><ellipse cx="48.5" cy="74.2813" fill="#FEFECE" filter="url(#fpie0mkqrcexx)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M48.5,82.2813 L48.5,109.2813 M35.5,90.2813 L61.5,90.2813 M48.5,109.2813 L35.5,124.2813 M48.5,109.2813 L61.5,124.2813 " fill="none" filter="url(#fpie0mkqrcexx)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="5" y="604.9395">Ship Captain</text><ellipse cx="48.5" cy="618.0156" fill="#FEFECE" filter="url(#fpie0mkqrcexx)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M48.5,626.0156 L48.5,653.0156 M35.5,634.0156 L61.5,634.0156 M48.5,653.0156 L35.5,668.0156 M48.5,653.0156 L61.5,668.0156 " fill="none" filter="url(#fpie0mkqrcexx)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fpie0mkqrcexx)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="207" x="242" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="249" y="133.8145">:CargoManifestsTransportedUI</text><rect fill="#FEFECE" filter="url(#fpie0mkqrcexx)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="207" x="242" y="590.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="249" y="611.9395">:CargoManifestsTransportedUI</text><rect fill="#FEFECE" filter="url(#fpie0mkqrcexx)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="257" x="497" y="112.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="504" y="133.8145">:CargoManifestsTransportedController</text><rect fill="#FEFECE" filter="url(#fpie0mkqrcexx)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="257" x="497" y="590.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="504" y="611.9395">:CargoManifestsTransportedController</text><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="423.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="43.5" y="158.8906"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="113.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="342.5" y="158.8906"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="271.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="342.5" y="302.2969"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="622.5" y="211.5938"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="66.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="622.5" y="332.6484"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="627.5" y="371"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="622.5" y="436.3516"/><rect fill="#FFFFFF" filter="url(#fpie0mkqrcexx)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="622.5" y="496.7031"/><polygon fill="#A80036" points="330.5,177.2422,340.5,181.2422,330.5,185.2422,334.5,181.2422" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="53.5" x2="336.5" y1="181.2422" y2="181.2422"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="60.5" y="176.3857">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="71.5" y="176.3857">starts obtaining cargo manifests transported</text><polygon fill="#A80036" points="610.5,207.5938,620.5,211.5938,610.5,215.5938,614.5,211.5938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="352.5" x2="616.5" y1="211.5938" y2="211.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="359.5" y="206.7373">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="370.5" y="206.7373">getID()</text><polygon fill="#A80036" points="64.5,267.9453,54.5,271.9453,64.5,275.9453,60.5,271.9453" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="346.5" y1="271.9453" y2="271.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70.5" y="267.0889">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="81.5" y="267.0889">asks for a specific year</text><polygon fill="#A80036" points="330.5,298.2969,340.5,302.2969,330.5,306.2969,334.5,302.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="53.5" x2="336.5" y1="302.2969" y2="302.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="60.5" y="297.4404">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="71.5" y="297.4404">types a year to search</text><polygon fill="#A80036" points="610.5,328.6484,620.5,332.6484,610.5,336.6484,614.5,332.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="352.5" x2="616.5" y1="332.6484" y2="332.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="359.5" y="327.792">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="370.5" y="327.792">getCargoManifestTransported(String year)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="637.5" x2="679.5" y1="363" y2="363"/><line style="stroke:#A80036;stroke-width:1.0;" x1="679.5" x2="679.5" y1="363" y2="376"/><line style="stroke:#A80036;stroke-width:1.0;" x1="638.5" x2="679.5" y1="376" y2="376"/><polygon fill="#A80036" points="648.5,372,638.5,376,648.5,380,644.5,376" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="644.5" y="358.1436">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="655.5" y="358.1436">getAmount()</text><polygon fill="#A80036" points="610.5,432.3516,620.5,436.3516,610.5,440.3516,614.5,436.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="352.5" x2="616.5" y1="436.3516" y2="436.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="359.5" y="431.4951">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="370.5" y="431.4951">getContManifests()</text><polygon fill="#A80036" points="610.5,492.7031,620.5,496.7031,610.5,500.7031,614.5,496.7031" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="352.5" x2="616.5" y1="496.7031" y2="496.7031"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="359.5" y="491.8467">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="370.5" y="491.8467">getAverage()</text><polygon fill="#A80036" points="64.5,569.4063,54.5,573.4063,64.5,577.4063,60.5,573.4063" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="346.5" y1="573.4063" y2="573.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70.5" y="560.374">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="196" x="81.5" y="552.1982">shows how many cargo manifests</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="85.5" y="568.5498">and the average containers</text><!--MD5=[4a4eba3362435ea327bd9c547dfc76c3]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Ship Captain" as Cap
+participant ":CargoManifestsTransportedUI" as UI
+participant ":CargoManifestsTransportedController" as Controller
+
+activate Cap
+activate UI
+
+Cap -> UI : starts obtaining cargo manifests transported
+UI -> Controller: getID()
+
+activate Controller
+
+deactivate Controller
+UI - -> Cap : asks for a specific year
+deactivate UI
+Cap -> UI : types a year to search
+activate UI
+
+UI -> Controller: getCargoManifestTransported(String year)
+activate Controller
+
+Controller -> Controller: getAmount()
+activate Controller
+
+deactivate Controller
+deactivate Controller
+
+UI -> Controller: getContManifests()
+activate Controller
+deactivate Controller
+
+UI -> Controller: getAverage()
+activate Controller
+deactivate Controller
+
+UI - -> Cap : shows how many cargo manifests \n and the average containers
+deactivate Controller
+deactivate UI
+
+@enduml
+
+@startuml
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+actor "Ship Captain" as Cap
+participant ":CargoManifestsTransportedUI" as UI
+participant ":CargoManifestsTransportedController" as Controller
+
+activate Cap
+activate UI
+
+Cap -> UI : starts obtaining cargo manifests transported
+UI -> Controller: getID()
+
+activate Controller
+
+deactivate Controller
+UI - -> Cap : asks for a specific year
+deactivate UI
+Cap -> UI : types a year to search
+activate UI
+
+UI -> Controller: getCargoManifestTransported(String year)
+activate Controller
+
+Controller -> Controller: getAmount()
+activate Controller
+
+deactivate Controller
+deactivate Controller
+
+UI -> Controller: getContManifests()
+activate Controller
+deactivate Controller
+
+UI -> Controller: getAverage()
+activate Controller
+deactivate Controller
+
+UI - -> Cap : shows how many cargo manifests \n and the average containers
+deactivate Controller
+deactivate UI
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

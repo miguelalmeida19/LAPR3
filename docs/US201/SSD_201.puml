@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Port Manager" as Port
+
+participant ":System" as System
+
+activate Port
+activate System
+
+Port -> System : starts importing ports
+System --> Port : asks for the file to import
+deactivate System
+Port -> System : types the name of the file
+activate System
+System --> Port : imports the ports
+deactivate System
+
+@enduml

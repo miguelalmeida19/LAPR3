@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Fleet Manager" as FM
+
+participant ":System" as System
+
+activate FM
+activate System
+
+FM -> System : starts getting centrality of the ports
+System --> FM : asks for how many ports is the centrality wanted
+deactivate System
+FM -> System : types the number of ports
+activate System
+System --> FM : Gives the centrality
+deactivate System
+
+
+@enduml

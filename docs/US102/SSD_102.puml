@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":System" as System
+
+activate MAN
+activate System
+
+MAN -> System : starts looking for ship details
+System --> MAN : asks for the code relating to the ship
+deactivate System
+MAN -> System : types the code to show details
+activate System
+System --> MAN : shows the data
+deactivate System
+
+@enduml

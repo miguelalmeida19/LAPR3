@@ -1,0 +1,2 @@
+MMSI,BaseDateTime,LAT,LON,SOG,COG,Heading,VesselName,IMO,CallSign,VesselType,Length,Width,Draft,Cargo,TranscieverClass
+361331640,31/12/2020 00:39,36.59348,-122.86674,16.4,800,149,SEOUL EXPRESS,IMO9197305,XXBN,70,294,32,13.6,79,B

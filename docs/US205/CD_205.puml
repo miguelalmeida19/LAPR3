@@ -1,0 +1,119 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class LoadedOffloadedContainersUI {
+
+
+}
+class ContainersController{
+    +getContainersFromStateAndShip(String code, String state, String port)
+}
+
+class Company{
+   -shipStore
+        -authFacade
+        -portStore
+        -containerStore
+        -databaseConnection
+
+        +Company()
+        +getShipStore()
+        +getAuthFacade()
+          +getPortStore()
+          +getContainerStore()
+}
+class PortStore{
++PortStore()
++getRootNode()
++getKdt()
++addPort(port)
++getPort(String port)
++ getPortList()
+}
+class ShipStore{
++ShipStore()
++getBst()
++getShipList()
++addShip(ship)
++containsMMSI(MMSI)
++containsIMO(IMO)
++containsCallSign(callSign)
++getShip(code)
++shipSummary(code)
++getTopNShips(n,start,end)
++getPairsOfShips()
++MMSIOrder(map)
++TravelDistOrder(map)
+}
+class Port{
+-continent;
+-country;
+-code;
+-name;
+-latitude;
+-longitude;
+
+ +Port(continent,country,code,name,latitude,longitude)
+    +getContinent()
+    +getCountry()
+    +getCode()
+    +getPort()
+    +getLatitude()
+    +getLongitude()
+
+}
+
+class Ship{
+-MMSI;
+-name;
+-IMO;
+-energyGenerators;
+-powerOutput;
+-callsign;
+-vesselType;
+-length;
+-width;
+-capacity;
+-draft;
+ +Ship(MMSI,name,IMO,callsign,vesselType,length,width,draft,capacity)
+  +AddMensage(mensage)
+    +getMMSI()
+    +getIMO()
+    +getName()
+    +getWidth()
+    +getDetails()
+    +getDraft()
+    +getLength()
+    +getVesselType()
+    +getAllMessages()
+    +getCapacity()
+    +checkMMSI(MMSI);
+    +checkName(name);
+    +checkIMO(IMO);
+    +checkCallSign(callsign);
+    +checkVesselType(vesselType);
+    +checkLength(length);
+    +checkWidth(width);
+    +checkDraft(draft);
+    +checkCapacity(capacity);
+
+}
+class ImportFromDatabase{
++getContainersByShipPortType(String shipIMO, String portID, String type)
++getPositionOfContainer(String containerID)
++getOccupancyRateByCargoManifest(String code, String cargo_manifest)
++getOccupancyRateByDate(String code, String date)
+}
+
+LoadedOffloadedContainersUI ..> ContainersController
+ContainersController ..> Company
+ContainersController ..> PortStore
+ContainersController ..> ShipStore
+Company "1" --> "1" PortStore : uses
+Company "1" --> "1" ShipStore : uses
+PortStore "1" --> "*" Port  : knows >
+ShipStore "1" --> "*" Ship  : knows >
+ContainersController ..> ImportFromDatabase
+
+
+@enduml

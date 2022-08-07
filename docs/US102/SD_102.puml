@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":ShipDetailsUI" as UI
+participant ":ShipController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+participant ":BST" as BST
+
+activate MAN
+activate UI
+
+MAN -> UI : starts looking for ship details
+UI --> MAN : asks for the code relating to the ship
+deactivate UI
+MAN -> UI : types the code to show details
+activate UI
+UI -> Controller : getDetails(String code)
+activate Controller
+Controller -> Company : store = getShipStore()
+activate Company
+Company -> Store : bst = getBST()
+activate Store
+deactivate Store
+deactivate Company
+alt code.equals(MMSI)
+Controller -> BST : searchMMSI(Node h, Comparable key)
+activate BST
+deactivate BST
+end
+alt code.equals(IMO)
+Controller -> BST : searchIMO(Node h, Comparable key)
+activate BST
+deactivate BST
+end
+alt code.equals(CallSign)
+Controller -> BST : searchCallSign(Node h, Comparable key)
+activate BST
+deactivate BST
+end
+
+
+
+
+
+UI --> MAN : shows the data
+deactivate UI
+
+@enduml

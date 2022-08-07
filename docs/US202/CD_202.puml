@@ -1,0 +1,181 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class ShipStore{
+-shipList;
+    -bstMMSI;
+    -bstIMO;
+    -bstCallSign;
+ + ShipStore()
+  + getBstMMSI()
+  + getBstIMO()
+   + getBstCallSign()
+    + getShipList()
+     + checkDuplicatedData( ship)
+     + addShip( ship)
+     + containsMMSI(MMSI)
+      + containsIMO(IMO)
+       + containsCallSign(callSign)
+       + Ship getShip(code)
+       + shipSummary(code)
+    +  getTopNShips(n, start, end)
+    + getPairsOfShips()
+     -MMSIOrder (map)
+     - TravelDistOrder (map)
+}
+class App{
+-bootstrap()
+- singleton
+- company;
+- authFacade;
+-App()
++  getCompany()
++  getCurrentUserSession()
+ + doLogin(email, pwd)
+ + doLogout()
+}
+ class Message{
+
+ -latitude;
+     -longitude;
+     -sog;
+     -cog;
+     -heading;
+     -transceiver;
+     -localDateTime;
+      + Message(localDateTime, latitude, longitude, sog, cog, heading, transceiver)
+ + getLocalDateTime()
+ + getCog()
+  + getHeading()
+  + getLatitude()
+  + getLongitude()
+  + getSog()
+  + getTransceiver()
+   + compareTo(Object o)
+ }
+  class Ship {
+      -MMSI;
+      -name;
+      -IMO;
+      -energyGenerators;
+      -powerOutput;
+      -callsign;
+      -vesselType;
+      -length;
+      -width;
+      -capacity;
+      -draft;
+      -messages
+       + Ship(MMSI, name, IMO, callsign, vesselType, length, width, draft, capacity)
+      + addMessage(Message message)
+      + getWidth()
+      + getCapacity()
+       + getDetails()
+     + getDraft()
+     + getLength()
+      + getIMO()
+       + getMMSI()
+       + getCallsign()
+      + getName()
+      + getVesselType()
+       + setCallsign(callsign)
+       + setCapacity(capacity)
+        + setDraft(draft)
+         + setIMO(IMO)
+          + setLength(length)
+          + setMMSI(MMSI)
+          + setName(name)
+          + setVesselType(vesselType)
+          + setWidth(width)
+          + checkMMSI(MMSI)
+           + checkName(name)
+           + checkIMO(IMO)
+            + checkVesselType(vesselType)
+             + checkLength(length)
+             + checkWidth(width)
+              + checkCapacity(cap)
+               + getAllMessages()
+      }
+class DistanceBetweenCoodinates{
+           + distanceBetweenCoordinates(lat1, lon1, lat2 , lon2)
+      - toRad(value)
+      - void validateValues(lat1, lon1, lat2, lon2)
+
+
+          }
+
+      class Company {
+      -shipStore
+      -authFacade
+      -portStore
+      -containerStore
+      -databaseConnection
+
+      +Company()
+      +getShipStore()
+      +getAuthFacade()
+        +getPortStore()
+        +getContainerStore()
+
+
+
+      }
+class ClosestPortController{
+    +closestPort(callSign)
+
+}
+class PortStore {
+-portList
+-kdt
++PortStore()
++addPort()
++getRootNode()
++getKdt()
+
+}
+class KDtree{
++root
++cd
++DIM
+
++KDtree()
++isEmpty()
++insert(x[], object)
+-insert(x[],node, cd,  obj)
++search(data[])
+-search(x[] node,  cd)
++inorder()
+-inorder(node)
++preorder()
+-preorder(node)
++postorder()
+-postorder(node)
++closestPort( node,  x,  y,  closestNode,  divX)
++getRoot()
+}
+class KDNode {
+    + leftNode;
+    + rightNode;
+    +data;
+    + object;
+
+    + KDNode()
+   +KDNode(x[],  obj)
+   +getData()
+   +getLat()
+   +getLong()
+    +setObject(node)
+     +getObject()
+}
+KDtree  ..>  DistanceBetweenCoodinates
+App  ..>ClosestPortController
+ClosestPortController ..> Company
+Company "1" -->"1" ShipStore : "knows"
+Company "1" -->"1" PortStore : "knows"
+PortStore "1" --> "1" KDtree : "has"
+KDtree "1" --> "*" KDNode :"has"
+ShipStore "1" --> "*" Ship: "has"
+Ship "1" --> "*" Message:"has
+@enduml

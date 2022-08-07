@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1443px" preserveAspectRatio="none" style="width:1091px;height:1443px;background:#FFFFFF;" version="1.1" viewBox="0 0 1091 1443" width="1091px" zoomAndPan="magnify"><defs><filter height="300%" id="f17knw4ni8rhm3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[335f4d9be48430461c68bf6d6fdba145]
+class App--><rect codeLine="5" fill="#FEFECE" filter="url(#f17knw4ni8rhm3)" height="172.5234" id="App" style="stroke:#A80036;stroke-width:1.5;" width="147" x="7" y="55"/><ellipse cx="65.75" cy="71" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M67.75,67.5 Q67.9531,67 68.1875,66.75 Q68.4219,66.5 68.6875,66.5 Q69.1563,66.5 69.4531,66.7813 Q69.75,67.0625 69.75,67.7188 L69.75,69.2813 Q69.75,69.9375 69.4688,70.2188 Q69.1875,70.5 68.75,70.5 Q68.3594,70.5 68.1094,70.3281 Q67.8594,70.1563 67.75,69.7031 Q67.7031,69.3906 67.5313,69.2188 Q67.2188,68.8906 66.6563,68.7031 Q66.0938,68.5 65.5313,68.5 Q64.8281,68.5 64.2344,68.7813 Q63.6563,69.0625 63.2031,69.6875 Q62.75,70.3125 62.75,71.1719 L62.75,72.0938 Q62.75,73.125 63.5938,73.8125 Q64.4375,74.5 65.9375,74.5 Q66.8281,74.5 67.4531,74.2969 Q67.8125,74.1875 68.2188,73.8281 Q68.4844,73.625 68.625,73.5625 Q68.7656,73.5 68.9375,73.5 Q69.2656,73.5 69.5,73.7656 Q69.75,74.0156 69.75,74.375 Q69.75,74.7188 69.4063,75.125 Q68.9063,75.7188 68.1094,76.0469 Q67.0625,76.5 65.7813,76.5 Q64.2813,76.5 63.0781,75.9063 Q62.1094,75.4375 61.4219,74.4219 Q60.75,73.4063 60.75,72.2031 L60.75,71.1094 Q60.75,69.8594 61.3438,68.7656 Q61.9531,67.6719 63,67.0938 Q64.0625,66.5 65.25,66.5 Q65.9688,66.5 66.5938,66.75 Q67.2188,67 67.75,67.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="21" x="86.25" y="75.9102">App</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="153" y1="87" y2="87"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="95"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="27" y="102.4189">singleton</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="108.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="27" y="116.2549">company;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="122.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="27" y="130.0908">authFacade;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="153" y1="136.5078" y2="136.5078"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="144.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="27" y="151.9268">bootstrap()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="158.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="27" y="165.7627">App()</text><ellipse cx="18" cy="175.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="27" y="179.5986">getCompany()</text><ellipse cx="18" cy="189.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="27" y="193.4346">getCurrentUserSession()</text><ellipse cx="18" cy="202.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="27" y="207.2705">doLogin(email, pwd)</text><ellipse cx="18" cy="216.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="27" y="221.1064">doLogout()</text><!--MD5=[706e73df52f3df32f52be1ce9adb217e]
+class Graph--><rect codeLine="16" fill="#FEFECE" filter="url(#f17knw4ni8rhm3)" height="338.5547" id="Graph" style="stroke:#A80036;stroke-width:1.5;" width="161" x="534" y="349"/><ellipse cx="593.25" cy="365" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M594.25,362 L594.25,368 L596.25,368 L596.7344,368 L597.25,368.625 L597.25,369 L597.25,369.375 L596.7344,370 L596.25,370 L590.25,370 L589.7656,370 L589.25,369.375 L589.25,369 L589.25,368.625 L589.7656,368 L590.25,368 L592.25,368 L592.25,362 L590.25,362 L589.7656,362 L589.25,361.375 L589.25,361 L589.25,360.625 L589.7656,360 L590.25,360 L596.25,360 L596.7344,360 L597.25,360.625 L597.25,361 L597.25,361.375 L596.7344,362 L596.25,362 L594.25,362 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="34" x="613.75" y="369.9102">Graph</text><line style="stroke:#A80036;stroke-width:1.5;" x1="535" x2="694" y1="381" y2="381"/><line style="stroke:#A80036;stroke-width:1.5;" x1="535" x2="694" y1="389" y2="389"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="540" y="404.4189">isDirected()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="540" y="418.2549">numVertices()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="540" y="432.0908">vertices()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="540" y="445.9268">validVertex(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="540" y="459.7627">key(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="540" y="473.5986">vertex(key)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="540" y="487.4346">vertex(p)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="540" y="501.2705">adjVertices(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="540" y="515.1064">numEdges()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="540" y="528.9424">edges()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="540" y="542.7783">edge(vOrig, vDest)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="540" y="556.6143">edge(vOrigKey, vDestKey)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="540" y="570.4502">outDegree(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="540" y="584.2861">inDegree(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="540" y="598.1221">outgoingEdges(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="540" y="611.958">incomingEdges(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="540" y="625.7939">boolean addVertex(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="540" y="639.6299">addEdge(vOrig, vDest, weight)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="540" y="653.4658">removeVertex(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="540" y="667.3018">removeEdge(vOrig, vDest)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="540" y="681.1377">clone()</text><!--MD5=[bc4d72eb6311fa75f72dcf1fe1932b09]
+class MapVertex--><rect codeLine="40" fill="#FEFECE" filter="url(#f17knw4ni8rhm3)" height="255.5391" id="MapVertex" style="stroke:#A80036;stroke-width:1.5;" width="144" x="405.5" y="1174"/><ellipse cx="445.7" cy="1190" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M447.7,1186.5 Q447.9031,1186 448.1375,1185.75 Q448.3719,1185.5 448.6375,1185.5 Q449.1063,1185.5 449.4031,1185.7813 Q449.7,1186.0625 449.7,1186.7188 L449.7,1188.2813 Q449.7,1188.9375 449.4188,1189.2188 Q449.1375,1189.5 448.7,1189.5 Q448.3094,1189.5 448.0594,1189.3281 Q447.8094,1189.1563 447.7,1188.7031 Q447.6531,1188.3906 447.4813,1188.2188 Q447.1688,1187.8906 446.6063,1187.7031 Q446.0438,1187.5 445.4813,1187.5 Q444.7781,1187.5 444.1844,1187.7813 Q443.6063,1188.0625 443.1531,1188.6875 Q442.7,1189.3125 442.7,1190.1719 L442.7,1191.0938 Q442.7,1192.125 443.5438,1192.8125 Q444.3875,1193.5 445.8875,1193.5 Q446.7781,1193.5 447.4031,1193.2969 Q447.7625,1193.1875 448.1688,1192.8281 Q448.4344,1192.625 448.575,1192.5625 Q448.7156,1192.5 448.8875,1192.5 Q449.2156,1192.5 449.45,1192.7656 Q449.7,1193.0156 449.7,1193.375 Q449.7,1193.7188 449.3563,1194.125 Q448.8563,1194.7188 448.0594,1195.0469 Q447.0125,1195.5 445.7313,1195.5 Q444.2313,1195.5 443.0281,1194.9063 Q442.0594,1194.4375 441.3719,1193.4219 Q440.7,1192.4063 440.7,1191.2031 L440.7,1190.1094 Q440.7,1188.8594 441.2938,1187.7656 Q441.9031,1186.6719 442.95,1186.0938 Q444.0125,1185.5 445.2,1185.5 Q445.9188,1185.5 446.5438,1185.75 Q447.1688,1186 447.7,1186.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="465.3" y="1194.9102">MapVertex</text><line style="stroke:#A80036;stroke-width:1.5;" x1="406.5" x2="548.5" y1="1206" y2="1206"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="413.5" y="1214"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="425.5" y="1221.4189">element;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="413.5" y="1227.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="425.5" y="1235.2549">outVerts;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="406.5" x2="548.5" y1="1241.6719" y2="1241.6719"/><ellipse cx="416.5" cy="1252.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="425.5" y="1257.0908">MapVertex(vert)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="428.5" y="1270.9268"/><ellipse cx="416.5" cy="1280.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="425.5" y="1284.7627">getElement()</text><ellipse cx="416.5" cy="1294.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="425.5" y="1298.5986">addAdjVert(vAdj,  edge)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="428.5" y="1312.4346"/><ellipse cx="416.5" cy="1321.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="425.5" y="1326.2705">remAdjVert(vAdj)</text><ellipse cx="416.5" cy="1335.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="425.5" y="1340.1064">getEdge(vAdj)</text><ellipse cx="416.5" cy="1349.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="425.5" y="1353.9424">numAdjVerts()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="428.5" y="1367.7783"/><ellipse cx="416.5" cy="1377.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="425.5" y="1381.6143">getAllAdjVerts()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="428.5" y="1395.4502"/><ellipse cx="416.5" cy="1404.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="425.5" y="1409.2861">getAllOutEdges()</text><ellipse cx="416.5" cy="1418.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="425.5" y="1423.1221">toString()</text><!--MD5=[b122bab300f80f5d31a622e2bae54847]
+class MapGraph--><rect codeLine="60" fill="#FEFECE" filter="url(#f17knw4ni8rhm3)" height="310.8828" id="MapGraph" style="stroke:#A80036;stroke-width:1.5;" width="206" x="374.5" y="769.5"/><ellipse cx="444.75" cy="785.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M446.75,782 Q446.9531,781.5 447.1875,781.25 Q447.4219,781 447.6875,781 Q448.1563,781 448.4531,781.2813 Q448.75,781.5625 448.75,782.2188 L448.75,783.7813 Q448.75,784.4375 448.4688,784.7188 Q448.1875,785 447.75,785 Q447.3594,785 447.1094,784.8281 Q446.8594,784.6563 446.75,784.2031 Q446.7031,783.8906 446.5313,783.7188 Q446.2188,783.3906 445.6563,783.2031 Q445.0938,783 444.5313,783 Q443.8281,783 443.2344,783.2813 Q442.6563,783.5625 442.2031,784.1875 Q441.75,784.8125 441.75,785.6719 L441.75,786.5938 Q441.75,787.625 442.5938,788.3125 Q443.4375,789 444.9375,789 Q445.8281,789 446.4531,788.7969 Q446.8125,788.6875 447.2188,788.3281 Q447.4844,788.125 447.625,788.0625 Q447.7656,788 447.9375,788 Q448.2656,788 448.5,788.2656 Q448.75,788.5156 448.75,788.875 Q448.75,789.2188 448.4063,789.625 Q447.9063,790.2188 447.1094,790.5469 Q446.0625,791 444.7813,791 Q443.2813,791 442.0781,790.4063 Q441.1094,789.9375 440.4219,788.9219 Q439.75,787.9063 439.75,786.7031 L439.75,785.6094 Q439.75,784.3594 440.3438,783.2656 Q440.9531,782.1719 442,781.5938 Q443.0625,781 444.25,781 Q444.9688,781 445.5938,781.25 Q446.2188,781.5 446.75,782 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="465.25" y="790.4102">MapGraph</text><line style="stroke:#A80036;stroke-width:1.5;" x1="375.5" x2="579.5" y1="801.5" y2="801.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="382.5" y="809.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="394.5" y="816.9189">error</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="382.5" y="823.3359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="394.5" y="830.7549">mapVertices</text><line style="stroke:#A80036;stroke-width:1.5;" x1="375.5" x2="579.5" y1="837.1719" y2="837.1719"/><ellipse cx="385.5" cy="848.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="394.5" y="852.5908">MapGraph(boolean directed)</text><ellipse cx="385.5" cy="862.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="394.5" y="866.4268">MapGraph(Graph&lt;V,E&gt; g)</text><ellipse cx="385.5" cy="875.8438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="394.5" y="880.2627">validVertex(V vert)</text><ellipse cx="385.5" cy="889.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="394.5" y="894.0986">adjVertices(V vert)</text><ellipse cx="385.5" cy="903.5156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="394.5" y="907.9346">edges()</text><ellipse cx="385.5" cy="917.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="394.5" y="921.7705">edge(V vOrig, V vDest)</text><ellipse cx="385.5" cy="931.1875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="394.5" y="935.6064">edge(int vOrigKey, int vDestKey)</text><ellipse cx="385.5" cy="945.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="394.5" y="949.4424">outDegree(V vert)</text><ellipse cx="385.5" cy="958.8594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="394.5" y="963.2783">inDegree(V vert)</text><ellipse cx="385.5" cy="972.6953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="394.5" y="977.1143">outgoingEdges(V vert)</text><ellipse cx="385.5" cy="986.5313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="394.5" y="990.9502">incomingEdges(V vert)</text><ellipse cx="385.5" cy="1000.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="394.5" y="1004.7861">addVertex(V vert)</text><ellipse cx="385.5" cy="1014.2031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="394.5" y="1018.6221">addEdge(V vOrig, V vDest, E weight)</text><ellipse cx="385.5" cy="1028.0391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="394.5" y="1032.458">removeVertex(V vert)</text><ellipse cx="385.5" cy="1041.875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="394.5" y="1046.2939">removeEdge(V vOrig, V vDest)</text><ellipse cx="385.5" cy="1055.7109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="394.5" y="1060.1299">clone()</text><ellipse cx="385.5" cy="1069.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="394.5" y="1073.9658">toString()</text><!--MD5=[b7b072196a724e538165319251b4d539]
+class MatrixGraph--><rect codeLine="82" fill="#FEFECE" filter="url(#f17knw4ni8rhm3)" height="352.3906" id="MatrixGraph" style="stroke:#A80036;stroke-width:1.5;" width="272" x="615.5" y="749"/><ellipse cx="714.75" cy="765" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M716.75,761.5 Q716.9531,761 717.1875,760.75 Q717.4219,760.5 717.6875,760.5 Q718.1563,760.5 718.4531,760.7813 Q718.75,761.0625 718.75,761.7188 L718.75,763.2813 Q718.75,763.9375 718.4688,764.2188 Q718.1875,764.5 717.75,764.5 Q717.3594,764.5 717.1094,764.3281 Q716.8594,764.1563 716.75,763.7031 Q716.7031,763.3906 716.5313,763.2188 Q716.2188,762.8906 715.6563,762.7031 Q715.0938,762.5 714.5313,762.5 Q713.8281,762.5 713.2344,762.7813 Q712.6563,763.0625 712.2031,763.6875 Q711.75,764.3125 711.75,765.1719 L711.75,766.0938 Q711.75,767.125 712.5938,767.8125 Q713.4375,768.5 714.9375,768.5 Q715.8281,768.5 716.4531,768.2969 Q716.8125,768.1875 717.2188,767.8281 Q717.4844,767.625 717.625,767.5625 Q717.7656,767.5 717.9375,767.5 Q718.2656,767.5 718.5,767.7656 Q718.75,768.0156 718.75,768.375 Q718.75,768.7188 718.4063,769.125 Q717.9063,769.7188 717.1094,770.0469 Q716.0625,770.5 714.7813,770.5 Q713.2813,770.5 712.0781,769.9063 Q711.1094,769.4375 710.4219,768.4219 Q709.75,767.4063 709.75,766.2031 L709.75,765.1094 Q709.75,763.8594 710.3438,762.7656 Q710.9531,761.6719 712,761.0938 Q713.0625,760.5 714.25,760.5 Q714.9688,760.5 715.5938,760.75 Q716.2188,761 716.75,761.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="735.25" y="769.9102">MatrixGraph</text><line style="stroke:#A80036;stroke-width:1.5;" x1="616.5" x2="886.5" y1="781" y2="781"/><ellipse cx="626.5" cy="792" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="635.5" y="796.4189">INITIAL_CAPACITY</text><ellipse cx="626.5" cy="805.8359" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="635.5" y="810.2549">RESIZE_FACTOR</text><line style="stroke:#A80036;stroke-width:1.5;" x1="616.5" x2="886.5" y1="816.6719" y2="816.6719"/><ellipse cx="626.5" cy="827.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="232" x="635.5" y="832.0908">MatrixGraph(boolean directed, int initialCapacity)</text><ellipse cx="626.5" cy="841.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="635.5" y="845.9268">MatrixGraph(boolean directed)</text><ellipse cx="626.5" cy="855.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="635.5" y="859.7627">MatrixGraph(Graph&lt;V,E&gt; g)</text><ellipse cx="626.5" cy="869.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="246" x="635.5" y="873.5986">MatrixGraph(boolean directed, List &lt;V&gt; vs, E [][] m)</text><ellipse cx="626.5" cy="883.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="635.5" y="887.4346">adjVertices(V vert)</text><ellipse cx="626.5" cy="896.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="635.5" y="901.2705">edges()</text><ellipse cx="626.5" cy="910.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="635.5" y="915.1064">edge(V vOrig, V vDest)</text><ellipse cx="626.5" cy="924.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="635.5" y="928.9424">edge(int vOrigKey, int vDestKey)</text><ellipse cx="626.5" cy="938.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="635.5" y="942.7783">outDegree(V vert)</text><ellipse cx="626.5" cy="952.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="635.5" y="956.6143">inDegree(V vert)</text><ellipse cx="626.5" cy="966.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="635.5" y="970.4502">outgoingEdges(V vert)</text><ellipse cx="626.5" cy="979.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="635.5" y="984.2861">incomingEdges(V vert)</text><ellipse cx="626.5" cy="993.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="635.5" y="998.1221">addVertex(V vert)</text><ellipse cx="626.5" cy="1007.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="635.5" y="1011.958">resizeMatrix()</text><ellipse cx="626.5" cy="1021.375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="635.5" y="1025.7939">addEdge(V vOrig, V vDest, E weight)</text><ellipse cx="626.5" cy="1035.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="635.5" y="1039.6299">removeVertex(V vert)</text><ellipse cx="626.5" cy="1049.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="635.5" y="1053.4658">removeEdge(int vOrigKey, int vDestKey)</text><ellipse cx="626.5" cy="1062.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="635.5" y="1067.3018">removeEdge(V vOrig, V vDest)</text><ellipse cx="626.5" cy="1076.7188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="635.5" y="1081.1377">clone()</text><ellipse cx="626.5" cy="1090.5547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="635.5" y="1094.9736">toString()</text><!--MD5=[4533588fb66c6fa31a6e04bf29ae6161]
+class Algorithms--><rect codeLine="107" fill="#FEFECE" filter="url(#f17knw4ni8rhm3)" height="269.375" id="Algorithms" style="stroke:#A80036;stroke-width:1.5;" width="656" x="421.5" y="7"/><ellipse cx="715.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M717.75,19.5 Q717.9531,19 718.1875,18.75 Q718.4219,18.5 718.6875,18.5 Q719.1563,18.5 719.4531,18.7813 Q719.75,19.0625 719.75,19.7188 L719.75,21.2813 Q719.75,21.9375 719.4688,22.2188 Q719.1875,22.5 718.75,22.5 Q718.3594,22.5 718.1094,22.3281 Q717.8594,22.1563 717.75,21.7031 Q717.7031,21.3906 717.5313,21.2188 Q717.2188,20.8906 716.6563,20.7031 Q716.0938,20.5 715.5313,20.5 Q714.8281,20.5 714.2344,20.7813 Q713.6563,21.0625 713.2031,21.6875 Q712.75,22.3125 712.75,23.1719 L712.75,24.0938 Q712.75,25.125 713.5938,25.8125 Q714.4375,26.5 715.9375,26.5 Q716.8281,26.5 717.4531,26.2969 Q717.8125,26.1875 718.2188,25.8281 Q718.4844,25.625 718.625,25.5625 Q718.7656,25.5 718.9375,25.5 Q719.2656,25.5 719.5,25.7656 Q719.75,26.0156 719.75,26.375 Q719.75,26.7188 719.4063,27.125 Q718.9063,27.7188 718.1094,28.0469 Q717.0625,28.5 715.7813,28.5 Q714.2813,28.5 713.0781,27.9063 Q712.1094,27.4375 711.4219,26.4219 Q710.75,25.4063 710.75,24.2031 L710.75,23.1094 Q710.75,21.8594 711.3438,20.7656 Q711.9531,19.6719 713,19.0938 Q714.0625,18.5 715.25,18.5 Q715.9688,18.5 716.5938,18.75 Q717.2188,19 717.75,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="59" x="736.25" y="27.9102">Algorithms</text><line style="stroke:#A80036;stroke-width:1.5;" x1="422.5" x2="1076.5" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="422.5" x2="1076.5" y1="47" y2="47"/><ellipse cx="432.5" cy="58" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="209" x="441.5" y="62.4189">BreadthFirstSearch(Graph&lt;V, E&gt; g, V vert)</text><ellipse cx="432.5" cy="71.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="389" x="441.5" y="76.2549">DepthFirstSearch(Graph&lt;V, E&gt; g, V vOrig, boolean[] visited, LinkedList&lt;V&gt; qdfs)</text><ellipse cx="432.5" cy="85.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="199" x="441.5" y="90.0908">DepthFirstSearch(Graph&lt;V, E&gt; g, V vert)</text><ellipse cx="432.5" cy="99.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="544" x="441.5" y="103.9268">allPaths(Graph&lt;V, E&gt; g, V vOrig, V vDest, boolean[] visited,LinkedList&lt;V&gt; path, ArrayList&lt;LinkedList&lt;V&gt;&gt; paths)</text><ellipse cx="432.5" cy="113.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="204" x="441.5" y="117.7627">allPaths(Graph&lt;V, E&gt; g, V vOrig, V vDest)</text><ellipse cx="432.5" cy="127.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="433" x="441.5" y="131.5986">shortestPathLength(Graph&lt;V, E&gt; g, V vOrig,boolean[] visited, int[] pathKeys, double[] dist)</text><ellipse cx="432.5" cy="141.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="421" x="441.5" y="145.4346">getPath(Graph&lt;V, E&gt; g, V vOrig, V vDest, V[] verts, int[] pathKeys, LinkedList&lt;V&gt; path)</text><ellipse cx="432.5" cy="154.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="351" x="441.5" y="159.2705">shortestPath(Graph&lt;V, E&gt; g, V vOrig, V vDest, LinkedList&lt;V&gt; shortPath)</text><ellipse cx="432.5" cy="168.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="472" x="441.5" y="173.1064">shortestPaths(Graph&lt;V, E&gt; g, V vOrig, ArrayList&lt;LinkedList&lt;V&gt;&gt; paths, ArrayList&lt;Double&gt; dists)</text><ellipse cx="432.5" cy="182.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="441.5" y="186.9424">revPath(List&lt;V&gt; path)</text><ellipse cx="432.5" cy="196.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="538" x="441.5" y="200.7783">shortestPathUsingNplaces(Graph&lt;V, E&gt; g,  V vOrig, V vDest, LinkedList&lt;V&gt; Places, boolean sea, boolean land)</text><ellipse cx="432.5" cy="210.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="630" x="441.5" y="214.6143">function(Graph&lt;V, E&gt; g,  V current, V vDest, LinkedList&lt;V&gt; Places, LinkedList&lt;V&gt; Path, String [] color,  boolean sea, boolean land)</text><ellipse cx="432.5" cy="224.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="347" x="441.5" y="228.4502">checkPlaces(Graph&lt;V, E&gt; g, LinkedList&lt;V&gt; Places, LinkedList&lt;V&gt; Path)</text><ellipse cx="432.5" cy="237.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="363" x="441.5" y="242.2861">validateRestrictions(V dest, V current, V vDest, boolean sea, boolean land)</text><ellipse cx="432.5" cy="251.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="441.5" y="256.1221">pathfinder(Graph&lt;V, E&gt; g, V current)</text><ellipse cx="432.5" cy="265.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="486" x="441.5" y="269.958">dfsVisit(Graph&lt;V, E&gt; g, V current, String[] color, LinkedList&lt;V&gt; path,LinkedList&lt;V&gt; temppath, V orig)</text><!--MD5=[82b452ac5d89fed3c3bddab4a88118e6]
+class MostEfficientCircuitController--><rect codeLine="125" fill="#FEFECE" filter="url(#f17knw4ni8rhm3)" height="61.8359" id="MostEfficientCircuitController" style="stroke:#A80036;stroke-width:1.5;" width="197" x="189" y="110.5"/><ellipse cx="207.15" cy="126.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M209.15,123 Q209.3531,122.5 209.5875,122.25 Q209.8219,122 210.0875,122 Q210.5563,122 210.8531,122.2813 Q211.15,122.5625 211.15,123.2188 L211.15,124.7813 Q211.15,125.4375 210.8688,125.7188 Q210.5875,126 210.15,126 Q209.7594,126 209.5094,125.8281 Q209.2594,125.6563 209.15,125.2031 Q209.1031,124.8906 208.9313,124.7188 Q208.6188,124.3906 208.0563,124.2031 Q207.4938,124 206.9313,124 Q206.2281,124 205.6344,124.2813 Q205.0563,124.5625 204.6031,125.1875 Q204.15,125.8125 204.15,126.6719 L204.15,127.5938 Q204.15,128.625 204.9938,129.3125 Q205.8375,130 207.3375,130 Q208.2281,130 208.8531,129.7969 Q209.2125,129.6875 209.6188,129.3281 Q209.8844,129.125 210.025,129.0625 Q210.1656,129 210.3375,129 Q210.6656,129 210.9,129.2656 Q211.15,129.5156 211.15,129.875 Q211.15,130.2188 210.8063,130.625 Q210.3063,131.2188 209.5094,131.5469 Q208.4625,132 207.1813,132 Q205.6813,132 204.4781,131.4063 Q203.5094,130.9375 202.8219,129.9219 Q202.15,128.9063 202.15,127.7031 L202.15,126.6094 Q202.15,125.3594 202.7438,124.2656 Q203.3531,123.1719 204.4,122.5938 Q205.4625,122 206.65,122 Q207.3688,122 207.9938,122.25 Q208.6188,122.5 209.15,123 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="158" x="221.85" y="131.4102">MostEfficientCircuitController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="190" x2="385" y1="142.5" y2="142.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="190" x2="385" y1="150.5" y2="150.5"/><ellipse cx="200" cy="161.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="171" x="209" y="165.9189">calculatetCircuit( startingVertex, a )</text><!--MD5=[54656c5f46d33063c58a993c9fe8d823]
+class EdgeWeightComparator--><rect codeLine="129" fill="#FEFECE" filter="url(#f17knw4ni8rhm3)" height="61.8359" id="EdgeWeightComparator" style="stroke:#A80036;stroke-width:1.5;" width="165" x="730" y="487.5"/><ellipse cx="745" cy="503.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M747,500 Q747.2031,499.5 747.4375,499.25 Q747.6719,499 747.9375,499 Q748.4063,499 748.7031,499.2813 Q749,499.5625 749,500.2188 L749,501.7813 Q749,502.4375 748.7188,502.7188 Q748.4375,503 748,503 Q747.6094,503 747.3594,502.8281 Q747.1094,502.6563 747,502.2031 Q746.9531,501.8906 746.7813,501.7188 Q746.4688,501.3906 745.9063,501.2031 Q745.3438,501 744.7813,501 Q744.0781,501 743.4844,501.2813 Q742.9063,501.5625 742.4531,502.1875 Q742,502.8125 742,503.6719 L742,504.5938 Q742,505.625 742.8438,506.3125 Q743.6875,507 745.1875,507 Q746.0781,507 746.7031,506.7969 Q747.0625,506.6875 747.4688,506.3281 Q747.7344,506.125 747.875,506.0625 Q748.0156,506 748.1875,506 Q748.5156,506 748.75,506.2656 Q749,506.5156 749,506.875 Q749,507.2188 748.6563,507.625 Q748.1563,508.2188 747.3594,508.5469 Q746.3125,509 745.0313,509 Q743.5313,509 742.3281,508.4063 Q741.3594,507.9375 740.6719,506.9219 Q740,505.9063 740,504.7031 L740,503.6094 Q740,502.3594 740.5938,501.2656 Q741.2031,500.1719 742.25,499.5938 Q743.3125,499 744.5,499 Q745.2188,499 745.8438,499.25 Q746.4688,499.5 747,500 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="133" x="759" y="508.4102">EdgeWeightComparator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="731" x2="894" y1="519.5" y2="519.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="731" x2="894" y1="527.5" y2="527.5"/><ellipse cx="741" cy="538.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="750" y="542.9189">compare(o1, o2)</text><!--MD5=[76a4cd061b50bc1e875501c78b136814]
+reverse link Graph to MapGraph--><path codeLine="132" d="M550.95,707.12 C543.91,727.91 536.8,748.91 529.92,769.23 " fill="none" id="Graph-backto-MapGraph" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="544.35,704.81,557.39,688.12,557.61,709.3,544.35,704.81" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9a57099d9ed295087640a62db4367a4d]
+reverse link Graph to MatrixGraph--><path codeLine="133" d="M678.17,707.5 C682.84,721.27 687.53,735.12 692.17,748.81 " fill="none" id="Graph-backto-MatrixGraph" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="671.39,709.3,671.61,688.12,684.65,704.81,671.39,709.3" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fb1e03969800bd2f1a8772c5edbd8bc8]
+link MostEfficientCircuitController to Algorithms--><path codeLine="134" d="M386.31,141.5 C396.27,141.5 406.24,141.5 416.21,141.5 " fill="none" id="MostEfficientCircuitController-to-Algorithms" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="421.42,141.5,412.42,137.5,416.42,141.5,412.42,145.5,421.42,141.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7942fee675e247ac9961205f2eef9a0e]
+link Algorithms to EdgeWeightComparator--><path codeLine="135" d="M771.93,276.03 C784.31,349.73 798.74,435.59 806.62,482.49 " fill="none" id="Algorithms-to-EdgeWeightComparator" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="807.45,487.46,809.9025,477.9214,806.6211,482.5292,802.0133,479.2477,807.45,487.46" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="785.3285,317.4309,786.728,308.0239,780.9314,308.9978,785.3285,317.4309" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="742.3595" y="297.7645">Uses</text><!--MD5=[327a73a24aba32618596f7ab30ba89bf]
+link Algorithms to Graph--><path codeLine="136" d="M701.43,276.03 C693.51,298.03 685.2,321.12 676.98,343.93 " fill="none" id="Algorithms-to-Graph" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="675.23,348.79,682.0336,341.6688,676.918,344.0836,674.5033,338.968,675.23,348.79" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="693.806,317.2043,699.6356,309.6898,694.1053,307.6984,693.806,317.2043" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="667.7838" y="297.7645">Uses</text><!--MD5=[b81c77be576bce0e54e5b9039b25ba38]
+link MapGraph to MapVertex--><path codeLine="137" d="M477.5,1080.69 C477.5,1109.85 477.5,1140.09 477.5,1168.49 " fill="none" id="MapGraph-to-MapVertex" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="477.5,1173.77,481.5,1164.77,477.5,1168.77,473.5,1164.77,477.5,1173.77" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="482.5,1142.5,485.4389,1133.4549,479.5611,1133.4549,482.5,1142.5" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="446.7734" y="1102.1252">Uses</text><!--MD5=[edb9f1b78d1116d3c175d8cbbdca4ef7]
+link App to MostEfficientCircuitController--><path codeLine="138" d="M154.08,141.5 C163.92,141.5 173.76,141.5 183.59,141.5 " fill="none" id="App-to-MostEfficientCircuitController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="188.74,141.5,179.74,137.5,183.74,141.5,179.74,145.5,188.74,141.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[99e220ebb28712b60f20b3aea23fa56e]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class App{
+-bootstrap()
+- singleton
+- company;
+- authFacade;
+-App()
++  getCompany()
++  getCurrentUserSession()
+ + doLogin(email, pwd)
+ + doLogout()
+}
+Interface Graph{
+    isDirected()
+    numVertices()
+    vertices()
+    validVertex(vert)
+    key(vert)
+    vertex(key)
+    vertex(p)
+    adjVertices(vert)
+    numEdges()
+    edges()
+    edge(vOrig, vDest)
+    edge(vOrigKey, vDestKey)
+    outDegree(vert)
+    inDegree(vert)
+    outgoingEdges(vert)
+    incomingEdges(vert)
+    boolean addVertex(vert)
+    addEdge(vOrig, vDest, weight)
+    removeVertex(vert)
+    removeEdge(vOrig, vDest)
+    clone()
+ }
+
+ class MapVertex{
+    -element;
+    -outVerts;
+
+   +MapVertex(vert)
+
+    +getElement()
+    +addAdjVert(vAdj,  edge)
+
+    +remAdjVert(vAdj)
+    +getEdge(vAdj)
+    +numAdjVerts()
+
+    +getAllAdjVerts()
+
+    +getAllOutEdges()
+    +toString()
+
+    }
+
+   class MapGraph{
+   -error
+   -mapVertices
+   +MapGraph(boolean directed)
+   +MapGraph(Graph<V,E> g)
+   +validVertex(V vert)
+   +adjVertices(V vert)
+   +edges()
+   +edge(V vOrig, V vDest)
+   +edge(int vOrigKey, int vDestKey)
+   +outDegree(V vert)
+   +inDegree(V vert)
+   +outgoingEdges(V vert)
+   +incomingEdges(V vert)
+   +addVertex(V vert)
+   + addEdge(V vOrig, V vDest, E weight)
+   + removeVertex(V vert)
+   + removeEdge(V vOrig, V vDest)
+   + clone()
+   + toString()
+
+   }
+class MatrixGraph{
++INITIAL_CAPACITY
++RESIZE_FACTOR
++MatrixGraph(boolean directed, int initialCapacity)
++MatrixGraph(boolean directed)
++MatrixGraph(Graph<V,E> g)
++MatrixGraph(boolean directed, List <V> vs, E [][] m)
++adjVertices(V vert)
++edges()
++edge(V vOrig, V vDest)
++edge(int vOrigKey, int vDestKey)
++outDegree(V vert)
++inDegree(V vert)
++outgoingEdges(V vert)
++incomingEdges(V vert)
++addVertex(V vert)
++resizeMatrix()
++addEdge(V vOrig, V vDest, E weight)
++removeVertex(V vert)
++removeEdge(int vOrigKey, int vDestKey)
++removeEdge(V vOrig, V vDest)
++clone()
++toString()
+
+}
+class Algorithms{
++BreadthFirstSearch(Graph<V, E> g, V vert)
++DepthFirstSearch(Graph<V, E> g, V vOrig, boolean[] visited, LinkedList<V> qdfs)
++DepthFirstSearch(Graph<V, E> g, V vert)
++allPaths(Graph<V, E> g, V vOrig, V vDest, boolean[] visited,LinkedList<V> path, ArrayList<LinkedList<V>> paths)
++allPaths(Graph<V, E> g, V vOrig, V vDest)
++shortestPathLength(Graph<V, E> g, V vOrig,boolean[] visited, int[] pathKeys, double[] dist)
++getPath(Graph<V, E> g, V vOrig, V vDest, V[] verts, int[] pathKeys, LinkedList<V> path)
++shortestPath(Graph<V, E> g, V vOrig, V vDest, LinkedList<V> shortPath)
++shortestPaths(Graph<V, E> g, V vOrig, ArrayList<LinkedList<V>> paths, ArrayList<Double> dists)
++revPath(List<V> path)
++shortestPathUsingNplaces(Graph<V, E> g,  V vOrig, V vDest, LinkedList<V> Places, boolean sea, boolean land)
++function(Graph<V, E> g,  V current, V vDest, LinkedList<V> Places, LinkedList<V> Path, String [] color,  boolean sea, boolean land)
++checkPlaces(Graph<V, E> g, LinkedList<V> Places, LinkedList<V> Path)
++validateRestrictions(V dest, V current, V vDest, boolean sea, boolean land)
++pathfinder(Graph<V, E> g, V current)
++dfsVisit(Graph<V, E> g, V current, String[] color, LinkedList<V> path,LinkedList<V> temppath, V orig)
+}
+class MostEfficientCircuitController{
+    +calculatetCircuit( startingVertex, a )
+}
+
+class EdgeWeightComparator{
+    +compare(o1, o2)
+}
+Graph <|- - MapGraph
+Graph <|- - MatrixGraph
+MostEfficientCircuitController .> Algorithms
+Algorithms - -> EdgeWeightComparator: "Uses" >
+Algorithms - -> Graph: "Uses" >
+MapGraph - -> MapVertex: "Uses" >
+App  .>MostEfficientCircuitController
+@enduml
+
+@startuml
+
+
+
+class App{
+-bootstrap()
+- singleton
+- company;
+- authFacade;
+-App()
++  getCompany()
++  getCurrentUserSession()
+ + doLogin(email, pwd)
+ + doLogout()
+}
+Interface Graph{
+    isDirected()
+    numVertices()
+    vertices()
+    validVertex(vert)
+    key(vert)
+    vertex(key)
+    vertex(p)
+    adjVertices(vert)
+    numEdges()
+    edges()
+    edge(vOrig, vDest)
+    edge(vOrigKey, vDestKey)
+    outDegree(vert)
+    inDegree(vert)
+    outgoingEdges(vert)
+    incomingEdges(vert)
+    boolean addVertex(vert)
+    addEdge(vOrig, vDest, weight)
+    removeVertex(vert)
+    removeEdge(vOrig, vDest)
+    clone()
+ }
+
+ class MapVertex{
+    -element;
+    -outVerts;
+
+   +MapVertex(vert)
+
+    +getElement()
+    +addAdjVert(vAdj,  edge)
+
+    +remAdjVert(vAdj)
+    +getEdge(vAdj)
+    +numAdjVerts()
+
+    +getAllAdjVerts()
+
+    +getAllOutEdges()
+    +toString()
+
+    }
+
+   class MapGraph{
+   -error
+   -mapVertices
+   +MapGraph(boolean directed)
+   +MapGraph(Graph<V,E> g)
+   +validVertex(V vert)
+   +adjVertices(V vert)
+   +edges()
+   +edge(V vOrig, V vDest)
+   +edge(int vOrigKey, int vDestKey)
+   +outDegree(V vert)
+   +inDegree(V vert)
+   +outgoingEdges(V vert)
+   +incomingEdges(V vert)
+   +addVertex(V vert)
+   + addEdge(V vOrig, V vDest, E weight)
+   + removeVertex(V vert)
+   + removeEdge(V vOrig, V vDest)
+   + clone()
+   + toString()
+
+   }
+class MatrixGraph{
++INITIAL_CAPACITY
++RESIZE_FACTOR
++MatrixGraph(boolean directed, int initialCapacity)
++MatrixGraph(boolean directed)
++MatrixGraph(Graph<V,E> g)
++MatrixGraph(boolean directed, List <V> vs, E [][] m)
++adjVertices(V vert)
++edges()
++edge(V vOrig, V vDest)
++edge(int vOrigKey, int vDestKey)
++outDegree(V vert)
++inDegree(V vert)
++outgoingEdges(V vert)
++incomingEdges(V vert)
++addVertex(V vert)
++resizeMatrix()
++addEdge(V vOrig, V vDest, E weight)
++removeVertex(V vert)
++removeEdge(int vOrigKey, int vDestKey)
++removeEdge(V vOrig, V vDest)
++clone()
++toString()
+
+}
+class Algorithms{
++BreadthFirstSearch(Graph<V, E> g, V vert)
++DepthFirstSearch(Graph<V, E> g, V vOrig, boolean[] visited, LinkedList<V> qdfs)
++DepthFirstSearch(Graph<V, E> g, V vert)
++allPaths(Graph<V, E> g, V vOrig, V vDest, boolean[] visited,LinkedList<V> path, ArrayList<LinkedList<V>> paths)
++allPaths(Graph<V, E> g, V vOrig, V vDest)
++shortestPathLength(Graph<V, E> g, V vOrig,boolean[] visited, int[] pathKeys, double[] dist)
++getPath(Graph<V, E> g, V vOrig, V vDest, V[] verts, int[] pathKeys, LinkedList<V> path)
++shortestPath(Graph<V, E> g, V vOrig, V vDest, LinkedList<V> shortPath)
++shortestPaths(Graph<V, E> g, V vOrig, ArrayList<LinkedList<V>> paths, ArrayList<Double> dists)
++revPath(List<V> path)
++shortestPathUsingNplaces(Graph<V, E> g,  V vOrig, V vDest, LinkedList<V> Places, boolean sea, boolean land)
++function(Graph<V, E> g,  V current, V vDest, LinkedList<V> Places, LinkedList<V> Path, String [] color,  boolean sea, boolean land)
++checkPlaces(Graph<V, E> g, LinkedList<V> Places, LinkedList<V> Path)
++validateRestrictions(V dest, V current, V vDest, boolean sea, boolean land)
++pathfinder(Graph<V, E> g, V current)
++dfsVisit(Graph<V, E> g, V current, String[] color, LinkedList<V> path,LinkedList<V> temppath, V orig)
+}
+class MostEfficientCircuitController{
+    +calculatetCircuit( startingVertex, a )
+}
+
+class EdgeWeightComparator{
+    +compare(o1, o2)
+}
+Graph <|- - MapGraph
+Graph <|- - MatrixGraph
+MostEfficientCircuitController .> Algorithms
+Algorithms - -> EdgeWeightComparator: "Uses" >
+Algorithms - -> Graph: "Uses" >
+MapGraph - -> MapVertex: "Uses" >
+App  .>MostEfficientCircuitController
+@enduml
+
+PlantUML version 1.2021.15(Tue Nov 30 16:45:34 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

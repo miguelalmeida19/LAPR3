@@ -1,0 +1,43 @@
+@startuml
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":MovementsUI" as UI
+participant ":MovementsController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+participant ":MovementSortingTravelDistance" as MovementSortingTravelDistance
+participant ":MovementSortingTotalMovements" as MovementSortingTotalMovements
+
+activate MAN
+activate UI
+
+MAN -> UI: start looking for all ships the MMSI, the total number of \nmovements, Travelled Distance and Delta Distance
+
+UI -> Controller : getData()
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Store: movements = getShipList()
+activate Store
+deactivate Store
+
+Controller -> MovementSortingTravelDistance: movements.sort()
+activate MovementSortingTravelDistance
+deactivate MovementSortingTravelDistance
+
+Controller -> MovementSortingTotalMovements: movements.sort()
+activate MovementSortingTotalMovements
+deactivate MovementSortingTotalMovements
+
+deactivate Controller
+UI --> MAN: shows all the data about the ships in the system \n sorted by TraveledDistance (descending order) \n and total number of moves (ascending order)
+deactivate UI
+deactivate MAN
+@enduml

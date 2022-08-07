@@ -1,0 +1,70 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ContainerStatusController{
+-DatabaseConnection databaseConnection;
+    - company;
+    - store;
+    +ContainerStatusController(databaseConnection)
+
+    + containerStatus(containerID)
+
+}
+
+class App{
+-bootstrap()
+- singleton
+- company;
+- authFacade;
+-App()
++  getCompany()
++  getCurrentUserSession()
+ + doLogin(email, pwd)
+ + doLogout()
+}
+
+
+      class Company {
+      -shipStore
+      -authFacade
+      -portStore
+      -containerStore
+      -databaseConnection
+
+      +Company()
+      +getShipStore()
+      +getAuthFacade()
+        +getPortStore()
+        +getContainerStore()
+
+
+
+      }
+
+class ContainerStore{
+-containerList
++ContainerStore()
++getContainerList()
++getContainerStatus(containerID, databaseConnection)
+-executeSQLQuery(query, databaseConnection)
++getCargoManifestIDs(containerID, databaseConnection)
++getTheMostRecentCargoManifest(cargos_manifestid, databaseConnection)
++getTypeOfManifest(id, databaseConnection)
+}
+
+class DatabaseConnection{
+-connection
+-error
++DatabaseConnection(url,  username, password)
++getConnection()
++registerError(error)
++getLastError()
+
+}
+App  ..>ContainerStatusController
+ContainerStatusController ..> Company
+ContainerStatusController ..> DatabaseConnection
+Company "1" -->"1" ContainerStore : "knows"
+
+
+@enduml

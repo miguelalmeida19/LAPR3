@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="395px" preserveAspectRatio="none" style="width:447px;height:395px;" version="1.1" viewBox="0 0 447 395" width="447.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fwq77cerlmvvc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fwq77cerlmvvc)" height="153.0078" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="66.25" y="124.5117"/><rect fill="#FFFFFF" filter="url(#fwq77cerlmvvc)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="386.25" y="152.4512"/><rect fill="#FFFFFF" filter="url(#fwq77cerlmvvc)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="386.25" y="228.3301"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="72.5" x2="72.5" y1="112.0117" y2="288.7695"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="392.5" x2="392.5" y1="112.0117" y2="288.7695"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="125" x="6.25" y="108.1665">Traffic manager</text><ellipse cx="72.5" cy="18.75" fill="#FEFECE" filter="url(#fwq77cerlmvvc)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M72.5,28.75 L72.5,62.5 M56.25,38.75 L88.75,38.75 M72.5,62.5 L56.25,81.25 M72.5,62.5 L88.75,81.25 " fill="none" filter="url(#fwq77cerlmvvc)" style="stroke:#A80036;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="125" x="6.25" y="305.686">Traffic manager</text><ellipse cx="72.5" cy="322.0313" fill="#FEFECE" filter="url(#fwq77cerlmvvc)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M72.5,332.0313 L72.5,365.7813 M56.25,342.0313 L88.75,342.0313 M72.5,365.7813 L56.25,384.5313 M72.5,365.7813 L88.75,384.5313 " fill="none" filter="url(#fwq77cerlmvvc)" style="stroke:#A80036;stroke-width:2.5;"/><rect fill="#FEFECE" filter="url(#fwq77cerlmvvc)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="80" x="350" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="62.5" x="358.75" y="93.1665">:System</text><rect fill="#FEFECE" filter="url(#fwq77cerlmvvc)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="80" x="350" y="287.5195"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="62.5" x="358.75" y="314.436">:System</text><rect fill="#FFFFFF" filter="url(#fwq77cerlmvvc)" height="153.0078" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="66.25" y="124.5117"/><rect fill="#FFFFFF" filter="url(#fwq77cerlmvvc)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="386.25" y="152.4512"/><rect fill="#FFFFFF" filter="url(#fwq77cerlmvvc)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="386.25" y="228.3301"/><polygon fill="#A80036" points="371.25,147.4512,383.75,152.4512,371.25,157.4512,376.25,152.4512" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="78.75" x2="378.75" y1="152.4512" y2="152.4512"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="87.5" y="146.3806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="270" x="101.25" y="146.3806">asks to get the closest port of a ship.</text><polygon fill="#A80036" points="92.5,185.3906,80,190.3906,92.5,195.3906,87.5,190.3906" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="85" x2="391.25" y1="190.3906" y2="190.3906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="100" y="184.3201">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="196.25" x="113.75" y="184.3201">asks for the ship's CallSign</text><polygon fill="#A80036" points="371.25,223.3301,383.75,228.3301,371.25,233.3301,376.25,228.3301" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="78.75" x2="378.75" y1="228.3301" y2="228.3301"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="87.5" y="222.2595">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="152.5" x="101.25" y="222.2595">types the asked data</text><polygon fill="#A80036" points="92.5,261.2695,80,266.2695,92.5,271.2695,87.5,266.2695" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="85" x2="391.25" y1="266.2695" y2="266.2695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="100" y="260.199">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="168.75" x="113.75" y="260.199">shows the closest port.</text><!--MD5=[78642fafc02558fb6d0237b6ed476742]
+@startuml
+'https://plantuml.com/sequence-diagram
+actor "Traffic manager" as tm
+
+autonumber
+activate tm
+tm -> ":System": asks to get the closest port of a ship.
+activate ":System"
+":System" - -> tm: asks for the ship's CallSign
+deactivate ":System"
+tm -> ":System": types the asked data
+activate ":System"
+
+":System" - -> tm: shows the closest port.
+deactivate ":System"
+
+@enduml
+
+@startuml
+actor "Traffic manager" as tm
+
+autonumber
+activate tm
+tm -> ":System": asks to get the closest port of a ship.
+activate ":System"
+":System" - -> tm: asks for the ship's CallSign
+deactivate ":System"
+tm -> ":System": types the asked data
+activate ":System"
+
+":System" - -> tm: shows the closest port.
+deactivate ":System"
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

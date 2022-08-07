@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Ship Captain" as Cap
+participant ":OccupancyRateUI" as UI
+participant ":OccupancyRateController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as SStore
+participant ":ImportFromDatabase" as Import
+activate Cap
+activate UI
+
+Cap -> UI : starts obtaining occupancy rate
+UI --> Cap : asks for what is the captain's ship
+deactivate UI
+Cap -> UI : types a code of the ship
+activate UI
+UI --> Controller : getOccupancyRateByCargoManifest(String code, String cargo_manifest)
+activate Controller
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+Controller -> SStore : ship= getShip(String code)
+activate SStore
+deactivate SStore
+UI --> Cap : asks how it is wished to have the occupancy rate
+deactivate Controller
+deactivate UI
+Cap -> UI : selects give a manifest
+activate UI
+UI --> Cap : asks for manifest id
+deactivate UI
+Cap -> UI : types the manifest id
+activate UI
+UI --> Controller : getOccupancyRateByCargoManifest(String code, String cargo_manifest)
+activate Controller
+Controller --> Import :  getOccupancyRateByCargoManifest(String code, String cargo_manifest)
+activate Import
+deactivate Import
+UI --> Cap : shows the occupancy rate
+deactivate Controller
+deactivate UI
+
+@enduml

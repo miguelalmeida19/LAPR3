@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":TopNShipsUI" as UI
+participant ":ShipController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+participant ":Map<ShipSummary, Object>" as map
+participant ":List<Ship> shipsFiltered" as list
+
+
+activate MAN
+activate UI
+
+MAN -> UI : starts looking for the top ships with most kilometers
+UI --> MAN : asks for the amount of ships to be shown
+deactivate UI
+MAN -> UI : types the number of ships
+activate UI
+UI --> Controller : getTopNShips(int n, LocalDateTime start, LocalDateTime end)
+activate Controller
+Controller -> Company : store= getShipStore()
+activate Company
+deactivate Company
+Controller --> Store : getTopNShips(int n, LocalDateTime start, LocalDateTime end)
+activate Store
+loop for Ship s:ships
+Store -> map: create()
+activate map
+deactivate map
+Store -> map: st= get(ShipSummary.START_BASE_DATE_TIME)
+activate map
+Store -> map: ed= get(ShipSummary.END_BASE_DATE_TIME)
+deactivate map
+alt st isAfter(start) && ed isBefore(start)
+Store -> list : addShips(s)
+activate list
+deactivate list
+Store -> Store: Collections.sort(ShipsFiltered, comparatorkm)
+Store -> Store: Collections.sort(ShipsFiltered, comparatorname)
+
+
+
+end
+end
+
+
+
+@enduml

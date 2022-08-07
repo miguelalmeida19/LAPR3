@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Port Manager" as MAN
+participant ":ImportPortsUI" as UI
+participant ":PortController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+participant ":ExportToDatabase" as Export
+
+
+activate MAN
+activate UI
+
+MAN -> UI : starts importing ports
+UI --> MAN : asks for the file to import
+deactivate UI
+MAN -> UI : types the name of the file
+activate UI
+UI --> Controller : ImportPorts(string file)
+activate Controller
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+Controller -> Store : addPort(Port port)
+activate Store
+deactivate Store
+Controller -> Export : importPortsToDatabase(portList)
+activate Export
+
+
+
+
+UI --> MAN : imports the ports
+deactivate UI
+
+@enduml

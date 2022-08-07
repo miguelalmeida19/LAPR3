@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class IdleDays{
+    +run()
+
+}
+@enduml

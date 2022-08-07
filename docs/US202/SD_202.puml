@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant ":ClosestPortUI" as ui
+participant ":ClosestPortController" as controller
+participant ":Company" as company
+
+participant ":ShipStore" as shipStore
+participant ":PortStore" as portStore
+participant ":Ship" as ship
+
+participant ":Port" as port
+participant ":Treeset<Message>" as messagesset
+participant ":Message" as messages
+participant ":KDTree" as kdtree
+
+ui -> controller:closestPort(callSign)
+activate ui
+activate controller
+controller -> company: shipStore = getShipStore()
+activate company
+deactivate company
+controller -> company: portStore = getPortStore()
+activate company
+deactivate company
+controller -> shipStore: ship = getShip(callSign)
+activate shipStore
+deactivate shipStore
+controller -> ship: message = getAllMessages().last()
+activate ship
+deactivate ship
+
+controller -> messages: latitude = getLatitude()
+activate messages
+deactivate messages
+controller -> messages: longitude = getLongitude()
+activate messages
+deactivate messages
+controller -> portStore: kdtree = getKdt()
+activate portStore
+deactivate portStore
+controller -> kdtree: port = closestPort(latitude, longittude)
+activate kdtree
+deactivate kdtree
+deactivate controller
+
+@enduml

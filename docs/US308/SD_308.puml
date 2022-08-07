@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as PM
+
+participant ":AddCargoManifestContainerUI" as UI
+participant ":ImportFromDatabase" as Import
+
+activate PM
+activate UI
+
+PM -> UI : Starts to issue a cargo manifest
+UI --> PM : Asks for the data
+deactivate UI
+PM -> UI : types the data
+activate UI
+UI --> Import : addCargoManifestContainer(int cargoManifestID, int containerID, int posx, int posy, int posz)
+activate Import
+deactivate Import
+UI --> PM : Success or failure of the operation
+deactivate UI
+
+
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as Cap
+
+participant ":System" as System
+
+activate Cap
+activate System
+
+Cap -> System : starts looking for ships \n available in the next monday
+System --> Cap : shows which ones are available \nand which ports they are in
+
+deactivate System
+
+@enduml

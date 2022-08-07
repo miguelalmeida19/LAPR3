@@ -1,0 +1,143 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by JAVArdice ©</font>
+endheader
+title <b>DOMAIN MODEL\n
+
+class Messages{
+-Latitude
+-longitude
+-SOG
+-COG
+-Heading
+-Position
+-Transceiver Class
+}
+class Ship {
+-IMO
+-MMSI
+-Call Sign
+-Name
+-vessel Type
+-Lenght
+-Width
+-Number generators
+-Generators power
+-Capacity
+-Draft
+
+}
+class Container {
+-payload
+-tare
+-gross
+
+
+}
+class ContainerRefrigerated {
+-payload
+-tare
+-gross
+-temperature
+
+}
+class LoadingCargoManifest{
+-containerId
+-coordinates
+-gross
+-type
+}
+class UnloadingCargoManifest{
+-containerId
+-coordinates
+-gross
+-type
+}
+class Port{
+-id
+-Name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class WareHouses{
+-id
+-Name
+-continent
+-country
+-latitude
+-longitude
+}
+class Company{
+-designation
+}
+class Truck
+  class Client
+  class Cargo
+ class FleetManager
+class TrafficManager
+class WarehouseStaff
+class PortStaff
+class WarehouseManager
+class PortManager
+class ShipCaptain
+class ShipChiefElectricalEngineer
+class TruckDriver
+Company "1" -- "*" Ship: operates >
+Company "1" -- "*" WarehouseStaff: knows >
+Company "1" -- "*" Client: knows >
+Company "1" -- "*" PortStaff: knows >
+
+Ship "1" -- "*" Messages: sends >
+Ship "1" -- "1" LoadingCargoManifest: has >
+Ship "1" -- "1" UnloadingCargoManifest: has >
+Company "*" -- "1" FleetManager: knows >
+Company "*" -- "1" TrafficManager: knows >
+Company "*" -- "1" ShipCaptain: knows >
+Company "*" -- "1" ShipChiefEletricalEngeneer: knows >
+Company "*" -- "1" TruckDriver: knows >
+TruckDriver "*" -- "*" Truck: operates >
+ShipCaptain "*" -- "*" Ship: operates >
+ShipChiefElectricalEngineer "*" -- "*" Ship: works >
+FleetManager "1.." -- "*" Ship: knows >
+FleetManager "1.." -- "*" Truck: knows >
+PortStaff "*" -- "1" Port: works >
+PortStaff "*" -- "1" Cargo: loads/unloads >
+Cargo "1" -- "1" LoadingCargoManifest: has >
+Cargo "1" -- "1" UnloadingCargoManifest: has >
+Client "1" -- "*" Messages: receives >
+Container "*" -- "1" Ship: transported by >
+Container "1" -- "1" Truck: transported by >
+Container "*" -- "1" WareHouses: stored in >
+ContainerRefrigerated "*" -- "1" WareHouses: stored in >
+ContainerRefrigerated "*" -- "1" WareHouses: stored in >
+WarehouseStaff "*" -- "1" WareHouses: loads/unloads >
+
+
+
+
+@enduml

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1086.25px" preserveAspectRatio="none" style="width:713px;height:1086px;" version="1.1" viewBox="0 0 713 1086" width="713.75px" zoomAndPan="magnify"><defs><filter height="300%" id="f1fd2njhkjd8pv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[332d2e8adcf064d31c362a6ee30a42fd]
+class ContainerStatusController--><rect codeLine="3" fill="#FEFECE" filter="url(#f1fd2njhkjd8pv)" height="163.7695" id="ContainerStatusController" style="stroke:#A80036;stroke-width:1.875;" width="320" x="232.5" y="301.25"/><ellipse cx="297.8125" cy="321.25" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M300.3125,316.875 Q300.5664,316.25 300.8594,315.9375 Q301.1523,315.625 301.4844,315.625 Q302.0703,315.625 302.4414,315.9766 Q302.8125,316.3281 302.8125,317.1484 L302.8125,319.1016 Q302.8125,319.9219 302.4609,320.2734 Q302.1094,320.625 301.5625,320.625 Q301.0742,320.625 300.7617,320.4102 Q300.4492,320.1953 300.3125,319.6289 Q300.2539,319.2383 300.0391,319.0234 Q299.6484,318.6133 298.9453,318.3789 Q298.2422,318.125 297.5391,318.125 Q296.6602,318.125 295.918,318.4766 Q295.1953,318.8281 294.6289,319.6094 Q294.0625,320.3906 294.0625,321.4648 L294.0625,322.6172 Q294.0625,323.9063 295.1172,324.7656 Q296.1719,325.625 298.0469,325.625 Q299.1602,325.625 299.9414,325.3711 Q300.3906,325.2344 300.8984,324.7852 Q301.2305,324.5313 301.4063,324.4531 Q301.582,324.375 301.7969,324.375 Q302.207,324.375 302.5,324.707 Q302.8125,325.0195 302.8125,325.4688 Q302.8125,325.8984 302.3828,326.4063 Q301.7578,327.1484 300.7617,327.5586 Q299.4531,328.125 297.8516,328.125 Q295.9766,328.125 294.4727,327.3828 Q293.2617,326.7969 292.4023,325.5273 Q291.5625,324.2578 291.5625,322.7539 L291.5625,321.3867 Q291.5625,319.8242 292.3047,318.457 Q293.0664,317.0898 294.375,316.3672 Q295.7031,315.625 297.1875,315.625 Q298.0859,315.625 298.8672,315.9375 Q299.6484,316.25 300.3125,316.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="178.75" x="323.4375" y="327.3877">ContainerStatusController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="233.75" x2="551.25" y1="341.25" y2="341.25"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="242.5" y="351.25"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="256.25" x="257.5" y="360.5237">DatabaseConnection databaseConnection;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="242.5" y="368.5449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="58.75" x="257.5" y="377.8186">company;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="242.5" y="385.8398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="35" x="257.5" y="395.1135">store;</text><line style="stroke:#A80036;stroke-width:1.875;" x1="233.75" x2="551.25" y1="403.1348" y2="403.1348"/><ellipse cx="246.25" cy="416.8848" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="287.5" x="257.5" y="422.4084">ContainerStatusController(databaseConnection)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="0" x="261.25" y="439.7034"/><ellipse cx="246.25" cy="451.4746" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="172.5" x="257.5" y="456.9983">containerStatus(containerID)</text><!--MD5=[335f4d9be48430461c68bf6d6fdba145]
+class App--><rect codeLine="13" fill="#FEFECE" filter="url(#f1fd2njhkjd8pv)" height="215.6543" id="App" style="stroke:#A80036;stroke-width:1.875;" width="183.75" x="300.625" y="8.75"/><ellipse cx="374.0625" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M376.5625,24.375 Q376.8164,23.75 377.1094,23.4375 Q377.4023,23.125 377.7344,23.125 Q378.3203,23.125 378.6914,23.4766 Q379.0625,23.8281 379.0625,24.6484 L379.0625,26.6016 Q379.0625,27.4219 378.7109,27.7734 Q378.3594,28.125 377.8125,28.125 Q377.3242,28.125 377.0117,27.9102 Q376.6992,27.6953 376.5625,27.1289 Q376.5039,26.7383 376.2891,26.5234 Q375.8984,26.1133 375.1953,25.8789 Q374.4922,25.625 373.7891,25.625 Q372.9102,25.625 372.168,25.9766 Q371.4453,26.3281 370.8789,27.1094 Q370.3125,27.8906 370.3125,28.9648 L370.3125,30.1172 Q370.3125,31.4063 371.3672,32.2656 Q372.4219,33.125 374.2969,33.125 Q375.4102,33.125 376.1914,32.8711 Q376.6406,32.7344 377.1484,32.2852 Q377.4805,32.0313 377.6563,31.9531 Q377.832,31.875 378.0469,31.875 Q378.457,31.875 378.75,32.207 Q379.0625,32.5195 379.0625,32.9688 Q379.0625,33.3984 378.6328,33.9063 Q378.0078,34.6484 377.0117,35.0586 Q375.7031,35.625 374.1016,35.625 Q372.2266,35.625 370.7227,34.8828 Q369.5117,34.2969 368.6523,33.0273 Q367.8125,31.7578 367.8125,30.2539 L367.8125,28.8867 Q367.8125,27.3242 368.5547,25.957 Q369.3164,24.5898 370.625,23.8672 Q371.9531,23.125 373.4375,23.125 Q374.3359,23.125 375.1172,23.4375 Q375.8984,23.75 376.5625,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="26.25" x="399.6875" y="34.8877">App</text><line style="stroke:#A80036;stroke-width:1.875;" x1="301.875" x2="483.125" y1="48.75" y2="48.75"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="310.625" y="58.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="53.75" x="325.625" y="68.0237">singleton</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="310.625" y="76.0449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="58.75" x="325.625" y="85.3186">company;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="310.625" y="93.3398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="75" x="325.625" y="102.6135">authFacade;</text><line style="stroke:#A80036;stroke-width:1.875;" x1="301.875" x2="483.125" y1="110.6348" y2="110.6348"/><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="310.625" y="120.6348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="67.5" x="325.625" y="129.9084">bootstrap()</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="310.625" y="137.9297"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="35" x="325.625" y="147.2034">App()</text><ellipse cx="314.375" cy="158.9746" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="85" x="325.625" y="164.4983">getCompany()</text><ellipse cx="314.375" cy="176.2695" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="151.25" x="325.625" y="181.7932">getCurrentUserSession()</text><ellipse cx="314.375" cy="193.5645" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="122.5" x="325.625" y="199.0881">doLogin(email, pwd)</text><ellipse cx="314.375" cy="210.8594" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="66.25" x="325.625" y="216.3831">doLogout()</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="26" fill="#FEFECE" filter="url(#f1fd2njhkjd8pv)" height="232.9492" id="Company" style="stroke:#A80036;stroke-width:1.875;" width="156.25" x="173.125" y="541.25"/><ellipse cx="214.375" cy="561.25" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M216.875,556.875 Q217.1289,556.25 217.4219,555.9375 Q217.7148,555.625 218.0469,555.625 Q218.6328,555.625 219.0039,555.9766 Q219.375,556.3281 219.375,557.1484 L219.375,559.1016 Q219.375,559.9219 219.0234,560.2734 Q218.6719,560.625 218.125,560.625 Q217.6367,560.625 217.3242,560.4102 Q217.0117,560.1953 216.875,559.6289 Q216.8164,559.2383 216.6016,559.0234 Q216.2109,558.6133 215.5078,558.3789 Q214.8047,558.125 214.1016,558.125 Q213.2227,558.125 212.4805,558.4766 Q211.7578,558.8281 211.1914,559.6094 Q210.625,560.3906 210.625,561.4648 L210.625,562.6172 Q210.625,563.9063 211.6797,564.7656 Q212.7344,565.625 214.6094,565.625 Q215.7227,565.625 216.5039,565.3711 Q216.9531,565.2344 217.4609,564.7852 Q217.793,564.5313 217.9688,564.4531 Q218.1445,564.375 218.3594,564.375 Q218.7695,564.375 219.0625,564.707 Q219.375,565.0195 219.375,565.4688 Q219.375,565.8984 218.9453,566.4063 Q218.3203,567.1484 217.3242,567.5586 Q216.0156,568.125 214.4141,568.125 Q212.5391,568.125 211.0352,567.3828 Q209.8242,566.7969 208.9648,565.5273 Q208.125,564.2578 208.125,562.7539 L208.125,561.3867 Q208.125,559.8242 208.8672,558.457 Q209.6289,557.0898 210.9375,556.3672 Q212.2656,555.625 213.75,555.625 Q214.6484,555.625 215.4297,555.9375 Q216.2109,556.25 216.875,556.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="66.25" x="236.875" y="567.3877">Company</text><line style="stroke:#A80036;stroke-width:1.875;" x1="174.375" x2="328.125" y1="581.25" y2="581.25"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="183.125" y="591.25"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="57.5" x="198.125" y="600.5237">shipStore</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="183.125" y="608.5449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="71.25" x="198.125" y="617.8186">authFacade</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="183.125" y="625.8398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="56.25" x="198.125" y="635.1135">portStore</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="183.125" y="643.1348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="88.75" x="198.125" y="652.4084">containerStore</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="183.125" y="660.4297"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="123.75" x="198.125" y="669.7034">databaseConnection</text><line style="stroke:#A80036;stroke-width:1.875;" x1="174.375" x2="328.125" y1="677.7246" y2="677.7246"/><ellipse cx="186.875" cy="691.4746" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="66.25" x="198.125" y="696.9983">Company()</text><ellipse cx="186.875" cy="708.7695" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="87.5" x="198.125" y="714.2932">getShipStore()</text><ellipse cx="186.875" cy="726.0645" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="102.5" x="198.125" y="731.5881">getAuthFacade()</text><ellipse cx="186.875" cy="743.3594" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="85" x="198.125" y="748.8831">getPortStore()</text><ellipse cx="186.875" cy="760.6543" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="118.75" x="198.125" y="766.178">getContainerStore()</text><!--MD5=[421f7538b11410e8370fa0324235b51e]
+class ContainerStore--><rect codeLine="43" fill="#FEFECE" filter="url(#f1fd2njhkjd8pv)" height="198.3594" id="ContainerStore" style="stroke:#A80036;stroke-width:1.875;" width="485" x="8.75" y="871.25"/><ellipse cx="194.0625" cy="891.25" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M196.5625,886.875 Q196.8164,886.25 197.1094,885.9375 Q197.4023,885.625 197.7344,885.625 Q198.3203,885.625 198.6914,885.9766 Q199.0625,886.3281 199.0625,887.1484 L199.0625,889.1016 Q199.0625,889.9219 198.7109,890.2734 Q198.3594,890.625 197.8125,890.625 Q197.3242,890.625 197.0117,890.4102 Q196.6992,890.1953 196.5625,889.6289 Q196.5039,889.2383 196.2891,889.0234 Q195.8984,888.6133 195.1953,888.3789 Q194.4922,888.125 193.7891,888.125 Q192.9102,888.125 192.168,888.4766 Q191.4453,888.8281 190.8789,889.6094 Q190.3125,890.3906 190.3125,891.4648 L190.3125,892.6172 Q190.3125,893.9063 191.3672,894.7656 Q192.4219,895.625 194.2969,895.625 Q195.4102,895.625 196.1914,895.3711 Q196.6406,895.2344 197.1484,894.7852 Q197.4805,894.5313 197.6563,894.4531 Q197.832,894.375 198.0469,894.375 Q198.457,894.375 198.75,894.707 Q199.0625,895.0195 199.0625,895.4688 Q199.0625,895.8984 198.6328,896.4063 Q198.0078,897.1484 197.0117,897.5586 Q195.7031,898.125 194.1016,898.125 Q192.2266,898.125 190.7227,897.3828 Q189.5117,896.7969 188.6523,895.5273 Q187.8125,894.2578 187.8125,892.7539 L187.8125,891.3867 Q187.8125,889.8242 188.5547,888.457 Q189.3164,887.0898 190.625,886.3672 Q191.9531,885.625 193.4375,885.625 Q194.3359,885.625 195.1172,885.9375 Q195.8984,886.25 196.5625,886.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="103.75" x="219.6875" y="897.3877">ContainerStore</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="492.5" y1="911.25" y2="911.25"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="921.25"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="77.5" x="33.75" y="930.5237">containerList</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="492.5" y1="938.5449" y2="938.5449"/><ellipse cx="22.5" cy="952.2949" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="100" x="33.75" y="957.8186">ContainerStore()</text><ellipse cx="22.5" cy="969.5898" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="107.5" x="33.75" y="975.1135">getContainerList()</text><ellipse cx="22.5" cy="986.8848" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="323.75" x="33.75" y="992.4084">getContainerStatus(containerID, databaseConnection)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="1000.4297"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="288.75" x="33.75" y="1009.7034">executeSQLQuery(query, databaseConnection)</text><ellipse cx="22.5" cy="1021.4746" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="333.75" x="33.75" y="1026.9983">getCargoManifestIDs(containerID, databaseConnection)</text><ellipse cx="22.5" cy="1038.7695" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="452.5" x="33.75" y="1044.2932">getTheMostRecentCargoManifest(cargos_manifestid, databaseConnection)</text><ellipse cx="22.5" cy="1056.0645" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="266.25" x="33.75" y="1061.5881">getTypeOfManifest(id, databaseConnection)</text><!--MD5=[8aa441cdd93a4e2944eff58bc06cd78a]
+class DatabaseConnection--><rect codeLine="54" fill="#FEFECE" filter="url(#f1fd2njhkjd8pv)" height="163.7695" id="DatabaseConnection" style="stroke:#A80036;stroke-width:1.875;" width="323.75" x="373.125" y="575.625"/><ellipse cx="456.5625" cy="595.625" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M459.0625,591.25 Q459.3164,590.625 459.6094,590.3125 Q459.9023,590 460.2344,590 Q460.8203,590 461.1914,590.3516 Q461.5625,590.7031 461.5625,591.5234 L461.5625,593.4766 Q461.5625,594.2969 461.2109,594.6484 Q460.8594,595 460.3125,595 Q459.8242,595 459.5117,594.7852 Q459.1992,594.5703 459.0625,594.0039 Q459.0039,593.6133 458.7891,593.3984 Q458.3984,592.9883 457.6953,592.7539 Q456.9922,592.5 456.2891,592.5 Q455.4102,592.5 454.668,592.8516 Q453.9453,593.2031 453.3789,593.9844 Q452.8125,594.7656 452.8125,595.8398 L452.8125,596.9922 Q452.8125,598.2813 453.8672,599.1406 Q454.9219,600 456.7969,600 Q457.9102,600 458.6914,599.7461 Q459.1406,599.6094 459.6484,599.1602 Q459.9805,598.9063 460.1563,598.8281 Q460.332,598.75 460.5469,598.75 Q460.957,598.75 461.25,599.082 Q461.5625,599.3945 461.5625,599.8438 Q461.5625,600.2734 461.1328,600.7813 Q460.5078,601.5234 459.5117,601.9336 Q458.2031,602.5 456.6016,602.5 Q454.7266,602.5 453.2227,601.7578 Q452.0117,601.1719 451.1523,599.9023 Q450.3125,598.6328 450.3125,597.1289 L450.3125,595.7617 Q450.3125,594.1992 451.0547,592.832 Q451.8164,591.4648 453.125,590.7422 Q454.4531,590 455.9375,590 Q456.8359,590 457.6172,590.3125 Q458.3984,590.625 459.0625,591.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="146.25" x="482.1875" y="601.7627">DatabaseConnection</text><line style="stroke:#A80036;stroke-width:1.875;" x1="374.375" x2="695.625" y1="615.625" y2="615.625"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="383.125" y="625.625"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="66.25" x="398.125" y="634.8987">connection</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="383.125" y="642.9199"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="30" x="398.125" y="652.1936">error</text><line style="stroke:#A80036;stroke-width:1.875;" x1="374.375" x2="695.625" y1="660.2148" y2="660.2148"/><ellipse cx="386.875" cy="673.9648" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="291.25" x="398.125" y="679.4885">DatabaseConnection(url,  username, password)</text><ellipse cx="386.875" cy="691.2598" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="96.25" x="398.125" y="696.7834">getConnection()</text><ellipse cx="386.875" cy="708.5547" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="116.25" x="398.125" y="714.0784">registerError(error)</text><ellipse cx="386.875" cy="725.8496" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="85" x="398.125" y="731.3733">getLastError()</text><!--MD5=[92056bd06ae6bd8999d4c104ca594197]
+link App to ContainerStatusController--><path codeLine="63" d="M392.5,225.025 C392.5,248.25 392.5,272.5625 392.5,294.9125 " fill="none" id="App-to-ContainerStatusController" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="392.5,301.1625,397.5,289.9125,392.5,294.9125,387.5,289.9125,392.5,301.1625" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[c2d80cb1be961a4355a52a6419af496b]
+link ContainerStatusController to Company--><path codeLine="64" d="M350.5,465.2125 C339.1125,487.1375 326.5125,511.375 314.2375,535.0125 " fill="none" id="ContainerStatusController-to-Company" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="311.125,541.0125,320.7474,533.3332,314.0056,535.4659,311.8729,528.7242,311.125,541.0125" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[e0599f9507ff217f6cc3b7e03b1376c8]
+link ContainerStatusController to DatabaseConnection--><path codeLine="65" d="M434.875,465.2125 C452.0875,498.0625 472.0125,536.075 489.5375,569.5 " fill="none" id="ContainerStatusController-to-DatabaseConnection" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="492.55,575.2625,491.7398,562.9781,489.6413,569.7306,482.8888,567.632,492.55,575.2625" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[4546f9ecd2c2e8ec56683289b93f5556]
+link Company to ContainerStore--><path codeLine="66" d="M251.25,773.975 C251.25,803.675 251.25,835.4625 251.25,864.6 " fill="none" id="Company-to-ContainerStore" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="251.25,871.1625,256.25,859.9125,251.25,864.9125,246.25,859.9125,251.25,871.1625" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="46.25" x="252.5" y="829.3689">knows</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="242.1514" y="800.922">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="242.083" y="857.6378">1</text><!--MD5=[e8eb6d82a5826a9587df3a459a99690f]
+@startuml
+'https://plantuml.com/class-diagram
+
+class ContainerStatusController{
+-DatabaseConnection databaseConnection;
+    - company;
+    - store;
+    +ContainerStatusController(databaseConnection)
+
+    + containerStatus(containerID)
+
+}
+
+class App{
+-bootstrap()
+- singleton
+- company;
+- authFacade;
+-App()
++  getCompany()
++  getCurrentUserSession()
+ + doLogin(email, pwd)
+ + doLogout()
+}
+
+
+      class Company {
+      -shipStore
+      -authFacade
+      -portStore
+      -containerStore
+      -databaseConnection
+
+      +Company()
+      +getShipStore()
+      +getAuthFacade()
+        +getPortStore()
+        +getContainerStore()
+
+
+
+      }
+
+class ContainerStore{
+-containerList
++ContainerStore()
++getContainerList()
++getContainerStatus(containerID, databaseConnection)
+-executeSQLQuery(query, databaseConnection)
++getCargoManifestIDs(containerID, databaseConnection)
++getTheMostRecentCargoManifest(cargos_manifestid, databaseConnection)
++getTypeOfManifest(id, databaseConnection)
+}
+
+class DatabaseConnection{
+-connection
+-error
++DatabaseConnection(url,  username, password)
++getConnection()
++registerError(error)
++getLastError()
+
+}
+App  ..>ContainerStatusController
+ContainerStatusController ..> Company
+ContainerStatusController ..> DatabaseConnection
+Company "1" - ->"1" ContainerStore : "knows"
+
+
+@enduml
+
+@startuml
+
+class ContainerStatusController{
+-DatabaseConnection databaseConnection;
+    - company;
+    - store;
+    +ContainerStatusController(databaseConnection)
+
+    + containerStatus(containerID)
+
+}
+
+class App{
+-bootstrap()
+- singleton
+- company;
+- authFacade;
+-App()
++  getCompany()
++  getCurrentUserSession()
+ + doLogin(email, pwd)
+ + doLogout()
+}
+
+
+      class Company {
+      -shipStore
+      -authFacade
+      -portStore
+      -containerStore
+      -databaseConnection
+
+      +Company()
+      +getShipStore()
+      +getAuthFacade()
+        +getPortStore()
+        +getContainerStore()
+
+
+
+      }
+
+class ContainerStore{
+-containerList
++ContainerStore()
++getContainerList()
++getContainerStatus(containerID, databaseConnection)
+-executeSQLQuery(query, databaseConnection)
++getCargoManifestIDs(containerID, databaseConnection)
++getTheMostRecentCargoManifest(cargos_manifestid, databaseConnection)
++getTypeOfManifest(id, databaseConnection)
+}
+
+class DatabaseConnection{
+-connection
+-error
++DatabaseConnection(url,  username, password)
++getConnection()
++registerError(error)
++getLastError()
+
+}
+App  ..>ContainerStatusController
+ContainerStatusController ..> Company
+ContainerStatusController ..> DatabaseConnection
+Company "1" - ->"1" ContainerStore : "knows"
+
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

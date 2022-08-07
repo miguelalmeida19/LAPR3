@@ -1,0 +1,63 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title <b> SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Ship Captain" as MAN
+participant ":LoadedOffloadedContainersUI" as UI
+participant ":ContainersController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as SStore
+participant ":PortStore" as PStore
+participant ":ImportFromDatabase" as Import
+
+
+activate MAN
+activate UI
+
+MAN -> UI : starts obtaining containers
+UI --> MAN : asks for what is the captain's ship
+deactivate UI
+MAN -> UI : types a code of the ship
+activate UI
+UI --> Controller : getContainersFromStateAndShip(String code, String state, String port)
+activate Controller
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+Controller -> SStore : ship= getShip(String code)
+activate SStore
+deactivate SStore
+UI --> MAN : asks what is the next port
+deactivate Controller
+deactivate UI
+MAN -> UI : types the port
+activate UI
+UI --> Controller : getContainersFromStateAndShip(String code, String state, String port)
+activate Controller
+Controller -> Company : portStore = getPortStore()
+activate Company
+deactivate Company
+Controller -> PStore : port= getPort(Port port)
+activate PStore
+deactivate PStore
+UI --> MAN : asks the state of the container
+deactivate Controller
+deactivate UI
+MAN -> UI : selects to be offloaded
+activate UI
+UI --> Controller : getContainersFromStateAndShip(String code, String state, String port)
+activate Controller
+Controller --> Import : getContainersByShipPortType(String shipIMO, String portID, String type)
+activate Import
+deactivate Import
+Controller --> Import : getPositionOfContainer(String containerID)
+activate Import
+deactivate Import
+
+
+UI --> MAN : shows the containers
+deactivate UI
+
+@enduml

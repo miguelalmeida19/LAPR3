@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="742px" preserveAspectRatio="none" style="width:487px;height:742px;background:#FFFFFF;" version="1.1" viewBox="0 0 487 742" width="487px" zoomAndPan="magnify"><defs><filter height="300%" id="f26tc19yk0s8d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d3dfc34056f185a62dc850ea28535517]
+class FreightNetworkUI--><rect codeLine="3" fill="#FEFECE" filter="url(#f26tc19yk0s8d)" height="48" id="FreightNetworkUI" style="stroke:#A80036;stroke-width:1.5;" width="127" x="176.5" y="7"/><ellipse cx="191.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M193.5,19.5 Q193.7031,19 193.9375,18.75 Q194.1719,18.5 194.4375,18.5 Q194.9063,18.5 195.2031,18.7813 Q195.5,19.0625 195.5,19.7188 L195.5,21.2813 Q195.5,21.9375 195.2188,22.2188 Q194.9375,22.5 194.5,22.5 Q194.1094,22.5 193.8594,22.3281 Q193.6094,22.1563 193.5,21.7031 Q193.4531,21.3906 193.2813,21.2188 Q192.9688,20.8906 192.4063,20.7031 Q191.8438,20.5 191.2813,20.5 Q190.5781,20.5 189.9844,20.7813 Q189.4063,21.0625 188.9531,21.6875 Q188.5,22.3125 188.5,23.1719 L188.5,24.0938 Q188.5,25.125 189.3438,25.8125 Q190.1875,26.5 191.6875,26.5 Q192.5781,26.5 193.2031,26.2969 Q193.5625,26.1875 193.9688,25.8281 Q194.2344,25.625 194.375,25.5625 Q194.5156,25.5 194.6875,25.5 Q195.0156,25.5 195.25,25.7656 Q195.5,26.0156 195.5,26.375 Q195.5,26.7188 195.1563,27.125 Q194.6563,27.7188 193.8594,28.0469 Q192.8125,28.5 191.5313,28.5 Q190.0313,28.5 188.8281,27.9063 Q187.8594,27.4375 187.1719,26.4219 Q186.5,25.4063 186.5,24.2031 L186.5,23.1094 Q186.5,21.8594 187.0938,20.7656 Q187.7031,19.6719 188.75,19.0938 Q189.8125,18.5 191,18.5 Q191.7188,18.5 192.3438,18.75 Q192.9688,19 193.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="205.5" y="27.9102">FreightNetworkUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="177.5" x2="302.5" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="177.5" x2="302.5" y1="47" y2="47"/><!--MD5=[1a837df2e267e12079b462ceb15554da]
+class ImportFromDataBase--><rect codeLine="7" fill="#FEFECE" filter="url(#f26tc19yk0s8d)" height="297.0469" id="ImportFromDataBase" style="stroke:#A80036;stroke-width:1.5;" width="466" x="7" y="431"/><ellipse cx="176.25" cy="447" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M178.25,443.5 Q178.4531,443 178.6875,442.75 Q178.9219,442.5 179.1875,442.5 Q179.6563,442.5 179.9531,442.7813 Q180.25,443.0625 180.25,443.7188 L180.25,445.2813 Q180.25,445.9375 179.9688,446.2188 Q179.6875,446.5 179.25,446.5 Q178.8594,446.5 178.6094,446.3281 Q178.3594,446.1563 178.25,445.7031 Q178.2031,445.3906 178.0313,445.2188 Q177.7188,444.8906 177.1563,444.7031 Q176.5938,444.5 176.0313,444.5 Q175.3281,444.5 174.7344,444.7813 Q174.1563,445.0625 173.7031,445.6875 Q173.25,446.3125 173.25,447.1719 L173.25,448.0938 Q173.25,449.125 174.0938,449.8125 Q174.9375,450.5 176.4375,450.5 Q177.3281,450.5 177.9531,450.2969 Q178.3125,450.1875 178.7188,449.8281 Q178.9844,449.625 179.125,449.5625 Q179.2656,449.5 179.4375,449.5 Q179.7656,449.5 180,449.7656 Q180.25,450.0156 180.25,450.375 Q180.25,450.7188 179.9063,451.125 Q179.4063,451.7188 178.6094,452.0469 Q177.5625,452.5 176.2813,452.5 Q174.7813,452.5 173.5781,451.9063 Q172.6094,451.4375 171.9219,450.4219 Q171.25,449.4063 171.25,448.2031 L171.25,447.1094 Q171.25,445.8594 171.8438,444.7656 Q172.4531,443.6719 173.5,443.0938 Q174.5625,442.5 175.75,442.5 Q176.4688,442.5 177.0938,442.75 Q177.7188,443 178.25,443.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="196.75" y="451.9102">ImportFromDataBase</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="472" y1="463" y2="463"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="472" y1="471" y2="471"/><ellipse cx="18" cy="482" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="344" x="27" y="486.4189">getContainersByShipPortType(String shipIMO, String portID, String type)</text><ellipse cx="18" cy="495.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="203" x="27" y="500.2549">getPositionOfContainer(String containerID)</text><ellipse cx="18" cy="509.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="351" x="27" y="514.0908">getOccupancyRateByCargoManifest(String code, String cargo_manifest)</text><ellipse cx="18" cy="523.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="249" x="27" y="527.9268">getOccupancyRateByDate(String code, String date)</text><ellipse cx="18" cy="537.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="27" y="541.7627">getAllCountries()</text><ellipse cx="18" cy="551.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="299" x="27" y="555.5986">getCountryBorders(Country country, List&lt;Country&gt; countries)</text><ellipse cx="18" cy="565.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="279" x="27" y="569.4346">getCountryByName(String name, List&lt;Country&gt; countries)</text><ellipse cx="18" cy="578.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="27" y="583.2705">getPortByID(String id)</text><ellipse cx="18" cy="592.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="27" y="597.1064">getPortFromCountry(String country)</text><ellipse cx="18" cy="606.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="378" x="27" y="610.9424">wrapLinkedHashMap(LinkedHashMap&lt;Port, Double&gt; linkedHashMap, Port port)</text><ellipse cx="18" cy="620.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="234" x="27" y="624.7783">getDistanceBetweenPorts(Port port1, Port port2)</text><ellipse cx="18" cy="634.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="164" x="27" y="638.6143">getPossibleConnections(Port port)</text><ellipse cx="18" cy="648.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="275" x="27" y="652.4502">getRouteOfContainer(String containerID, String clientReg)</text><ellipse cx="18" cy="661.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="27" y="666.2861">getEstimateOfContainersLeaving()</text><ellipse cx="18" cy="675.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="193" x="27" y="680.1221">getOccupancyRateOfEachWarehouse()</text><ellipse cx="18" cy="689.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="236" x="27" y="693.958">getOccupancyRateOfEachWarehouse(int month)</text><ellipse cx="18" cy="703.375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="440" x="27" y="707.7939">addCargoManifestContainer(int cargoManifestID, int containerID, int posx, int posy, int posz)</text><ellipse cx="18" cy="717.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="424" x="27" y="721.6299">addCargoManifest(int vehicleId, String warehouseId, String base_date_time, String type)</text><!--MD5=[6d09b58ea1a4677a8cce6f6dd4a6f212]
+class FreightNetworkController--><rect codeLine="31" fill="#FEFECE" filter="url(#f26tc19yk0s8d)" height="255.5391" id="FreightNetworkController" style="stroke:#A80036;stroke-width:1.5;" width="311" x="84.5" y="115"/><ellipse cx="167.25" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M169.25,127.5 Q169.4531,127 169.6875,126.75 Q169.9219,126.5 170.1875,126.5 Q170.6563,126.5 170.9531,126.7813 Q171.25,127.0625 171.25,127.7188 L171.25,129.2813 Q171.25,129.9375 170.9688,130.2188 Q170.6875,130.5 170.25,130.5 Q169.8594,130.5 169.6094,130.3281 Q169.3594,130.1563 169.25,129.7031 Q169.2031,129.3906 169.0313,129.2188 Q168.7188,128.8906 168.1563,128.7031 Q167.5938,128.5 167.0313,128.5 Q166.3281,128.5 165.7344,128.7813 Q165.1563,129.0625 164.7031,129.6875 Q164.25,130.3125 164.25,131.1719 L164.25,132.0938 Q164.25,133.125 165.0938,133.8125 Q165.9375,134.5 167.4375,134.5 Q168.3281,134.5 168.9531,134.2969 Q169.3125,134.1875 169.7188,133.8281 Q169.9844,133.625 170.125,133.5625 Q170.2656,133.5 170.4375,133.5 Q170.7656,133.5 171,133.7656 Q171.25,134.0156 171.25,134.375 Q171.25,134.7188 170.9063,135.125 Q170.4063,135.7188 169.6094,136.0469 Q168.5625,136.5 167.2813,136.5 Q165.7813,136.5 164.5781,135.9063 Q163.6094,135.4375 162.9219,134.4219 Q162.25,133.4063 162.25,132.2031 L162.25,131.1094 Q162.25,129.8594 162.8438,128.7656 Q163.4531,127.6719 164.5,127.0938 Q165.5625,126.5 166.75,126.5 Q167.4688,126.5 168.0938,126.75 Q168.7188,127 169.25,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="137" x="187.75" y="135.9102">FreightNetworkController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="85.5" x2="394.5" y1="147" y2="147"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="92.5" y="155"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="29" x="104.5" y="162.4189">matrix</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="92.5" y="168.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="104.5" y="176.2549">vertices</text><line style="stroke:#A80036;stroke-width:1.5;" x1="85.5" x2="394.5" y1="182.6719" y2="182.6719"/><ellipse cx="95.5" cy="193.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="104.5" y="198.0908">getCountries()</text><ellipse cx="95.5" cy="207.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="285" x="104.5" y="211.9268">getDistanceBetweenPortCapital(Port port, Country country)</text><ellipse cx="95.5" cy="221.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="259" x="104.5" y="225.7627">getDistanceBetweenCapitals(Country c1, Country c2)</text><ellipse cx="95.5" cy="235.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="225" x="104.5" y="239.5986">indexOfObject(List&lt;Object&gt; vertices, Object o)</text><ellipse cx="95.5" cy="249.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="104.5" y="253.4346">getVertices()</text><ellipse cx="95.5" cy="262.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="104.5" y="267.2705">insertInMatrix( vertices,  matrix,  n)</text><ellipse cx="95.5" cy="276.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="104.5" y="281.1064">build(int n)</text><ellipse cx="95.5" cy="290.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="248" x="104.5" y="294.9424">shortestPathBetweenVertices( l,  place1,  place2) {</text><ellipse cx="95.5" cy="304.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="104.5" y="308.7783">print( puzzle,  vertices)</text><ellipse cx="95.5" cy="318.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="104.5" y="322.6143">getVertByName( name)</text><ellipse cx="95.5" cy="332.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="253" x="104.5" y="336.4502">connectPortToCountryPorts( port,  matrix,  vertices){</text><ellipse cx="95.5" cy="345.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="270" x="104.5" y="350.2861">connectPortToNClosestPorts( port,  matrix, vertices,  n){</text><ellipse cx="95.5" cy="359.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="104.5" y="364.1221">getMatrix()</text><!--MD5=[5eb0327d86adad0cbeea923cef090aa6]
+link FreightNetworkUI to FreightNetworkController--><path codeLine="49" d="M240,55.28 C240,69.41 240,88.72 240,109.59 " fill="none" id="FreightNetworkUI-to-FreightNetworkController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="240,114.63,244,105.63,240,109.63,236,105.63,240,114.63" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[49939a37f135d10baacf6da161bb0130]
+link FreightNetworkController to ImportFromDataBase--><path codeLine="50" d="M240,371.41 C240,389.13 240,407.49 240,425.61 " fill="none" id="FreightNetworkController-to-ImportFromDataBase" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="240,430.72,244,421.72,240,425.72,236,421.72,240,430.72" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c59acb5e9cb615671983b371f15071cd]
+@startuml
+'https://plantuml.com/class-diagram
+
+class FreightNetworkUI{
+
+
+}
+class ImportFromDataBase{
+
++getContainersByShipPortType(String shipIMO, String portID, String type)
++getPositionOfContainer(String containerID)
++getOccupancyRateByCargoManifest(String code, String cargo_manifest)
++getOccupancyRateByDate(String code, String date)
++getAllCountries()
++getCountryBorders(Country country, List<Country> countries)
++getCountryByName(String name, List<Country> countries)
++getPortByID(String id)
++getPortFromCountry(String country)
++wrapLinkedHashMap(LinkedHashMap<Port, Double> linkedHashMap, Port port)
++getDistanceBetweenPorts(Port port1, Port port2)
++ getPossibleConnections(Port port)
++getRouteOfContainer(String containerID, String clientReg)
++getEstimateOfContainersLeaving()
++getOccupancyRateOfEachWarehouse()
++getOccupancyRateOfEachWarehouse(int month)
++addCargoManifestContainer(int cargoManifestID, int containerID, int posx, int posy, int posz)
++addCargoManifest(int vehicleId, String warehouseId, String base_date_time, String type)
+
+}
+
+
+class FreightNetworkController{
+-matrix
+-vertices
++getCountries()
+ + getDistanceBetweenPortCapital(Port port, Country country)
+ +  getDistanceBetweenCapitals(Country c1, Country c2)
+ +  indexOfObject(List<Object> vertices, Object o)
++ getVertices()
++  insertInMatrix( vertices,  matrix,  n)
++  build(int n)
+ +  shortestPathBetweenVertices( l,  place1,  place2) {
+ +   print( puzzle,  vertices)
+  +  getVertByName( name)
+  +  connectPortToCountryPorts( port,  matrix,  vertices){
+ +  connectPortToNClosestPorts( port,  matrix, vertices,  n){
+   + getMatrix()
+}
+
+FreightNetworkUI  ..>FreightNetworkController
+FreightNetworkController ..> ImportFromDataBase
+@enduml
+
+@startuml
+
+class FreightNetworkUI{
+
+
+}
+class ImportFromDataBase{
+
++getContainersByShipPortType(String shipIMO, String portID, String type)
++getPositionOfContainer(String containerID)
++getOccupancyRateByCargoManifest(String code, String cargo_manifest)
++getOccupancyRateByDate(String code, String date)
++getAllCountries()
++getCountryBorders(Country country, List<Country> countries)
++getCountryByName(String name, List<Country> countries)
++getPortByID(String id)
++getPortFromCountry(String country)
++wrapLinkedHashMap(LinkedHashMap<Port, Double> linkedHashMap, Port port)
++getDistanceBetweenPorts(Port port1, Port port2)
++ getPossibleConnections(Port port)
++getRouteOfContainer(String containerID, String clientReg)
++getEstimateOfContainersLeaving()
++getOccupancyRateOfEachWarehouse()
++getOccupancyRateOfEachWarehouse(int month)
++addCargoManifestContainer(int cargoManifestID, int containerID, int posx, int posy, int posz)
++addCargoManifest(int vehicleId, String warehouseId, String base_date_time, String type)
+
+}
+
+
+class FreightNetworkController{
+-matrix
+-vertices
++getCountries()
+ + getDistanceBetweenPortCapital(Port port, Country country)
+ +  getDistanceBetweenCapitals(Country c1, Country c2)
+ +  indexOfObject(List<Object> vertices, Object o)
++ getVertices()
++  insertInMatrix( vertices,  matrix,  n)
++  build(int n)
+ +  shortestPathBetweenVertices( l,  place1,  place2) {
+ +   print( puzzle,  vertices)
+  +  getVertByName( name)
+  +  connectPortToCountryPorts( port,  matrix,  vertices){
+ +  connectPortToNClosestPorts( port,  matrix, vertices,  n){
+   + getMatrix()
+}
+
+FreightNetworkUI  ..>FreightNetworkController
+FreightNetworkController ..> ImportFromDataBase
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

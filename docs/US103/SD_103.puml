@@ -1,0 +1,97 @@
+@startuml
+
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Traffic Manager" as MAN
+
+participant ":ShipMessagesUI" as UI
+participant ":PositionController" as Controller
+participant ":Company" as Company
+participant ":ShipStore" as Store
+
+participant ":Ship" as ship
+participant ":Treeset<Message>" as messagesset
+
+activate MAN
+activate UI
+
+MAN -> UI: start looking for messages \n from a specific ship
+UI --> MAN : asks for the dates, hours and \n code relating to the ship
+
+deactivate UI
+
+MAN -> UI : types the data to show details
+activate UI
+
+UI -> Controller : DatePosition(String Date, \n String Hour, String s)
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Controller: checkDate(Date)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour)
+activate Controller
+deactivate Controller
+
+Controller -> Store: ship = getShip(s)
+activate Store
+deactivate Store
+
+Controller -> ship: messages = getAllMessages()
+
+note right: all messages are already in ascending order
+activate ship
+ship -> messagesset: create()
+activate messagesset
+deactivate messagesset
+deactivate ship
+
+deactivate Controller
+
+UI -> Controller : PeriodPosition(String Date, String Hour, \n String Date1, String Hour1, String s)
+activate Controller
+
+Controller -> Company : store = getShipStore()
+activate Company
+deactivate Company
+
+Controller -> Controller: checkDate(Date)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkDate(Date1)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkHour(Hour1)
+activate Controller
+deactivate Controller
+Controller -> Controller: checkPeriod(localDateTime, localDateTime1)
+activate Controller
+deactivate Controller
+
+Controller -> Store: ship = getShip(s)
+activate Store
+deactivate Store
+
+Controller -> ship: messages = getAllMessages()
+
+note right: all messages are already in ascending order
+activate ship
+ship -> messagesset: create()
+activate messagesset
+
+deactivate messagesset
+deactivate ship
+deactivate Store
+deactivate Controller
+UI --> MAN: shows all the data relative with the ship position
+deactivate UI
+deactivate MAN
+@enduml
